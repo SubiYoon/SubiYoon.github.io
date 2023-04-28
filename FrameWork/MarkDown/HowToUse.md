@@ -195,9 +195,10 @@ goddaehee@kakao.com
 
 **1) 기본문법**
 
-- ![**대체텍스트**](**이미지주소**)
 
 ```xml
+ ![**대체텍스트**](**이미지주소**)
+
 ![Image Description](https://tistory1.daumcdn.net/tistory/1994430/74cb0667c02241939c5c13ec5dd1afb1)
 ```
 
@@ -217,9 +218,10 @@ goddaehee@kakao.com
 
 **3) 이미지 노출과 동시에 링크처리**
 
-- [![**대체텍스트**](**이미지주소**)](**링크주소**)
 
 ```xml
+[![**대체텍스트**](**이미지주소**)](**링크주소**)
+
 [![Image Description](https://tistory1.daumcdn.net/tistory/1994430/74cb0667c02241939c5c13ec5dd1afb1)](http://goddaehee.tistory.com)
 ```
 
