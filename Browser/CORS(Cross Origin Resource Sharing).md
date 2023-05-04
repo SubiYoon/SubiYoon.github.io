@@ -1,7 +1,5 @@
 # CORS(Cross Origin Resource Sharing)
 
-# CORS(Cross Origin Resource Sharing)
-
 - 브라우저의 보안과 관련하여 중요한 일들을 수행
 - 브라우저가 자신이 보낸 요청 및 서버로부터 받은 응답의 데이터가 CORS정책을 지키는지 검사하여 안전한 요청을 보낸 건지 검사
 
@@ -58,7 +56,8 @@ ex) URL : `https://it-eldorado.com:80/posts/123456?data=789#abc`
         - text/plan
     - …
 
-![Untitled](CORS(Cross%20Origin%20Resource%20Sharing)%200decce253d954cc094f9bd6994d63344/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/117332903/236159382-df69d38e-10ae-4abf-9d0d-cd1d8e246be0.png)
+
 
 1. **프리플라이트 요청(Preflight Request)**
 - 단순 요청의 조건에서 벗어나는(=안전하지 않은) 요청의 경우 서버에 실제 요청을 보내기 전 예비 요청을 보냄
@@ -79,7 +78,8 @@ ex) URL : `https://it-eldorado.com:80/posts/123456?data=789#abc`
 - 안전성을 확보하면 실제 요청을 서버에 보냄
 - **이 때 Access-Control-Request-XXX 형태의 헤더는 보내지 않음**
 
-![Untitled](CORS(Cross%20Origin%20Resource%20Sharing)%200decce253d954cc094f9bd6994d63344/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/117332903/236159679-7d2e8205-fdaf-48ec-a2b1-315b85f4f73f.png)
+
 
 1. **인증 정보를 포함한 요청(Credentialed Request)**
 - **인증 정보(쿠키 or Authorization 헤더에 설정하는 토큰 값 등)가 있는 경우 사용**
@@ -93,4 +93,4 @@ ex) URL : `https://it-eldorado.com:80/posts/123456?data=789#abc`
 - **Access-Control-Allow-Credentials 헤더는 true로 설정되어야 함**
 - 그렇지 않으면 브라우저에 의해 응답이 거부 됨
 
-![Untitled](CORS(Cross%20Origin%20Resource%20Sharing)%200decce253d954cc094f9bd6994d63344/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/117332903/236159792-2ff946b5-8fa2-4a18-9ecd-318b92d9e490.png)
