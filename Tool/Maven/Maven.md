@@ -5,7 +5,8 @@
 - 프로젝트의 전반적인 라이프사이클을 관리하는 도구
 - 프로젝트 객체 모델(Project Object Model : POM)이라는 개념을 바탕으로 프로젝트의 의존성, 라이브러리, 라이프사이클 관리 기능 등을 제공하는 프로젝트 관리 도구
 
-![스크린샷 2023-04-19 오전 9.04.34.png](Maven%20bba91d98c5fd45209f866126e8d55b41/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2023-04-19_%25EC%2598%25A4%25EC%25A0%2584_9.04.34.png)
+<img width="857" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-04-19_%EC%98%A4%EC%A0%84_9 04 34" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/5b8658f1-587a-4655-8c29-541c4745b76a">
+
 
 ---
 
@@ -75,8 +76,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0http://maven.apache.org/mav
 - best practices를 기반으로 정규화된 디렉토리 구조를 제공
 - 모든 소스파일은 /src에 블드된 output은 /target에 위치
     
-    ![스크린샷 2023-04-19 오전 9.36.48.png](Maven%20bba91d98c5fd45209f866126e8d55b41/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2023-04-19_%25EC%2598%25A4%25EC%25A0%2584_9.36.48.png)
-    
+    <img width="884" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-04-19_%EC%98%A4%EC%A0%84_9 36 48" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/525f32c0-e119-48d9-a65d-c503cb86966e">
+
 
 ---
 
@@ -106,7 +107,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0http://maven.apache.org/mav
 - 여러 goal을 묶어서 lifecycle phases로 만들고 실행
     - ex. mvn clean install
 
-![스크린샷 2023-04-19 오전 10.11.39.png](Maven%20bba91d98c5fd45209f866126e8d55b41/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2023-04-19_%25EC%2598%25A4%25EC%25A0%2584_10.11.39.png)
+<img width="886" alt="%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-04-19_%EC%98%A4%EC%A0%84_10 11 39" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/1fbbd46d-5bac-4fae-bdb2-e0039f920cb3">
+
 
 ---
 
