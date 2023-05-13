@@ -50,7 +50,8 @@
 </html>
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b74a2db8-561a-4363-bc7b-ceffe1e37a50/Untitled.png)
+![Untitled](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/69cf93bc-7e87-4cf0-ab3e-c6ef40078f83)
+
 
 - **데이터를 넘겨받아 템플릿에서 사용 할 수도 있다.**
 
