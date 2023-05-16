@@ -42,7 +42,7 @@
 - log4j 이후에 출시된 보다 향상되고 가장 널리 사용되고 있는 Java 로깅 프레임워크 중 하나이다.
 - slf4j의 구현체로써 동작하며 SpringBoot 환경의 경우 spring-boot-starter-web 안에 spring-boot-starter-logging의 logback이 기본적으로 탑재되어 있어 별다른 dependency추가 없이 사용 가능하다.
 
-![image.png](Log%20c2b203fde616401bb880473d534ffa29/image.png)
+![image](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/64bd5570-ac9b-4252-9f96-430ac2bc8be9)
 
 - logback은 log4j에 비해 향상된 필터링 정책 및 기능(ex. 로그인 한 경우 logging 등)과 로그 레벨 변경등에 대해 서버 재시작 없는 자동 리로딩을 지원해준다.
 
@@ -59,7 +59,7 @@
 - logback과의 가장 큰 차이는 Multi Thread환경에서 비동기 로거(Async Logger)의 경우 다른 로깅 프레임워크보다 처리량이 훨씬 많고, 대기 시간이 훨씬 짧다.
 - java8부터 도입된 람다식을 지원하고, Lazy Evalutation을 지원한다.
 
-![image.png](Log%20c2b203fde616401bb880473d534ffa29/image%201.png)
+![image 1](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/10d78061-a274-472d-81cd-0c1c95d19736)
 
 ---
 
