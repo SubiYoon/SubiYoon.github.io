@@ -10,7 +10,7 @@
 
 # 1. 클라이언트 - 서버 구조
 
-![스크린샷 2023-04-19 오후 5.00.44.png](HTTP%200c644c26baa74527a1c305a764924981/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2023-04-19_%25EC%2598%25A4%25ED%259B%2584_5.00.44.png)
+![스크린샷 2023-06-15 오전 9 33 14](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/9cadb636-88b4-4322-986b-4a1fd8ba96db)
 
 요청(Request) → 브라우저인 클라이언트에 의해 전송되는 메시지
 
@@ -28,13 +28,13 @@
 
 # 2. 비연결성(Connectionless)
 
-![스크린샷 2023-04-19 오후 5.08.39.png](HTTP%200c644c26baa74527a1c305a764924981/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2023-04-19_%25EC%2598%25A4%25ED%259B%2584_5.08.39.png)
+![스크린샷 2023-06-15 오전 9 33 43](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/88234e77-9303-4ac6-88f6-9a8797f35372)
 
 클라이언트와 서버가 한번 연결을 맺은 후, 클라이언트 요청에 대한 서버의 응답이 끝나면 연결을 끊는 성질
 
 **TCP 3 way Hand shake & 4 way Hand shake**
 
-![스크린샷 2023-04-19 오후 5.29.57.png](HTTP%200c644c26baa74527a1c305a764924981/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2023-04-19_%25EC%2598%25A4%25ED%259B%2584_5.29.57.png)
+![스크린샷 2023-06-15 오전 9 34 12](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/4c1772e2-6e52-4b20-9e3b-ff8c0f5ef957)
 
 | 종류 | 설명 |
 | --- | --- |
@@ -68,16 +68,14 @@
 
 - 상태를 유지하고 있으면 해당 서버가 해당 유저를 기억하고 있기에 그 서버만 응답해야 한다.
 - 만약 특정서버가 장애가 발생한다면, 유저 상태가 사라지기 때문에 처음부터 다시 서버에 요청해야 한다.
-
-![image.png](HTTP%200c644c26baa74527a1c305a764924981/image.png)
+![image](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/7389dbd4-2ff6-4465-b043-f1c3e68465ce)
 
 **무상태**
 
 - 상태가 유지되지 않기 때문에 아무 서버에서나 호출이 가능 해진다.
 - 서버에 장애가 생기더라도 다른서버에서 응답하여 전달 할 수 있다.
 - 즉, 응답 서버를 쉽게 바꿀 수 있기에 수평적인 확장에 유리하다.
-
-![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%201.png)
+![image 1](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/68312210-e5f1-4221-86c5-953ba9e00177)
 
 ---
 
@@ -124,8 +122,7 @@ A page with an image
     **오버헤드(Overhead)**
     
     - TCP의 다양한 기능을 수행하기 위해서는 TCP헤더에 다양한 정보가 필요한데, 데이터를 전송할 때에 꼭 필요하지 않은 처리나 정보 등을 일컫는 말
-
-![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%202.png)
+![image 2](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/66ceac65-b99f-4a53-84a1-f0a6dafdddb2)
 
 - 컨텐츠의 수가 증가하면서 TCP의 연결에 부담이 걸려 그 문제를 해결해야 하는 필요성이 생겨 발달했다.
 - 위 그림에서 초창기에는 요청마다 왼쪽과 같이 TCP를 새로 연결시켜 줘야 했다.
@@ -143,10 +140,9 @@ A page with an image
         - 응답 Queue에서 데이터 전송의 한계 발생
         - 선 요청 받은 건을 다 전송하지 못하면 후전송 건도 늦어진다.
         - 서버의 버퍼에는 후전송 건이 쌓여 리소스가 소모된다.
-        
-        ![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%203.png)
-        
-        ![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%204.png)
+
+![image 3](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/fc833600-fdd1-4a56-8ae2-052c8df2d535)
+![image 4](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/47b5868f-b55e-4964-ba0b-351ba1405654)
         
         - **RTT(Round Trip Time)** 증가와 네트워크 지연을 초래하여 성능이 저하되는 문제점이 발생한다.
             - 패킷망(인터넷) 위에서 패킷을 보내고자 하는 측에서 패킷을 목적지에 보낼 때, 패킷이 목적지에 도달하고 나서 해당 패킷에 대한 응답이 출발지로 다시 돌아오기가지의 시간
@@ -190,7 +186,7 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101
 - HTTP/1.1에 비해 상당한 성능 향상과 효율성을 보여줌
 - 차 후 HTTP/2.0 초안의 참고규격이 되었다.
 
-![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%205.png)
+![image 5](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/5fcbb117-1f30-4666-8e65-aba8c9386934)
 
 **HTTP 2.0**
 
@@ -215,10 +211,9 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101
     - Stream : 클라이언트와 서버가 맺은 연결을 통해 양방향으로 주고받는 하나 또는 여러개의 메시지들
     - 여러개의 프레임이 하나의 메시지를 이루고, 그 메시지들이 모여 하나의 스트림을 만든다.
     
-    ![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%206.png)
+    ![image 6](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/aa136dbb-c5e5-47f7-ae0e-423bf020ae08)
     
-
-![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%207.png)
+![image 7](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/27defa87-a34d-4763-a1b5-444b3963922a)
 
 - 이전 버전의 HTTP에서는 메시지(Message)를 전송하는 것이 기본 단위였다.
     - 메시지의 구조를 이해하기 쉽지만, 메시지의 크기가 커지면, 메시지의 구조 파악이 어려워지며, 메시지를 처리하는데도 많은 오버헤드가 발생하게 된다.
@@ -229,17 +224,15 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101
 
 **멀티 플렉싱**
 
-![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%208.png)
-
-![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%209.png)
+![image 8](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/b0aacb4e-8dd6-47b2-983d-e58d2183ffb6)
+![image 9](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/d1a02bf0-8de7-4b8d-b7ae-21aca41aaf82)
 
 - 하나의 커넥션으로 동시에 여러개의 메시지를 주고 받을 수 있으며, 응답은 순서에 상관없이 처리되는 것
 - 요청, 응답은 뒤섞여 도착하게 되고, 뒤 섞인것이 도착한 곳(서버 or 클라이언트)에서 프레임을 재조립한다.
 - 바이너리 프레이밍과 멀티플렉싱을 사용하여 여러 요청과 응답을 병렬처리 할 수 있다.
 
 **Stream 우선순위 (Stream Prioritization)**
-
-![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%2010.png)
+<img width="1371" alt="image 10" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/0656bc72-4c8c-4948-be68-da4910467d91">
 
 - HTTP 메시지가 많은 개별 프레임으로 분할될 수 있고 여러 스트림의 프레임을 멀티플렉싱 할 수 있게 되면서, 스트림들의 우선순위를 지정할 필요가 발생했다.
 - 우선순위를 지정하기 위해 ‘우선순위 지정 트리’를 사용하여 서버의 스트림처리 우선순위를 지정 할 수 있다.
@@ -249,10 +242,10 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101
 
 - **원리**
     
-    ![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%2011.png)
-    
-    ![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%2012.png)
-    
+![image 11](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/4f86ccc3-3c1d-49b9-af6e-4392f558e7c7)
+
+![image 12](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/84a3716f-cfab-4128-98e7-e483fa4832a5)
+
     - HTTP/2.0의 Header 압축은 내부적으로 HPACK ****이라고 불리는 Module이 담당하는데 HPACK은 Huffman Algorithm과 Static Table, Dynamic Table을 통해서 압축을 수행한다.
     - Huffman Algorithm : 자주 나오는 문자열 순서대로 짧은 Bitmap으로 Mapping하여 Data를 압축하는 기법
     - Static Table : HTTP/2.0 Spec에 정의된 Table로 HTTP/2.0 Header로 자주 사용되는 Key-value 값 쌍을 저장하고 있는 Table
@@ -268,7 +261,7 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101
 
 **서버 푸쉬**
 
-![image.png](HTTP%200c644c26baa74527a1c305a764924981/image%2013.png)
+![image 13](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/56a8d236-c977-4d69-8604-22e93490d134)
 
 - HTTP/2.0 이전 버전은 HTML을 요청 후 응답받게 되는데, 그 후 내장되어 있는 JavaScript나 CSS파일 등을 추가로 요청하는 작업이 필요하다.
 - HTTP/2.0 이후 버전은 HTML을 요청 후 JavaScript, CSS 등이 존재할 경우 요청하지 않은 컨텐츠까지 같이 보내 줄 수 있다. 이로인해 전송에 필요한 RTT가 줄어 응답속도를 개선시켰다.
