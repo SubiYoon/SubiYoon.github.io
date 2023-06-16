@@ -7,8 +7,9 @@
 - 애플리케이션 레벨의 프로토콜로 **TCP/IP위에서 작동**한다.
 
 ---
+</br>
 
-# 1. 클라이언트 - 서버 구조
+# 클라이언트 - 서버 구조
 
 ![스크린샷 2023-06-15 오전 9 33 14](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/9cadb636-88b4-4322-986b-4a1fd8ba96db)
 
@@ -25,8 +26,9 @@
 때문에 묶어서 TCP/IP라고 부르기도 한다.
 
 ---
+</br>
 
-# 2. 비연결성(Connectionless)
+# 비연결성(Connectionless)
 
 ![스크린샷 2023-06-15 오전 9 33 43](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/88234e77-9303-4ac6-88f6-9a8797f35372)
 
@@ -61,8 +63,9 @@
 - 클라이언트는 확인 메세지인 ACK를 다시 서버에 보냄
 
 ---
+</br>
 
-# 3. 무상태(StateLess) 프로토콜
+# 무상태(StateLess) 프로토콜
 
 **상태유지**
 
@@ -78,6 +81,7 @@
 ![image 1](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/68312210-e5f1-4221-86c5-953ba9e00177)
 
 ---
+</br>
 
 # HTTP 역사(큰 틀로 간단히 정리)
 
@@ -267,6 +271,7 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101
 - HTTP/2.0 이후 버전은 HTML을 요청 후 JavaScript, CSS 등이 존재할 경우 요청하지 않은 컨텐츠까지 같이 보내 줄 수 있다. 이로인해 전송에 필요한 RTT가 줄어 응답속도를 개선시켰다.
 
 ---
+</br>
 
 # URL escape String
 
@@ -297,6 +302,7 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101
 | $ | %24 | $24 |
 
 ---
+</br>
 
 # Types of Schme
 
@@ -312,6 +318,7 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101
 | talent | - 대화형 서비스에 접근시 사용 <br> - 객체를 가리지 않음 <br> - 리소스라고 할 수 있는 대화형 appliction은 이 프로토콜을 통해 접근가능 | talent://<사용자이름>:<비밀번호>@<호스트>:<포트>/ <br> ex)talent://user:passowrd@naver.com:30/ |
 
 ---
+</br>
 
 # PURL(Persistent Uniform Resource Locators)
 
@@ -322,6 +329,7 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101
         
 
 ---
+</br>
 
 # 시작줄 Method
 
@@ -343,6 +351,7 @@ ex) 문서를 편집하는 동안 다른 사용자가 동시에 편집불가하�
 | MOVE | 서버에 있는 리소스를 옮긴다. |  |
 
 ---
+</br>
 
 # 상태코드 Status Code
 
@@ -353,19 +362,36 @@ ex) 문서를 편집하는 동안 다른 사용자가 동시에 편집불가하�
 | 3xx(리다이렉션) | 요청 완료를 위해 추가 작업 조치가 필요하다. |
 | 4xx(클라이언트 오류) | 요청의 문법이 잘못되었거나 요청을 처리할 수 없다. |
 | 5xx(서버 오류) | 서버가 명백히 유효한 요청에 대한 충족을 실패했다. |
-- 200 OK
-    
-    → 성공!
-    
-- 401 Unauthorized
-    
-    → 사용자 이름과 비밀번호를 입력해야 함!
-    
-- 404 Not Found
-    
-    → 요청한 URL을 찾지 못함!
-    
 
 ---
+</br>
 
-#
+# TCP / IP
+
+### TCP / IP
+
+- 패킷 통신 방식의 인터넷 프로토콜인 IP(인터넷 프로토콜) + 전송 조절 프로토콜인 TCP(전송 제어 프로토콜)
+- **IP → 패킷 전달 여부를 보증하지 않고, 패킷을 보낸 순서와 받는 순서가 다를 수 있다.**
+- **TCP → IP 위에서 동작하는 프로토콜, 데이터의 전달을 보증하고 보낸 순서대로 받게 해준다.**
+- HTTP, FTP, SMTP 등 TCP를 기반으로 한 많은 수의 애플리케이션 프로토콜들이 IP 위에서 동작하기
+때문에 묶어서 TCP/IP라고 부르기도 한다.
+
+### 세그먼트(segment)
+
+- TCP가 데이터 스트림을 잘게 나눠 IP패킷이라고 불리는 봉투에 담아 인터넷을 통해 데이터를 전달하는 단위
+- 각 TCP세그먼트는 하나의 IP주소에서 다른 IP주소로 IP패킷에 담겨 전달된다.
+    - IP패킷 각각은 다음을 포함한다.
+        - IP 패킷 헤더(보통 20byte)
+        - TCP 세그먼트 헤더(보통 20byte)
+        - TCP 데이터 조각(0 or 그 이상의 byte)
+
+### MTU(Maximum Transmission Unit)
+
+- TCP / IP  세그먼트 최대 전송 단위
+- UDP의 경우에는 최대 MTU만큼만 보내지만, TCP의 경우 여러 데이터를 나누어 다수의 세그먼트를 전송
+
+### TCP Connection
+
+- Connection 구성요소
+    - **<발신지 IP주소, 발신지 포트, 수신지 IP 주소, 수신지 포트>**
+- 네가지 커넥션 구성요소를 모두 똑같이 가르키고 있는 커넥션은 있을 수없다. **(당연하게도…)**
