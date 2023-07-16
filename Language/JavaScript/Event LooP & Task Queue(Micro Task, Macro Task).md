@@ -6,11 +6,13 @@ JS는 싱글 스레드 기반의 언어이고, JS 엔진은 하나의 호출 스
 
 # Browser의 환경 구조
 - **Node.js의 환경구조**
-![image.png](Event%20Roof%20&%20Task%20Queue(Micro%20Task,%20Macro%20Task)%2016c723c7650b4ebcaedef00343ca72f8/image.png)
-    
+
+![image](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/0109b3da-1ea9-4c84-9854-5e59ce94c1b7)
 
 - **Browser의 환경구조**
-![image.png](Event%20Roof%20&%20Task%20Queue(Micro%20Task,%20Macro%20Task)%2016c723c7650b4ebcaedef00343ca72f8/image%201.png)
+
+![image 1](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/bfe08600-a445-42b3-96ba-c7c0acb32636)
+
 
 ### JavaScript Engine
 
@@ -52,7 +54,8 @@ JS는 싱글 스레드 기반의 언어이고, JS 엔진은 하나의 호출 스
 - MacroTask Queue에 새로운 MacroTask가 나타날 때까지 대기한다.
 - 위 동작을 반복한다.
 
-![image.gif](Event%20Roof%20&%20Task%20Queue(Micro%20Task,%20Macro%20Task)%2016c723c7650b4ebcaedef00343ca72f8/image.gif)
+![image](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/11d04e9f-d0ae-4260-9353-6c01add72ff4)
+
 
 ### Event Loop의 필요성
 
@@ -79,7 +82,8 @@ JS는 싱글 스레드 기반의 언어이고, JS 엔진은 하나의 호출 스
 
 # MicroTask & MacroTask
 
-![image.gif](Event%20Roof%20&%20Task%20Queue(Micro%20Task,%20Macro%20Task)%2016c723c7650b4ebcaedef00343ca72f8/image%201.gif)
+![image 1](https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/cc5747da-41b3-45ee-a940-0c63d2d24917)
+
 
 - **MicroTask**들은 실행하면서 새로운 MicroTask를 Queue에 추가 할수도 있다.
     - **MicroTask**
