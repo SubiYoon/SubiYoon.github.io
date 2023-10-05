@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "a68ef069342f6bcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "96197007fd7192c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a44ed11232f36cd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenStack/00-1. What is OpenStack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf610ceb83c84c0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "80de736134531bd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c36da723bd2a67aa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "04ab4991bd36c242",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b42c50056b6a2c3d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "d4b6f40786936aaf",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ee50a27ec2931863",
+    "type": "split",
+    "children": [
+      {
+        "id": "1524cfd852c6d0a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ce6c2a0408b58be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OpenStack/00-1. What is OpenStack.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c8fa40f99033d861",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OpenStack/00-1. What is OpenStack.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c33173d09753da21",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "06412d1ce62fd380",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OpenStack/00-1. What is OpenStack.md"
+              }
+            }
+          },
+          {
+            "id": "bfc9bdd7a2f62155",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "36aee0400ad37bd0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "a44ed11232f36cd9",
+  "lastOpenFiles": [
+    "OpenStack/00-0. What is cloud computing.md",
+    "OpenStack/00-1. What is OpenStack.md",
+    "OpenStack/01. How to make instance.md",
+    "Language/Dart/0. Why Dart??.md",
+    "FrameWork/Flutter/0. Flutter??.md",
+    "FrameWork/Flutter/Flutter.md",
+    "FrameWork/FrameWork.md",
+    "Context/spacesLastSync.log",
+    "Context",
+    "FrameWork/MarkDown/HowToUse.md",
+    "**link**.md",
+    "Attached File",
+    "무제 파일.md",
+    "OpenStack",
+    "Browser/MIME-Type&Content-Type.md",
+    "Browser/CORS(Cross Origin Resource Sharing).md"
+  ]
+}
