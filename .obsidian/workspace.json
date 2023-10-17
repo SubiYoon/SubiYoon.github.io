@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/MTU vs MSS.md",
+                "file": "DataBase/Oracle/Database Link.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/MTU vs MSS.md",
+                "file": "DataBase/Oracle/Database Link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/MTU vs MSS.md",
+                "file": "DataBase/Oracle/Database Link.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/MTU vs MSS.md"
+                "file": "DataBase/Oracle/Database Link.md"
               }
             }
           },
@@ -184,6 +184,7 @@
   "active": "a90d741d1bbb581d",
   "lastOpenFiles": [
     "Network/MTU vs MSS.md",
+    "DataBase/Oracle/Database Link.md",
     "Network/HTTP/01. 클라이언트 - 서버 구조.md",
     "Network/OSI 7Layout",
     "Network",
