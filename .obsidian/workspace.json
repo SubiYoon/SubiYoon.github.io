@@ -11,8 +11,12 @@
             "id": "53e724c0011a78d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OpenStack/00. Error.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OpenStack/00. Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OpenStack/00. Error.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OpenStack/00. Error.md"
+              }
             }
           },
           {
@@ -175,16 +183,23 @@
   },
   "active": "53e724c0011a78d4",
   "lastOpenFiles": [
+    "OpenStack/02. What is OpenStack.md",
+    "OpenStack/00-2 OpenStack의 DashBoard 구성.md",
+    "OpenStack/03. OpenStack의 DashBoard 구성.md",
+    "OpenStack/00-1. What is OpenStack.md",
+    "OpenStack/02 What is OpenStack.md",
+    "OpenStack/00-0. What is cloud computing.md",
+    "OpenStack/01. What is cloud computing.md",
+    "OpenStack/00. Error.md",
+    "OpenStack/0.Error(Exceeded maximum number of retires).md",
+    "OpenStack/Error.md",
     "Language/00-1 SOLID 원칙.md",
     "DataBase/Oracle/Database Link.md",
     "Network/MTU vs MSS.md",
     "Network/HTTP/01. 클라이언트 - 서버 구조.md",
     "Network/OSI 7Layout",
     "Network",
-    "OpenStack/00-2 OpenStack의 DashBoard 구성.md",
     "OpenStack/01. Make OpenStack instacne.md",
-    "OpenStack/00-0. What is cloud computing.md",
-    "OpenStack/00-1. What is OpenStack.md",
     "FrameWork/FrameWork.md",
     "FrameWork/Flutter/1. Hello Flutter.md",
     "Language/Dart/0. Why Dart??.md",
