@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f6493a9b5976df60",
+        "id": "3022ba9dec0b3e67",
         "type": "tabs",
         "children": [
           {
-            "id": "a90d741d1bbb581d",
+            "id": "53e724c0011a78d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataBase/Oracle/Database Link.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataBase/Oracle/Database Link.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataBase/Oracle/Database Link.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DataBase/Oracle/Database Link.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,10 +173,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a90d741d1bbb581d",
+  "active": "53e724c0011a78d4",
   "lastOpenFiles": [
-    "Network/MTU vs MSS.md",
+    "Language/00-1 SOLID 원칙.md",
     "DataBase/Oracle/Database Link.md",
+    "Network/MTU vs MSS.md",
     "Network/HTTP/01. 클라이언트 - 서버 구조.md",
     "Network/OSI 7Layout",
     "Network",
