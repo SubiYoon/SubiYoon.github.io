@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenStack/00. Error.md",
+                "file": "Network/MTU vs MSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9b3b70ceabff6b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network/SSO 구축.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenStack/00. Error.md",
+                "file": "Network/SSO 구축.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenStack/00. Error.md",
+                "file": "Network/SSO 구축.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenStack/00. Error.md"
+                "file": "Network/SSO 구축.md"
               }
             }
           },
@@ -181,8 +194,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "53e724c0011a78d4",
+  "active": "d9b3b70ceabff6b8",
   "lastOpenFiles": [
+    "Attached File/스크린샷 2023-10-22 오후 2.00.48.png",
+    "Attached File/스크린샷 2023-10-22 오후 1.59.21.png",
+    "Attached File/스크린샷 2023-10-22 오후 1.41.25.png",
+    "Network/MTU vs MSS.md",
+    "Network/SSO 구축.md",
+    "DataBase/Oracle/Database Link.md",
+    "DataBase/Oracle/Merge Into ~~.md",
+    "OpenStack/00. Error.md",
     "OpenStack/02. What is OpenStack.md",
     "OpenStack/00-2 OpenStack의 DashBoard 구성.md",
     "OpenStack/03. OpenStack의 DashBoard 구성.md",
@@ -190,12 +211,9 @@
     "OpenStack/02 What is OpenStack.md",
     "OpenStack/00-0. What is cloud computing.md",
     "OpenStack/01. What is cloud computing.md",
-    "OpenStack/00. Error.md",
     "OpenStack/0.Error(Exceeded maximum number of retires).md",
     "OpenStack/Error.md",
     "Language/00-1 SOLID 원칙.md",
-    "DataBase/Oracle/Database Link.md",
-    "Network/MTU vs MSS.md",
     "Network/HTTP/01. 클라이언트 - 서버 구조.md",
     "Network/OSI 7Layout",
     "Network",
@@ -211,7 +229,6 @@
     "**link**.md",
     "Attached File",
     "OpenStack",
-    "Browser/MIME-Type&Content-Type.md",
-    "Browser/CORS(Cross Origin Resource Sharing).md"
+    "Browser/MIME-Type&Content-Type.md"
   ]
 }
