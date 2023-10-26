@@ -1,5 +1,5 @@
 
-# SSO 구축
+# SSO 환경 구축
 
 ## 🚀구축 조건🚀
 - String Boot
@@ -12,6 +12,19 @@
 ---
 # 1.  Ubuntu 설치 및 도커 설치
 - 우분투 서버를 설치하고 설치 시 도커도 함께 설치해준다.
+
+-  Docker를 이용하여 사용시 docker의 권한문제가 발생 할 수 있다. 아래 명령어를 순서대로 입력 후 재부팅.
+~~~bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+
+# 666권한은 잠재적으로 위험할 수 있으니 신중해야 한다.
+sudo chmod 666 /var/run/docker.sock
+
+# 도커 재시작
+systemctl restart docker.service
+sudo newgrp docker
+~~~
 
 ---
 # 2. Java설치
@@ -88,41 +101,13 @@ sudo -E bin/kc.sh start-dev
 6. 로그인에 성공하면 아래와 같은 Dashboard화면이 나와야 한다.
 ![[스크린샷 2023-10-22 오후 2.00.48.png]]
 
-### 우분투에 KeyCloak설치 (Docker Compose 버전)
-1. 원하는 directory를 생성한다. (keycloakServer)
+### 우분투에 keyCloak설치 (Docker Image 버전)
+1. docker 명령어를 사용해 해당 이미지가 로컬에 없으면 다운받게 할 수 있다.
 ~~~bash
-mkdir keycloakServer
-~~~
+docker run jboss/keycloak
 
-2. 설치에 필요한 yml파일을 다운로드 한다.
-~~~bash
-wget https://github.com/keycloak/keycloak-containers/blob/88b2f48bd332c9ceed6ec681a99762f73e3bf16e/docker-compose-examples/keycloak-postgres.yml
-~~~
-
-3. 위파일은 pstaresSQL로 되어 있고, 필자는 MySQL을 활용할 것이므로 아래 파일을 사용했다.
-~~~yml
-# keycloak-postgres.yml
-
-version: "3.8"
-services:
-  mysql_8:
-    image: mysql:8.0.34
-    container_name: mysql_8
-    environment:
-      - MYSQL_DATABASE=keycloak
-      - MYSQL_USER=board01
-      - MYSQL_PASSWORD=test01
-      - MYSQL_ROOT_PASSWORD=test01
-    ports:
-      - "3308:3306" # 포트는 3308번으로 생성하겠습니다.
-    healthcheck:
-      test: "mysqladmin ping -u root -p$${MYSQL_ROOT_PASSWORD}"
-~~~
-
-4. Docker를 이용하여 사용시 docker의 권한문제가 발생 할 수 있다. 아래 명령어를 순서대로 입력 후 재부팅.
-~~~bash
-sudo groupadd docker
-sudo usermod -aG docker $USER
-sudo newgrp docker
-~~~
- 
+# 로컬에 띄우고 싶다면 아래 명령어를 사용하면 된다.
+docker run -p 8080:8080 jboss/keycloakㅠ
+~~~
+2. 브라우저에서 8080포트로 접속시 해당 페이지가 나온다면 성공!
+![[스크린샷 2023-10-26 오후 10.19.16.png]]
