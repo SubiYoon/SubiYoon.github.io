@@ -1,3 +1,7 @@
+---
+tags:
+  - Oracle
+---
 # Merge Into ~~
 
 오라클에서 하나의 쿼리문으로 Insert, Update, Delete를 한번에 해야 하는 경우 사용한다.

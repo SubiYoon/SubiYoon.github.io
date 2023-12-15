@@ -1,3 +1,7 @@
+---
+
+---
+
 # CORS(Cross Origin Resource Sharing)
 
 - 브라우저의 보안과 관련하여 중요한 일들을 수행
