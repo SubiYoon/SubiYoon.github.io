@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3022ba9dec0b3e67",
+        "id": "300e9eedd8fd6760",
         "type": "tabs",
         "children": [
           {
-            "id": "d9b3b70ceabff6b8",
+            "id": "1adb3562094fb421",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
+                "file": "OpenStack/03. OpenStack의 DashBoard 구성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1df9dc7e36ecf9a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/JavaScript/UTF-8 방식 byte 구하는 코드.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
+                "file": "Language/JavaScript/UTF-8 방식 byte 구하는 코드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
+                "file": "Language/JavaScript/UTF-8 방식 byte 구하는 코드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/SSO(Single Sign-ON)/SSO 환경구축.md"
+                "file": "Language/JavaScript/UTF-8 방식 byte 구하는 코드.md"
               }
             }
           },
@@ -168,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,8 +195,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d9b3b70ceabff6b8",
+  "active": "1df9dc7e36ecf9a0",
   "lastOpenFiles": [
+    "OpenStack/03. OpenStack의 DashBoard 구성.md",
+    "Language/JavaScript/UTF-8 방식 byte 구하는 코드.md",
+    "OpenStack/02. What is OpenStack.md",
+    "OpenStack/01. What is cloud computing.md",
+    "OpenStack/00. Error.md",
+    "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
     "Attached File/스크린샷 2023-10-28 오후 12.56.46.png",
     "Attached File/스크린샷 2023-10-28 오후 12.55.52.png",
     "Attached File/스크린샷 2023-10-28 오후 12.39.26.png",
@@ -194,19 +214,13 @@
     "Attached File/스크린샷 2023-10-28 오전 11.39.55.png",
     "Network/MTU vs MSS.md",
     "Attached File/스크린샷 2023-10-28 오전 11.34.30.png",
-    "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
-    "Attached File/스크린샷 2023-10-28 오전 11.46.08.png",
     "Network/SSO(Single Sign-ON)",
     "DataBase/Oracle/Database Link.md",
     "DataBase/Oracle/Merge Into ~~.md",
-    "OpenStack/00. Error.md",
-    "OpenStack/02. What is OpenStack.md",
     "OpenStack/00-2 OpenStack의 DashBoard 구성.md",
-    "OpenStack/03. OpenStack의 DashBoard 구성.md",
     "OpenStack/00-1. What is OpenStack.md",
     "OpenStack/02 What is OpenStack.md",
     "OpenStack/00-0. What is cloud computing.md",
-    "OpenStack/01. What is cloud computing.md",
     "OpenStack/0.Error(Exceeded maximum number of retires).md",
     "OpenStack/Error.md",
     "Language/00-1 SOLID 원칙.md",
