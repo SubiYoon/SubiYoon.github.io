@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c7af629782516931",
+        "id": "072a5a910acbd0e2",
         "type": "tabs",
         "children": [
           {
-            "id": "15223a2e3ba16c44",
+            "id": "d2e2cf5d88ce93f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataBase/Oracle/View & Materialized View.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ec400db5e5e4483",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataBase/Oracle/View & Materialized View.md",
+                "file": "DataBase/What is Index?.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataBase/Oracle/View & Materialized View.md",
+                "file": "DataBase/What is Index?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataBase/Oracle/View & Materialized View.md",
+                "file": "DataBase/What is Index?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataBase/Oracle/View & Materialized View.md"
+                "file": "DataBase/What is Index?.md"
               }
             }
           },
@@ -177,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -194,14 +181,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c36da723bd2a67aa",
+  "active": "d2e2cf5d88ce93f8",
   "lastOpenFiles": [
-    "DataBase/Oracle/Merge Into ~~.md",
+    "Attached File/스크린샷 2023-12-24 오후 6.14.23.png",
+    "Attached File/스크린샷 2023-12-24 오후 6.10.47.png",
+    "Attached File/스크린샷 2023-12-24 오후 6.07.41.png",
+    "Attached File/스크린샷 2023-12-24 오후 6.06.12.png",
+    "Attached File/스크린샷 2023-12-24 오후 5.58.47.png",
+    "Language/JavaScript/Symbol.md",
+    "DataBase/What is Index?.md",
+    "Browser/MIME-Type&Content-Type.md",
+    "DataBase/MySQL/1. 페이징.md",
     "DataBase/Oracle/JOB.md",
     "DataBase/Oracle/View & Materialized View.md",
+    "DataBase/Oracle/Merge Into ~~.md",
     "DataBase/Oracle/Database Link.md",
     "Browser/CORS(Cross Origin Resource Sharing).md",
-    "Browser/MIME-Type&Content-Type.md",
     "Language/JavaScript/UTF-8 방식 byte 구하는 코드.md",
     "OpenStack/03. OpenStack의 DashBoard 구성.md",
     "OpenStack/02. What is OpenStack.md",
@@ -214,11 +209,7 @@
     "Attached File/스크린샷 2023-10-28 오후 12.30.09.png",
     "Attached File/스크린샷 2023-10-28 오후 12.29.49.png",
     "Attached File/스크린샷 2023-10-28 오후 12.29.15.png",
-    "Attached File/스크린샷 2023-10-28 오후 12.28.49.png",
-    "Attached File/스크린샷 2023-10-28 오후 12.27.06.png",
-    "Attached File/스크린샷 2023-10-28 오전 11.39.55.png",
     "Network/MTU vs MSS.md",
-    "Attached File/스크린샷 2023-10-28 오전 11.34.30.png",
     "Network/SSO(Single Sign-ON)",
     "OpenStack/00-2 OpenStack의 DashBoard 구성.md",
     "OpenStack/00-1. What is OpenStack.md",
@@ -231,10 +222,6 @@
     "Network/OSI 7Layout",
     "Network",
     "OpenStack/01. Make OpenStack instacne.md",
-    "FrameWork/FrameWork.md",
-    "FrameWork/Flutter/1. Hello Flutter.md",
-    "Language/Dart/0. Why Dart??.md",
-    "FrameWork/Flutter/0. Flutter??.md",
     "Context/spacesLastSync.log",
     "Context",
     "Attached File",

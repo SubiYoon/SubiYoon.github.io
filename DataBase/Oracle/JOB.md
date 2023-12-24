@@ -10,6 +10,7 @@ tags:
 
 ## JOB 생성
 ```sql
+DECLARE	
 	X NUMBER;
 BEGIN
 SYS.DBMS_JOB_SUBMIT (
