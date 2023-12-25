@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataBase/What is Index?.md",
+                "file": "Network/HTTP/18. 기본 인증.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataBase/What is Index?.md",
+                "file": "Network/HTTP/18. 기본 인증.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataBase/What is Index?.md",
+                "file": "Network/HTTP/18. 기본 인증.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataBase/What is Index?.md"
+                "file": "Network/HTTP/18. 기본 인증.md"
               }
             }
           },
@@ -183,13 +183,15 @@
   },
   "active": "d2e2cf5d88ce93f8",
   "lastOpenFiles": [
-    "Attached File/스크린샷 2023-12-24 오후 6.14.23.png",
-    "Attached File/스크린샷 2023-12-24 오후 6.10.47.png",
-    "Attached File/스크린샷 2023-12-24 오후 6.07.41.png",
-    "Attached File/스크린샷 2023-12-24 오후 6.06.12.png",
-    "Attached File/스크린샷 2023-12-24 오후 5.58.47.png",
-    "Language/JavaScript/Symbol.md",
+    "Network/HTTP/19. 다이제스트 인증.md",
+    "Network/HTTP/README.md",
     "DataBase/What is Index?.md",
+    "Attached File/스크린샷 2023-12-24 오후 5.58.47.png",
+    "Attached File/스크린샷 2023-12-24 오후 6.06.12.png",
+    "Attached File/스크린샷 2023-12-24 오후 6.07.41.png",
+    "Attached File/스크린샷 2023-12-24 오후 6.10.47.png",
+    "Attached File/스크린샷 2023-12-24 오후 6.14.23.png",
+    "Language/JavaScript/Symbol.md",
     "Browser/MIME-Type&Content-Type.md",
     "DataBase/MySQL/1. 페이징.md",
     "DataBase/Oracle/JOB.md",
@@ -208,7 +210,6 @@
     "Attached File/스크린샷 2023-10-28 오후 12.39.26.png",
     "Attached File/스크린샷 2023-10-28 오후 12.30.09.png",
     "Attached File/스크린샷 2023-10-28 오후 12.29.49.png",
-    "Attached File/스크린샷 2023-10-28 오후 12.29.15.png",
     "Network/MTU vs MSS.md",
     "Network/SSO(Single Sign-ON)",
     "OpenStack/00-2 OpenStack의 DashBoard 구성.md",
@@ -221,7 +222,6 @@
     "Network/HTTP/01. 클라이언트 - 서버 구조.md",
     "Network/OSI 7Layout",
     "Network",
-    "OpenStack/01. Make OpenStack instacne.md",
     "Context/spacesLastSync.log",
     "Context",
     "Attached File",
