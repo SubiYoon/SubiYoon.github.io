@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/HTTP/01. 클라이언트 - 서버 구조.md",
+                "file": "Network/HTTP/19. 다이제스트 인증.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/HTTP/01. 클라이언트 - 서버 구조.md",
+                "file": "Network/HTTP/19. 다이제스트 인증.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/HTTP/01. 클라이언트 - 서버 구조.md",
+                "file": "Network/HTTP/19. 다이제스트 인증.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/HTTP/01. 클라이언트 - 서버 구조.md"
+                "file": "Network/HTTP/19. 다이제스트 인증.md"
               }
             }
           },
@@ -183,12 +183,25 @@
   },
   "active": "d2e2cf5d88ce93f8",
   "lastOpenFiles": [
+    "Network/HTTP/18. 기본 인증.md",
+    "Network/HTTP/15. Web Robot.md",
+    "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
+    "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
+    "Network/HTTP/13. Cache.md",
+    "Network/HTTP/12. Proxy.md",
+    "Network/HTTP/11. 웹 서버.md",
+    "Network/HTTP/10. Connection close ← mystry.md",
+    "Network/HTTP/09 HTTP Connection Management.md",
+    "Network/HTTP/08. TCP&IP.md",
+    "Network/HTTP/07. StartRow&StatusCode.md",
+    "Network/HTTP/06. URL EscapeString&TypeOfSchme&PURL.md",
+    "Network/HTTP/05. HTTP2.0.md",
+    "Network/HTTP/04. HTTP1.1.md",
+    "Network/HTTP/03. HTTP의 역사.md",
     "Network/HTTP/02. 비연결성 & StateLessProtocol.md",
     "Network/HTTP/01. 클라이언트 - 서버 구조.md",
     "Network/HTTP/19. 다이제스트 인증.md",
     "Network/JWT(JSON Web Token).md",
-    "Network/HTTP/15. Web Robot.md",
-    "Network/HTTP/18. 기본 인증.md",
     "Network/HTTP/README.md",
     "FrameWork/Spring/Log.md",
     "FrameWork/ThymeLeaf/Fragment를 이용한 insert와 replace.md",
@@ -201,19 +214,6 @@
     "Attached File/스크린샷 2023-12-24 오후 6.10.47.png",
     "Attached File/스크린샷 2023-12-24 오후 6.14.23.png",
     "Language/JavaScript/Symbol.md",
-    "Browser/MIME-Type&Content-Type.md",
-    "DataBase/MySQL/1. 페이징.md",
-    "DataBase/Oracle/JOB.md",
-    "DataBase/Oracle/View & Materialized View.md",
-    "DataBase/Oracle/Merge Into ~~.md",
-    "DataBase/Oracle/Database Link.md",
-    "Browser/CORS(Cross Origin Resource Sharing).md",
-    "Language/JavaScript/UTF-8 방식 byte 구하는 코드.md",
-    "OpenStack/03. OpenStack의 DashBoard 구성.md",
-    "OpenStack/02. What is OpenStack.md",
-    "OpenStack/01. What is cloud computing.md",
-    "OpenStack/00. Error.md",
-    "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
     "Attached File/스크린샷 2023-10-28 오후 12.56.46.png",
     "Attached File/스크린샷 2023-10-28 오후 12.55.52.png",
     "Attached File/스크린샷 2023-10-28 오후 12.39.26.png",
