@@ -32,6 +32,7 @@ SpringBoot에서 중요한 설정 정보를 가지고 있는데, 이 정보가 �
 
 ### 3. .gitignore에 등록하기
 **application-security.properties**가 git에 올라가는걸 막기위해 아래와 같은 문구를 추가해야 한다.
+
 <img width="303" alt="스크린샷 2024-01-02 오후 8 04 05" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/2fddf875-319c-46f0-8cf5-30a367f87ee3">
 
 
