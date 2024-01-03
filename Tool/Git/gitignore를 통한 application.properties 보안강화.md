@@ -14,25 +14,26 @@ SpringBoot에서 중요한 설정 정보를 가지고 있는데, 이 정보가 �
 **resources** 폴더에 **application-security.properties** 파일을 생성한다.
 마우스 우클릭 후 **resource -> New -> Resource Bundle** 을 클릭한다.
 
-![[스크린샷 2024-01-02 오후 7.57.36.png]]
+<img width="616" alt="스크린샷 2024-01-02 오후 7 57 36" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/0ea7ebae-fb82-4567-baca-5b9b4793fff5">
 
 클릭후에는 이름을 정하는 화면이 나오는데 다음과 같이 입력하고 OK를 눌러준다.
 
-![[스크린샷 2024-01-02 오후 7.59.09.png]]
+<img width="442" alt="스크린샷 2024-01-02 오후 7 59 09" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/9d0c6cc7-478e-4775-a84a-9cfa46956c6a">
 
 **application-security.properties**가 생성되었는지 확인
 앞으로 중요한 정보가 될만한 것들은 생성한 properties에 작성하면 된다.
 
-![[스크린샷 2024-01-02 오후 8.00.08.png]]
+<img width="343" alt="스크린샷 2024-01-02 오후 8 00 08" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/3c5747f9-be85-4fd2-8779-7e5019d63826">
 
 ### 2. application.propoerties에 문구추가
 **application.properties**에 가서 아래와 같은 문구를 추가해준다.
 
-![[스크린샷 2024-01-02 오후 8.02.16.png]]
+<img width="327" alt="스크린샷 2024-01-02 오후 8 02 16" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/f9ce17f0-6dd6-4375-85ea-b25b155fc75c">
 
 ### 3. .gitignore에 등록하기
 **application-security.properties**가 git에 올라가는걸 막기위해 아래와 같은 문구를 추가해야 한다.
-![[스크린샷 2024-01-02 오후 8.04.05.png]]
+<img width="303" alt="스크린샷 2024-01-02 오후 8 04 05" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/2fddf875-319c-46f0-8cf5-30a367f87ee3">
+
 
 ---
 
