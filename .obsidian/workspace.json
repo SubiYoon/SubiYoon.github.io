@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "072a5a910acbd0e2",
+        "id": "68455cd9b6d7f1ad",
         "type": "tabs",
         "children": [
           {
-            "id": "d2e2cf5d88ce93f8",
+            "id": "76d1a4385b5fa572",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attached File/스크린샷 2024-01-02 오후 7.57.36.png"
+                "file": "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
+                "file": "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
+                "file": "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attached File/스크린샷 2024-01-02 오후 7.57.36.png"
+                "file": "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md"
               }
             }
           },
@@ -179,15 +181,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d2e2cf5d88ce93f8",
+  "active": "76d1a4385b5fa572",
   "lastOpenFiles": [
+    "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
+    "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
     "Tool/Git/gitignore를 통한 application.properties 보안강화.md",
     "Attached File/스크린샷 2024-01-02 오후 8.04.05.png",
     "Attached File/스크린샷 2024-01-02 오후 8.02.16.png",
     "Attached File/스크린샷 2024-01-02 오후 8.00.08.png",
     "Attached File/스크린샷 2024-01-02 오후 7.59.09.png",
     "무제 파일.md",
-    "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
     "Tool/Git",
     "Network/HTTP/19. 다이제스트 인증.md",
     "Network/HTTP/18. 기본 인증.md",
