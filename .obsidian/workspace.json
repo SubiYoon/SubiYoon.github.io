@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
+                "file": "FrameWork/ThymeLeaf/${@~~}을 이용한 특정 파일에 있는 메서드 실행.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
+                "file": "FrameWork/ThymeLeaf/${@~~}을 이용한 특정 파일에 있는 메서드 실행.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
+                "file": "FrameWork/ThymeLeaf/${@~~}을 이용한 특정 파일에 있는 메서드 실행.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md"
+                "file": "FrameWork/ThymeLeaf/${@~~}을 이용한 특정 파일에 있는 메서드 실행.md"
               }
             }
           },
@@ -183,6 +183,7 @@
   },
   "active": "76d1a4385b5fa572",
   "lastOpenFiles": [
+    "FrameWork/ThymeLeaf/Spring Boot의 application.properties의 선언된 값을 가져오기!!.md",
     "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
     "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
     "Tool/Git/gitignore를 통한 application.properties 보안강화.md",
@@ -190,7 +191,6 @@
     "Attached File/스크린샷 2024-01-02 오후 8.02.16.png",
     "Attached File/스크린샷 2024-01-02 오후 8.00.08.png",
     "Attached File/스크린샷 2024-01-02 오후 7.59.09.png",
-    "무제 파일.md",
     "Tool/Git",
     "Network/HTTP/19. 다이제스트 인증.md",
     "Network/HTTP/18. 기본 인증.md",
