@@ -40,7 +40,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 	public void addInterceptors(InterceptorRegistry registry) {
 		registry.addInterceptor(new LoginInterceptor()) //여기까지 작성시 모든 ruequest에서 동작
 					.excludePathPatterns("/favicon.ico") //해당 패턴의 Url은 제외하고 작동
-					.addPathPatterns("/test/**") //특정 패턴만 적용
+					.addPathPatterns("/test/**"); //특정 패턴만 적용
 	}
 }
 ```
