@@ -10,10 +10,10 @@
 | Persistence Framework | Mybatis 3.0.3     |
 | 자동화 빌드 툴        | Maven             |
 
-보통 Spring Boot의 데이터 흐름은 아래와 같습니다.
-Spring Boot와 Spring의 용어 차이는 아래와 같으니 참고하시기 바랍니다.
+보통 Spring Boot의 데이터 흐름은 아래와 같습니다.<br>
+Spring Boot와 Spring의 용어 차이는 아래와 같으니 참고하시기 바랍니다.<br>
 (자주보는 그림이 될수도 있습니다. 중요한 부분이기에 다른글에서도 자주 등장할 예정입니다.)
-![[스크린샷 2024-01-13 오후 2.24.18.png]]
+![](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/스크린샷%202024-01-13%20오후%202.24.18.png?raw=true)
 
 # 설정 파일 구성
 
