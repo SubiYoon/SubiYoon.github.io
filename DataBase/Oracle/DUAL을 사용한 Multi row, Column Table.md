@@ -9,7 +9,8 @@
 ```sql
 SELECT '홍길동' AS 이름 FROM DAUL;
 ```
-![[스크린샷 2024-02-04 오후 10.23.48.png]]
+
+<img width="70" alt="image" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/9bcac54f-f91b-4977-9eed-be666ed31724">
 
 ### DECODE
 **DECODE**는 조건문이라고 생각하시면 됩니다.
@@ -66,7 +67,8 @@ CONNECT BY LEVEL <= 3;
 위의 쿼리에서는 3개 이하로 출력한다는 뜻이죠.
 
 이제 결과를 봐볼까요??
-![[스크린샷 2024-02-04 오후 10.41.51.png]]
+
+<img width="161" alt="image" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/c54adca2-2a3c-4efe-b231-e36ef7fb453f">
 
 CONNECT BY LEVEL이 이해가 되지 않으셨다면, 4를 한번 넣어서 다시 테스트 해보겠습니다.
 ```sql
@@ -77,4 +79,4 @@ FROM
 	DUAL
 CONNECT BY LEVEL <= 4;
 ```
-![[스크린샷 2024-02-04 오후 10.42.55.png]]
+<img width="163" alt="image" src="https://github.com/SubiYoon/SubiYoon.github.io/assets/117332903/cf4641a2-8dbf-444a-ab9e-cb2075dddaba">
