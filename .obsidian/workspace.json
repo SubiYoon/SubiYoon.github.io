@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/HTTP/19. 다이제스트 인증.md",
+                "file": "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/HTTP/19. 다이제스트 인증.md",
+                "file": "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/HTTP/19. 다이제스트 인증.md",
+                "file": "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/HTTP/19. 다이제스트 인증.md"
+                "file": "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md"
               }
             }
           },
@@ -185,6 +185,11 @@
   },
   "active": "76d1a4385b5fa572",
   "lastOpenFiles": [
+    "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
+    "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
+    "Attached File/스크린샷 2024-02-04 오후 10.23.48.png",
+    "Network/HTTP/19. 다이제스트 인증.md",
+    "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
     "FrameWork/MarkDown/HowToUse.md",
     "FrameWork/Spring/Log.md",
     "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
@@ -204,7 +209,6 @@
     "Attached File/스크린샷 2024-01-02 오후 8.00.08.png",
     "Attached File/스크린샷 2024-01-02 오후 7.59.09.png",
     "Tool/Git",
-    "Network/HTTP/19. 다이제스트 인증.md",
     "Network/HTTP/18. 기본 인증.md",
     "Network/HTTP/15. Web Robot.md",
     "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
@@ -216,12 +220,8 @@
     "Network/HTTP/09 HTTP Connection Management.md",
     "Network/HTTP/08. TCP&IP.md",
     "Network/HTTP/07. StartRow&StatusCode.md",
-    "Network/HTTP/06. URL EscapeString&TypeOfSchme&PURL.md",
-    "Network/HTTP/05. HTTP2.0.md",
     "Attached File/스크린샷 2023-12-24 오후 5.58.47.png",
     "Attached File/스크린샷 2023-12-24 오후 6.06.12.png",
-    "Attached File/스크린샷 2023-12-24 오후 6.07.41.png",
-    "Attached File/스크린샷 2023-12-24 오후 6.10.47.png",
     "Network/SSO(Single Sign-ON)",
     "Network/OSI 7Layout",
     "Network",
