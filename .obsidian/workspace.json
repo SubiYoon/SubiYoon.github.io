@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
+                "file": "Network/HTTP/19. 다이제스트 인증.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
+                "file": "Network/HTTP/19. 다이제스트 인증.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
+                "file": "Network/HTTP/19. 다이제스트 인증.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md"
+                "file": "Network/HTTP/19. 다이제스트 인증.md"
               }
             }
           },
@@ -185,11 +185,11 @@
   },
   "active": "76d1a4385b5fa572",
   "lastOpenFiles": [
+    "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
     "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
     "Attached File/스크린샷 2024-02-04 오후 10.23.48.png",
     "Network/HTTP/19. 다이제스트 인증.md",
-    "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
     "FrameWork/MarkDown/HowToUse.md",
     "FrameWork/Spring/Log.md",
     "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
@@ -221,7 +221,6 @@
     "Network/HTTP/08. TCP&IP.md",
     "Network/HTTP/07. StartRow&StatusCode.md",
     "Attached File/스크린샷 2023-12-24 오후 5.58.47.png",
-    "Attached File/스크린샷 2023-12-24 오후 6.06.12.png",
     "Network/SSO(Single Sign-ON)",
     "Network/OSI 7Layout",
     "Network",
