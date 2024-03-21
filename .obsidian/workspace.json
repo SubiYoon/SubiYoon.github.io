@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76d1a4385b5fa572",
+            "id": "c110b21f2c2e1c97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/HTTP/05. HTTP2.0.md",
+                "file": "Jenkins/Jekins init.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/HTTP/05. HTTP2.0.md",
+                "file": "Jenkins/Jekins init.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/HTTP/05. HTTP2.0.md",
+                "file": "Jenkins/Jekins init.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/HTTP/05. HTTP2.0.md"
+                "file": "Jenkins/Jekins init.md"
               }
             }
           },
@@ -183,8 +183,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "76d1a4385b5fa572",
+  "active": "c110b21f2c2e1c97",
   "lastOpenFiles": [
+    "Language/Dart/0. Why Dart.md",
+    "FrameWork/Flutter/0. Flutter.md",
+    "DataBase/What is Index.md",
+    "Network/HTTP/06. URL EscapeString&TypeOfSchme&PURL.md",
+    "Jenkins/Jekins init.md",
+    "Jenkins",
+    "Network/HTTP/05. HTTP2.0.md",
     "Network/HTTP/04. HTTP1.1.md",
     "Network/HTTP/03. HTTP의 역사.md",
     "Network/HTTP/02. 비연결성 & StateLessProtocol.md",
@@ -215,12 +222,6 @@
     "Tool/Git",
     "Network/HTTP/18. 기본 인증.md",
     "Network/HTTP/15. Web Robot.md",
-    "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
-    "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
-    "Network/HTTP/13. Cache.md",
-    "Network/HTTP/12. Proxy.md",
-    "Network/HTTP/11. 웹 서버.md",
-    "Network/HTTP/10. Connection close ← mystry.md",
     "Attached File/스크린샷 2023-12-24 오후 5.58.47.png",
     "Network/SSO(Single Sign-ON)",
     "Network/OSI 7Layout",
