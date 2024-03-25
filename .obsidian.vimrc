@@ -11,8 +11,6 @@ nmap <F9> :nohl
 set clipboard=unnamed
 set tabstop=4
 
-map [[ :surround_wiki
-
 " Go back and forward with Ctrl+O and Ctrl+I
 " (make sure to remove default Obsidian shortcuts for these to work)
 exmap back obcommand app:go-back

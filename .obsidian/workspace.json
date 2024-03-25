@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "68455cd9b6d7f1ad",
+        "id": "0d36c59b96b50247",
         "type": "tabs",
         "children": [
           {
-            "id": "c110b21f2c2e1c97",
+            "id": "e9f6aafc57ed6203",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jenkins/Jekins init.md",
+                "file": "Network/HTTP/19. 다이제스트 인증.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jenkins/Jekins init.md",
+                "file": "Network/HTTP/19. 다이제스트 인증.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jenkins/Jekins init.md",
+                "file": "Network/HTTP/19. 다이제스트 인증.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jenkins/Jekins init.md"
+                "file": "Network/HTTP/19. 다이제스트 인증.md"
               }
             }
           },
@@ -174,29 +174,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c110b21f2c2e1c97",
+  "active": "e9f6aafc57ed6203",
   "lastOpenFiles": [
+    "Network/HTTP/19. 다이제스트 인증.md",
+    "Jenkins/Jekins init.md",
     "Language/Dart/0. Why Dart.md",
     "FrameWork/Flutter/0. Flutter.md",
     "DataBase/What is Index.md",
     "Network/HTTP/06. URL EscapeString&TypeOfSchme&PURL.md",
-    "Jenkins/Jekins init.md",
     "Jenkins",
     "Network/HTTP/05. HTTP2.0.md",
     "Network/HTTP/04. HTTP1.1.md",
     "Network/HTTP/03. HTTP의 역사.md",
     "Network/HTTP/02. 비연결성 & StateLessProtocol.md",
     "Network/HTTP/01. 클라이언트 - 서버 구조.md",
-    "Network/HTTP/19. 다이제스트 인증.md",
     "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
     "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
