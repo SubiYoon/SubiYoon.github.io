@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#HTTP완벽가이드",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -185,8 +185,9 @@
   },
   "active": "5cefab7582c0bcf3",
   "lastOpenFiles": [
-    "Network/HTTP/19. 다이제스트 인증.md",
+    "Jenkins/Jenkins init.md",
     "Network/HTTP/20. 보안 HTTP.md",
+    "Network/HTTP/19. 다이제스트 인증.md",
     "Untitled.canvas",
     "2024-03-27.md",
     "FrameWork/JPA/Basic/03. Entity 단위 CRUD처리.md",
@@ -216,7 +217,6 @@
     "Language/00-1 SOLID 원칙.md",
     "Language/JavaScript/Event LooP & Task Queue(Micro Task, Macro Task).md",
     "Language/JavaScript/JavaScript’s for in & for of.md",
-    "Language/JavaScript/Symbol.md",
     "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
     "Attached File/스크린샷 2024-01-02 오후 8.04.05.png",
     "Attached File/스크린샷 2024-01-02 오후 8.02.16.png",
