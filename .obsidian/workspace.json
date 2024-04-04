@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c9e464359e21ef7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03a73f6ad7718941",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/HTTP/20. 보안 HTTP.md",
+                "file": "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/HTTP/20. 보안 HTTP.md",
+                "file": "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/HTTP/20. 보안 HTTP.md"
+                "file": "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md"
               }
             }
           },
@@ -183,10 +208,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5cefab7582c0bcf3",
+  "active": "03a73f6ad7718941",
   "lastOpenFiles": [
-    "Jenkins/Jenkins init.md",
+    "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
+    "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
+    "OS/Ubuntu/22.04",
     "Network/HTTP/20. 보안 HTTP.md",
+    "OS/Ubuntu",
+    "OS",
+    "Jenkins/Jenkins init.md",
     "Network/HTTP/19. 다이제스트 인증.md",
     "Untitled.canvas",
     "2024-03-27.md",
@@ -215,8 +245,6 @@
     "FrameWork/Spring/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
     "Attached File/스크린샷 2024-01-13 오후 2.24.18.png",
     "Language/00-1 SOLID 원칙.md",
-    "Language/JavaScript/Event LooP & Task Queue(Micro Task, Macro Task).md",
-    "Language/JavaScript/JavaScript’s for in & for of.md",
     "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
     "Attached File/스크린샷 2024-01-02 오후 8.04.05.png",
     "Attached File/스크린샷 2024-01-02 오후 8.02.16.png",
@@ -228,8 +256,6 @@
     "Network/OSI 7Layout",
     "Network",
     "Context/spacesLastSync.log",
-    "Context",
-    "Attached File",
-    "OpenStack"
+    "Context"
   ]
 }
