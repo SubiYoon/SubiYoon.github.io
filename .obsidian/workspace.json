@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/VPN/WireGuard를 이용한 VPN사용.md",
+                "file": "Tool/SAMBA를 이용한 공유폴더 구축.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/VPN/WireGuard를 이용한 VPN사용.md",
+                "file": "Tool/SAMBA를 이용한 공유폴더 구축.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/VPN/WireGuard를 이용한 VPN사용.md",
+                "file": "Tool/SAMBA를 이용한 공유폴더 구축.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/VPN/WireGuard를 이용한 VPN사용.md"
+                "file": "Tool/SAMBA를 이용한 공유폴더 구축.md"
               }
             }
           },
@@ -174,19 +174,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "5cefab7582c0bcf3",
   "lastOpenFiles": [
-    "Network/HTTP/20. 보안 HTTP.md",
+    "Attached File/IMG_9991.heic",
     "Network/VPN/WireGuard를 이용한 VPN사용.md",
+    "Tool/SAMBA를 이용한 공유폴더 구축.md",
+    "Tool/SAMBA를 사용한 공유폴더 공유폴더 구축.md",
+    "Tool/무제 폴더",
+    "Network/HTTP/20. 보안 HTTP.md",
     "Network/VPN",
     "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
     "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
@@ -217,9 +221,6 @@
     "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
     "Attached File/스크린샷 2024-02-04 오후 10.23.48.png",
-    "FrameWork/Spring/Log.md",
-    "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
-    "FrameWork/Spring/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
     "Attached File/스크린샷 2024-01-13 오후 2.24.18.png",
     "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
     "Attached File/스크린샷 2024-01-02 오후 8.04.05.png",
@@ -230,7 +231,6 @@
     "Attached File/스크린샷 2023-12-24 오후 5.58.47.png",
     "Network/SSO(Single Sign-ON)",
     "Network/OSI 7Layout",
-    "Network",
-    "Context/spacesLastSync.log"
+    "Network"
   ]
 }
