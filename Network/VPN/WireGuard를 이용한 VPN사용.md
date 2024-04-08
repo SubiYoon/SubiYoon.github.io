@@ -106,3 +106,16 @@ sudo wg set wg0 peer ${CLIENT_PUBLIC_KEY} allowed-ips 10.0.0.2
 ```
 
 ### 끝!
+
+---
+# 참고사항
+* WireGuard 올리기
+	* 예시 Interface : wg0
+```bash
+sudo wg up wg0
+```
+* WireGuard 내리기
+	* 예시 Interface : wg0
+```bash
+sudo wg down wg0
+```
