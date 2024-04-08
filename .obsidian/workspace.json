@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "523d544de306e7f4",
+        "id": "ff340f31b5c2bf30",
         "type": "tabs",
         "children": [
           {
-            "id": "fb0bb43b1e119b0c",
+            "id": "5cefab7582c0bcf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#HTTP완벽가이드",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -174,27 +174,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb0bb43b1e119b0c",
+  "active": "5cefab7582c0bcf3",
   "lastOpenFiles": [
-    "Network/VPN",
+    "Network/HTTP/20. 보안 HTTP.md",
     "Network/VPN/WireGuard를 이용한 VPN사용.md",
+    "Network/VPN",
     "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
     "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
     "OS/Ubuntu/22.04",
     "OS/Ubuntu",
     "OS",
-    "Network/HTTP/20. 보안 HTTP.md",
     "Jenkins/Jenkins init.md",
-    "Jenkins/Jekins init.md",
     "Network/HTTP/19. 다이제스트 인증.md",
     "Untitled.canvas",
     "2024-03-27.md",
@@ -203,6 +202,7 @@
     "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
     "Network/HTTP/18. 기본 인증.md",
     "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
+    "Jenkins/Jekins init.md",
     "Language/Dart/0. Why Dart.md",
     "FrameWork/Flutter/0. Flutter.md",
     "DataBase/What is Index.md",
@@ -219,6 +219,7 @@
     "Attached File/스크린샷 2024-02-04 오후 10.23.48.png",
     "FrameWork/Spring/Log.md",
     "FrameWork/Spring/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
+    "FrameWork/Spring/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
     "Attached File/스크린샷 2024-01-13 오후 2.24.18.png",
     "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
     "Attached File/스크린샷 2024-01-02 오후 8.04.05.png",
@@ -230,7 +231,6 @@
     "Network/SSO(Single Sign-ON)",
     "Network/OSI 7Layout",
     "Network",
-    "Context/spacesLastSync.log",
-    "Context"
+    "Context/spacesLastSync.log"
   ]
 }
