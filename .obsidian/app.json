@@ -1,4 +1,6 @@
 {
   "vimMode": true,
-  "attachmentFolderPath": "Attached File"
+  "attachmentFolderPath": "Attached File",
+  "showLineNumber": true,
+  "strictLineBreaks": false
 }
