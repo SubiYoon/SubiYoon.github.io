@@ -1,7 +1,6 @@
 ---
 
 ---
-
 # MIME-Type / Content-Type
 
 # **MIME(**Multipurpose Internet Mail Extensions)**이란?**

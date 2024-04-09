@@ -1,3 +1,9 @@
+---
+tags:
+  - Language
+  - JavaScript
+---
+
 # Symbol
 
 # Symbol( )

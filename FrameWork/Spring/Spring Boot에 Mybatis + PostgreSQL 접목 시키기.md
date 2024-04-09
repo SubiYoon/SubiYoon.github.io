@@ -1,14 +1,16 @@
-안녕하세요.
-이번 게시글은 데이터 관리를 위해 Spring Boot에 Mybatis와 PostgreSQL을 접목 시키는 방법을 설명하겠습니다.
+---
+tags:
+  - FrameWork
+  - Spring
+---
 
-우선 환경은 다음과 같습니다.
 
-| 구분                  | 언어 / 라이브러리 |
+| 구분                    | 언어 / 라이브러리        |
 | --------------------- | ----------------- |
-| 언어                  | Java17            |
-| 프레임워크            | Spring Boot 3.2.1 |
+| 언어                    | Java17            |
+| 프레임워크                 | Spring Boot 3.2.1 |
 | Persistence Framework | Mybatis 3.0.3     |
-| 자동화 빌드 툴        | Maven             |
+| 자동화 빌드 툴              | Maven             |
 
 보통 Spring Boot의 데이터 흐름은 아래와 같습니다.<br>
 Spring Boot와 Spring의 용어 차이는 아래와 같으니 참고하시기 바랍니다.<br>

@@ -1,3 +1,10 @@
+---
+tags:
+  - Ubuntu
+  - Linux
+  - SAMBA
+---
+
 # 구성 요소
 * Ubuntu 22.04
 * sudo 권한이 있는 계정

@@ -1,3 +1,9 @@
+---
+tags:
+  - FrameWork
+  - Spring
+---
+
 # HandlerInterceptor, HandlerInterceptorAdapter
 애노테이션의 선언 없이 사용 하는 Spring에서의 **Class(HandlerInterceptorAdapter)** 와 **Interface(HandlerInterceptor)** 이다. 당연스럽게도 Class이므로 상속받아 사용하고, Interface이므로 구현해 사용해야 한다.
 차이점 이라면 PreHandle, PostHandle, afterCompletion 세가지 메서드를 모두 구현해 주여야하는 Interface와 선택해서 Override할 수 있는 Class의 차이라고 할 수 있다.

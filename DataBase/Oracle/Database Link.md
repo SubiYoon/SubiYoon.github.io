@@ -1,6 +1,7 @@
 ---
 tags:
   - Oracle
+  - DataBase
 ---
 
 - Oracle에서는 DB Link를 통해 다린 DB에서 데이터를 조회해 가져 올 수 있다.

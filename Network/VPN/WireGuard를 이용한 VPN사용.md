@@ -1,3 +1,10 @@
+---
+tags:
+  - VPN
+  - Ubuntu
+  - Network
+---
+
 # 필요 요소
 * Ubuntu 22.04 서버
 * 슈퍼 권한을 가지고 있는 계정

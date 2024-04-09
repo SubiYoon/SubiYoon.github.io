@@ -1,3 +1,9 @@
+---
+tags:
+  - Language
+  - JavaScript
+---
+
 # [변수 + “구분자”] = value
 <br>
 <br>

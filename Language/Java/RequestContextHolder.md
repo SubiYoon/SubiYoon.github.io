@@ -1,3 +1,9 @@
+---
+tags:
+  - Language
+  - Java
+---
+
 # RequestContextHolder
 
 RequestContextHolder는 Spring 컨텍스트에서 HttpServletRequest에 직접 접근 할 수 있도록 도와주는 역할을 한다. 활용 시 HttpServletRequest를 사용하기 위해 이를 메소드 파라미터로 연이어 넘겨받을 필요가 없다.

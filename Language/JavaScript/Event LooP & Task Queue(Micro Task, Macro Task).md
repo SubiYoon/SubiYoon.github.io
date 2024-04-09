@@ -1,3 +1,9 @@
+---
+tags:
+  - Language
+  - JavaScript
+---
+
 # Event Roof & Task Queue(Micro Task, Macro Task)
 
 JS는 싱글 스레드 기반의 언어이고, JS 엔진은 하나의 호출 스택만을 사용한다.

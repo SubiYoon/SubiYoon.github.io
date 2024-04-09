@@ -1,3 +1,9 @@
+---
+tags:
+  - Language
+  - Java
+---
+
 # Thread / Runnable
 
 # Thread

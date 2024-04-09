@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
+                "file": "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#HTTP완벽가이드",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
+                "file": "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
+                "file": "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md"
+                "file": "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md"
               }
             }
           },
@@ -166,11 +166,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 443.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,39 +185,41 @@
   },
   "active": "5cefab7582c0bcf3",
   "lastOpenFiles": [
-    "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
-    "OS/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
-    "Attached File/IMG_9991.heic",
+    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
+    "Network/JWT(JSON Web Token).md",
+    "Network/MTU vs MSS.md",
+    "OpenStack/00. Error.md",
+    "OpenStack/01. What is cloud computing.md",
+    "OpenStack/02. What is OpenStack.md",
+    "OpenStack/03. OpenStack의 DashBoard 구성.md",
+    "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
+    "Tool/Maven/Maven.md",
+    "Tool/Git/gitignore를 통한 application.properties 보안강화.md",
+    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
+    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
     "Network/VPN/WireGuard를 이용한 VPN사용.md",
-    "Tool/SAMBA를 사용한 공유폴더 공유폴더 구축.md",
-    "Tool/무제 폴더",
+    "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
+    "Network/HTTP/README.md",
     "Network/HTTP/20. 보안 HTTP.md",
-    "Network/VPN",
-    "OS/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
-    "OS/Ubuntu/22.04",
-    "OS/Ubuntu",
-    "OS",
-    "Jenkins/Jenkins init.md",
     "Network/HTTP/19. 다이제스트 인증.md",
-    "Untitled.canvas",
-    "2024-03-27.md",
-    "FrameWork/JPA/Basic/03. Entity 단위 CRUD처리.md",
-    "FrameWork/MarkDown/HowToUse.md",
-    "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
     "Network/HTTP/18. 기본 인증.md",
     "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
-    "Jenkins/Jekins init.md",
-    "Language/Dart/0. Why Dart.md",
-    "FrameWork/Flutter/0. Flutter.md",
-    "DataBase/What is Index.md",
-    "Network/HTTP/06. URL EscapeString&TypeOfSchme&PURL.md",
+    "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
+    "Network/HTTP/15. Web Robot.md",
+    "Network/HTTP/13. Cache.md",
+    "Network/HTTP/12. Proxy.md",
+    "Network/HTTP/11. 웹 서버.md",
+    "Network/HTTP/10. Connection close ← mystry.md",
+    "Network/HTTP/09 HTTP Connection Management.md",
+    "OS/Linux",
+    "Attached File/IMG_9991.heic",
+    "Tool/무제 폴더",
+    "Network/VPN",
+    "OS/Linux/Ubuntu/22.04",
+    "OS/Linux/Ubuntu",
+    "OS",
+    "Untitled.canvas",
     "Jenkins",
-    "Network/HTTP/05. HTTP2.0.md",
-    "Network/HTTP/04. HTTP1.1.md",
-    "Network/HTTP/03. HTTP의 역사.md",
-    "Network/HTTP/02. 비연결성 & StateLessProtocol.md",
-    "Network/HTTP/01. 클라이언트 - 서버 구조.md",
-    "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
     "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
     "Attached File/스크린샷 2024-02-04 오후 10.23.48.png",
@@ -229,7 +231,6 @@
     "Attached File/스크린샷 2024-01-02 오후 7.59.09.png",
     "Tool/Git",
     "Attached File/스크린샷 2023-12-24 오후 5.58.47.png",
-    "Network/SSO(Single Sign-ON)",
-    "Network/OSI 7Layout"
+    "Network/SSO(Single Sign-ON)"
   ]
 }

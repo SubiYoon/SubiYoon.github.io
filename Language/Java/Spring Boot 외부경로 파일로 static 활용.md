@@ -1,3 +1,9 @@
+---
+tags:
+  - Language
+  - Java
+---
+
 # Spring Boot 외부경로 파일로 static 활용
 
 **외부 이미지 경로 사용**

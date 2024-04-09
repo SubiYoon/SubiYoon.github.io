@@ -1,6 +1,7 @@
 ---
 tags:
   - HTTP완벽가이드
+  - Network
 ---
 
 # 9. HTTP Connection Management

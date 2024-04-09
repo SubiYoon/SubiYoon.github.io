@@ -1,3 +1,9 @@
+---
+tags:
+  - FrameWork
+  - ThymeLeaf
+---
+
 # Fragment를 이용한 insert와 replace
 
 - 템플릿을 생성하여 생성한 템플릿을 insert하거나 replace하여 사용하는 방식

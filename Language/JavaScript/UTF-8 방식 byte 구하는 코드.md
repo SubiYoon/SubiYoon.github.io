@@ -1,3 +1,9 @@
+---
+tags:
+  - Language
+  - JavaScript
+---
+
 # 한글 3byte
 ```js
 const getByteLengthOfString = function(s,b,i,c) {

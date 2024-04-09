@@ -1,3 +1,9 @@
+---
+tags:
+  - Language
+  - JavaScript
+---
+
 # JavaScript’s for in & for of
 
 # JavaScript의 반복문
