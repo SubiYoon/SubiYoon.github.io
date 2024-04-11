@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
+                "file": "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vue",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
+                "file": "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
+                "file": "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md"
+                "file": "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md"
               }
             }
           },
@@ -184,9 +183,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "04ab4991bd36c242",
+  "active": "5cefab7582c0bcf3",
   "lastOpenFiles": [
+    "Attached File/Pasted image 20240411124436.png",
+    "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
     "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
+    "DataBase/PostgreSQL",
     "FrameWork/kubernetes/Untitled.md",
     "FrameWork/kubernetes",
     "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
@@ -211,8 +213,6 @@
     "Network/HTTP/15. Web Robot.md",
     "Network/HTTP/13. Cache.md",
     "Network/HTTP/12. Proxy.md",
-    "Network/HTTP/11. 웹 서버.md",
-    "Network/HTTP/10. Connection close ← mystry.md",
     "OS/Linux",
     "Attached File/IMG_9991.heic",
     "Tool/무제 폴더",
@@ -230,8 +230,6 @@
     "Attached File/스크린샷 2024-01-02 오후 8.04.05.png",
     "Attached File/스크린샷 2024-01-02 오후 8.02.16.png",
     "Attached File/스크린샷 2024-01-02 오후 8.00.08.png",
-    "Attached File/스크린샷 2024-01-02 오후 7.59.09.png",
-    "Tool/Git",
-    "Attached File/스크린샷 2023-12-24 오후 5.58.47.png"
+    "Attached File/스크린샷 2024-01-02 오후 7.59.09.png"
   ]
 }
