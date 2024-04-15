@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a96e7a988b2bab92",
+            "id": "d4d347aa527423e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d4d347aa527423e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md"
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md"
               }
             }
           },
@@ -198,8 +185,8 @@
   },
   "active": "d4d347aa527423e5",
   "lastOpenFiles": [
-    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
+    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "Network/HTTP/11. 웹 서버.md",
     "Network/HTTP/07. StartRow&StatusCode.md",
     "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
