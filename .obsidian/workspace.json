@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ff340f31b5c2bf30",
+        "id": "8de5894456dc7d4d",
         "type": "tabs",
         "children": [
           {
-            "id": "5cefab7582c0bcf3",
+            "id": "a96e7a988b2bab92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
+                "file": "Network/HTTP/20. 보안 HTTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
+                "file": "Network/HTTP/20. 보안 HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
+                "file": "Network/HTTP/20. 보안 HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md"
+                "file": "Network/HTTP/20. 보안 HTTP.md"
               }
             }
           },
@@ -183,10 +183,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5cefab7582c0bcf3",
+  "active": "a96e7a988b2bab92",
   "lastOpenFiles": [
-    "Attached File/Pasted image 20240411124436.png",
     "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
+    "Attached File/Pasted image 20240411124436.png",
     "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
     "DataBase/PostgreSQL",
     "FrameWork/kubernetes/Untitled.md",
