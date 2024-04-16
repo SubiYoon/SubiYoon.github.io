@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md"
+                "file": "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md"
               }
             }
           },
@@ -185,19 +185,22 @@
   },
   "active": "d4d347aa527423e5",
   "lastOpenFiles": [
-    "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
+    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
+    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
+    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
+    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
+    "Network/HTTP/20. 보안 HTTP.md",
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+    "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "Network/HTTP/11. 웹 서버.md",
     "Network/HTTP/07. StartRow&StatusCode.md",
     "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
-    "Network/HTTP/20. 보안 HTTP.md",
     "FrameWork/kubernetes/Kubernetes 환경 구성하기",
     "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
     "Attached File/Pasted image 20240411124436.png",
     "DataBase/PostgreSQL",
     "FrameWork/kubernetes/Untitled.md",
     "FrameWork/Kubernetes",
-    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
     "Network/JWT(JSON Web Token).md",
     "Network/MTU vs MSS.md",
     "OpenStack/00. Error.md",
@@ -206,15 +209,12 @@
     "OpenStack/03. OpenStack의 DashBoard 구성.md",
     "Tool/Maven/Maven.md",
     "Tool/Git/gitignore를 통한 application.properties 보안강화.md",
-    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
-    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
     "Network/VPN/WireGuard를 이용한 VPN사용.md",
     "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
     "Network/HTTP/README.md",
     "Network/HTTP/19. 다이제스트 인증.md",
     "Network/HTTP/18. 기본 인증.md",
     "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
-    "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
     "OS/Linux",
     "Attached File/IMG_9991.heic",
     "Tool/무제 폴더",
