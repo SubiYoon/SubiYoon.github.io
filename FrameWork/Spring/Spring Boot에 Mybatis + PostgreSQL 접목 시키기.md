@@ -46,9 +46,6 @@ Spring Boot와 Spring의 용어 차이는 아래와 같으니 참고하시기 �
 
 ### application.properties
 ```properties
-# log4jdbc를 사용하여 SQL로그를 남길 경우 url
-spring.datasource.url=jdbc:log4jdbc:postgresql://localhost:5432/${DBname}?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
-# 일반적인 경우 url
 spring.datasource.url=jdbc:postgresql://localhost:5432/${DBname}?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
 spring.datasource.username=${userId}
 spring.datasource.password=${userPassword}  
@@ -61,4 +58,28 @@ mybatis.type-aliases-package=com.database.link.**.vo
 
 # Mybatis에서 mapper파일(.xml)의 위치를 집기위한 설정
 mybatis.mapper-locations=classpath:/mapper/**/*.xml
+```
+
+---
+# 번외... log4j2를 이용한 SQL을 로그로 남길시 properties 파일 설정
+### application.properties
+```properties
+spring.datasource.url=jdbc:log4jdbc:postgresql://localhost:5432/${DBname}?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+spring.datasource.username=${userId}
+spring.datasource.password=${userPassword}  
+
+# 데이터를 반환 받을때 snake case를 camel case로 변환여부
+mybatis.configuration.map-underscore-to-camel-case=true  
+
+# Mybatis에서 resultType에 vo의 full path를 입력하지 않고 vo명만 명시해도 데이터 받아올 수 있음
+mybatis.type-aliases-package=com.database.link.**.vo
+
+# Mybatis에서 mapper파일(.xml)의 위치를 집기위한 설정
+mybatis.mapper-locations=classpath:/mapper/**/*.xml
+```
+
+### log4jdbc.log4j2.properties
+```properties
+log4jdbc.spylogdelegator.name=net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+log4jdbc.dump.sql.maxlinelength=0
 ```
