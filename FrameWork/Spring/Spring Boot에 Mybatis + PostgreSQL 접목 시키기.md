@@ -46,7 +46,10 @@ Spring Boot와 Spring의 용어 차이는 아래와 같으니 참고하시기 �
 
 ### application.properties
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/${DBname}
+# log4jdbc를 사용하여 SQL로그를 남길 경우 url
+spring.datasource.url=jdbc:log4jdbc:postgresql://localhost:5432/${DBname}?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+# 일반적인 경우 url
+spring.datasource.url=jdbc:postgresql://localhost:5432/${DBname}?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
 spring.datasource.username=${userId}
 spring.datasource.password=${userPassword}  
 
