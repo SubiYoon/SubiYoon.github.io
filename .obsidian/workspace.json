@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
+                "file": "Network/HTTP/20. 보안 HTTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
+                "file": "Network/HTTP/20. 보안 HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
+                "file": "Network/HTTP/20. 보안 HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md"
+                "file": "Network/HTTP/20. 보안 HTTP.md"
               }
             }
           },
@@ -185,11 +185,16 @@
   },
   "active": "d4d347aa527423e5",
   "lastOpenFiles": [
+    "Attached File/SSL핸드 셰이크.png",
+    "Attached File/SSL핸드 셰이크.png.crdownload",
+    "Attached File/보안 전송 셋업.png",
+    "Network/HTTP/20. 보안 HTTP.md",
+    "보안 정송 셋업.png",
+    "Network/HTTP/04. HTTP1.1.md",
+    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
     "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
     "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
-    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
     "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
-    "Network/HTTP/20. 보안 HTTP.md",
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "Network/HTTP/11. 웹 서버.md",
@@ -213,15 +218,12 @@
     "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
     "Network/HTTP/README.md",
     "Network/HTTP/19. 다이제스트 인증.md",
-    "Network/HTTP/18. 기본 인증.md",
-    "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
     "OS/Linux",
     "Attached File/IMG_9991.heic",
     "Tool/무제 폴더",
     "Network/VPN",
     "OS/Linux/Ubuntu/22.04",
     "OS/Linux/Ubuntu",
-    "OS",
     "Untitled.canvas",
     "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
@@ -229,8 +231,6 @@
     "Attached File/스크린샷 2024-01-13 오후 2.24.18.png",
     "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
     "Attached File/스크린샷 2024-01-02 오후 8.04.05.png",
-    "Attached File/스크린샷 2024-01-02 오후 8.02.16.png",
-    "Attached File/스크린샷 2024-01-02 오후 8.00.08.png",
-    "Attached File/스크린샷 2024-01-02 오후 7.59.09.png"
+    "Attached File/스크린샷 2024-01-02 오후 8.02.16.png"
   ]
 }
