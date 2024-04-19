@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Linux/Ubuntu/22.04/Utuntu 22.04 CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
+                "file": "OS/Linux/Linux에서 부팅시 시스템 자동 실행하는 방법(feat. tomcat).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Linux/Ubuntu/22.04/Utuntu 22.04 CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
+                "file": "OS/Linux/Linux에서 부팅시 시스템 자동 실행하는 방법(feat. tomcat).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Linux/Ubuntu/22.04/Utuntu 22.04 CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
+                "file": "OS/Linux/Linux에서 부팅시 시스템 자동 실행하는 방법(feat. tomcat).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Linux/Ubuntu/22.04/Utuntu 22.04 CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md"
+                "file": "OS/Linux/Linux에서 부팅시 시스템 자동 실행하는 방법(feat. tomcat).md"
               }
             }
           },
@@ -185,8 +185,10 @@
   },
   "active": "d4d347aa527423e5",
   "lastOpenFiles": [
-    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
+    "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
+    "OS/Linux/Linux에서 부팅시 시스템 자동 실행하는 방법(feat. tomcat).md",
     "OS/Linux/Ubuntu/22.04/Utuntu 22.04 CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
+    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
     "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
     "Network/HTTP/20. 보안 HTTP.md",
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
@@ -200,7 +202,6 @@
     "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "Network/HTTP/11. 웹 서버.md",
     "Network/HTTP/07. StartRow&StatusCode.md",
-    "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
     "FrameWork/kubernetes/Kubernetes 환경 구성하기",
     "DataBase/PostgreSQL/PostgreSQL 비밀번호 없이 진입되는 문제 해결하기!!.md",
     "Attached File/Pasted image 20240411124436.png",
@@ -218,7 +219,6 @@
     "Network/VPN/WireGuard를 이용한 VPN사용.md",
     "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
     "Network/HTTP/README.md",
-    "Network/HTTP/19. 다이제스트 인증.md",
     "OS/Linux",
     "Attached File/IMG_9991.heic",
     "Tool/무제 폴더",
