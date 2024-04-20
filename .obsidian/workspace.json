@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
+                "file": "Network/HTTP/08. TCP&IP.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
+                "file": "Network/HTTP/08. TCP&IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
+                "file": "Network/HTTP/08. TCP&IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md"
+                "file": "Network/HTTP/08. TCP&IP.md"
               }
             }
           },
@@ -185,8 +185,8 @@
   },
   "active": "d4d347aa527423e5",
   "lastOpenFiles": [
-    "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
     "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
+    "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
     "OS/Linux/Ubuntu/22.04/Utuntu 22.04 CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
     "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
     "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
