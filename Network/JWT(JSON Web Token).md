@@ -132,7 +132,7 @@ const payload = {
 ```
 
 위에서 만든 **Header**와 **payload**를 64진수로 변환한다.
-빈값을 뜻하는 `=`를 제거해 준다.
+빈값을 뜻하는 '='를 제거해 준다.
 
 ```JavaScript
 const encodingHeader = Buffer.from(JSON.stringify(header))

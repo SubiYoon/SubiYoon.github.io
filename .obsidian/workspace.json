@@ -185,8 +185,9 @@
   },
   "active": "d4d347aa527423e5",
   "lastOpenFiles": [
-    "Network/HTTP/README.md",
+    "Network/JWT(JSON Web Token).md",
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+    "Network/HTTP/README.md",
     "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "Network/HTTP/08. TCP&IP.md",
     "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
@@ -210,7 +211,6 @@
     "DataBase/PostgreSQL",
     "FrameWork/kubernetes/Untitled.md",
     "FrameWork/Kubernetes",
-    "Network/JWT(JSON Web Token).md",
     "Network/MTU vs MSS.md",
     "OpenStack/00. Error.md",
     "OpenStack/01. What is cloud computing.md",
