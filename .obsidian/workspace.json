@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ca87ed07f1a9b72d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:SpringSecurity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md"
+                "file": "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md"
               }
             }
           },
@@ -183,8 +197,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d4d347aa527423e5",
+  "active": "04ab4991bd36c242",
   "lastOpenFiles": [
+    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+    "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
     "Network/HTTP/08. TCP&IP.md",
     "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
     "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
@@ -192,7 +208,6 @@
     "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
     "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
     "Network/HTTP/20. 보안 HTTP.md",
-    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "Attached File/SSL핸드 셰이크.png",
     "Attached File/SSL핸드 셰이크.png.crdownload",
     "Attached File/보안 전송 셋업.png",
@@ -218,7 +233,6 @@
     "Tool/Maven/Maven.md",
     "Tool/Git/gitignore를 통한 application.properties 보안강화.md",
     "Network/VPN/WireGuard를 이용한 VPN사용.md",
-    "Network/SSO(Single Sign-ON)/SSO 환경구축.md",
     "OS/Linux",
     "Attached File/IMG_9991.heic",
     "Tool/무제 폴더",
