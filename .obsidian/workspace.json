@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
+                "file": "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:SpringSecurity",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
+                "file": "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
+                "file": "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md"
+                "file": "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md"
               }
             }
           },
@@ -188,33 +187,33 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "04ab4991bd36c242",
+  "active": "ca87ed07f1a9b72d",
   "lastOpenFiles": [
+    "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
+    "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
+    "OS/Linux/Ubuntu/Ubuntu CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
+    "OS/Linux/Ubuntu/Ubuntu 가장 기본이되는 설치 및 환경 셋팅.md",
+    "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
     "Network/HTTP/08. TCP&IP.md",
     "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
     "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
-    "OS/Linux/Ubuntu/22.04/Utuntu 22.04 CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
-    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 SAMBA를 이용한 공유폴더 구축.md",
-    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 Nginx 설치.md",
     "Network/HTTP/20. 보안 HTTP.md",
     "Attached File/SSL핸드 셰이크.png",
     "Attached File/SSL핸드 셰이크.png.crdownload",
     "Attached File/보안 전송 셋업.png",
     "보안 정송 셋업.png",
     "Network/HTTP/04. HTTP1.1.md",
-    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 사용자 이름 변경하기.md",
-    "OS/Linux/Ubuntu/22.04/Ubuntu 22.04 LTS 가장 기본이되는 설치 및 환경 셋팅.md",
     "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "Network/HTTP/11. 웹 서버.md",
     "Network/HTTP/07. StartRow&StatusCode.md",
