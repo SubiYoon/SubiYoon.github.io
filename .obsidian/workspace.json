@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md"
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md"
               }
             }
           },
@@ -198,8 +198,8 @@
   },
   "active": "ca87ed07f1a9b72d",
   "lastOpenFiles": [
-    "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
     "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
+    "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
     "OS/Linux/Ubuntu/Ubuntu CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
     "OS/Linux/Ubuntu/Ubuntu 가장 기본이되는 설치 및 환경 셋팅.md",
     "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
