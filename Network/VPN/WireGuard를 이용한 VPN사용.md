@@ -45,7 +45,7 @@ sudo vi /etc/wireguard/wg0.conf
 [Interface]
 Address = 10.0.0.1/24
 SaveConfig = true
-ListenPort = 5182
+ListenPort = 51820
 PrivateKey = ${SERVER_PRIVATE_KEY}
 PostUp = iptables -A FORWARD -i %i -j ACCEPT; iptables -t nat -A POSTROUTING -o ${NETWORK_INTERFACE_NAME} -j MASQUERADE
 PostDown = iptables -D FORWARD -i %i -j ACCEPT; iptables -t nat -D POSTROUTING -o ${NETWORK_INTERFACE_NAME} -j MASQUERADE
