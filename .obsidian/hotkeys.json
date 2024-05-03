@@ -1,1 +1,10 @@
-{}
+{
+  "editor:open-search": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ]
+}
