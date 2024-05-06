@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "FrameWork/MyBatis/MyBatis의 <foreach>를 이용한 동적쿼리 처리.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "FrameWork/MyBatis/MyBatis의 <foreach>를 이용한 동적쿼리 처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "FrameWork/MyBatis/MyBatis의 <foreach>를 이용한 동적쿼리 처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "FrameWork/MyBatis/MyBatis의 <foreach>를 이용한 동적쿼리 처리.md"
+              }
             }
           },
           {
@@ -179,9 +183,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c36da723bd2a67aa",
+  "active": "d4d347aa527423e5",
   "lastOpenFiles": [
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+    "FrameWork/MyBatis/MyBatis의 <foreach>를 이용한 동적쿼리 처리.md",
+    "FrameWork/MyBatis",
     "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
     "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
     "OS/Linux/Ubuntu/Ubuntu CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
@@ -213,14 +219,11 @@
     "OpenStack/02. What is OpenStack.md",
     "OpenStack/03. OpenStack의 DashBoard 구성.md",
     "Tool/Maven/Maven.md",
-    "Tool/Git/gitignore를 통한 application.properties 보안강화.md",
-    "Network/VPN/WireGuard를 이용한 VPN사용.md",
     "OS/Linux",
     "Attached File/IMG_9991.heic",
     "Tool/무제 폴더",
     "Network/VPN",
     "OS/Linux/Ubuntu/22.04",
-    "OS/Linux/Ubuntu",
     "Untitled.canvas",
     "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
