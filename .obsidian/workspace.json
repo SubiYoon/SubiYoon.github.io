@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md",
-                "mode": "source",
+                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md",
+                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md",
+                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md"
+                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md"
               }
             }
           },
@@ -185,9 +185,10 @@
   },
   "active": "67422a03fc483b61",
   "lastOpenFiles": [
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
     "FrameWork/Spring,SpringBoot/00. Spring Core.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Primary.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation",
@@ -221,7 +222,6 @@
     "DataBase/PostgreSQL",
     "FrameWork/kubernetes/Untitled.md",
     "FrameWork/Kubernetes",
-    "Network/JWT(JSON Web Token).md",
     "OS/Linux",
     "Attached File/IMG_9991.heic",
     "Tool/무제 폴더",
