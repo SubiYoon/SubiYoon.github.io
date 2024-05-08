@@ -1,99 +1,9 @@
 ---
 tags:
   - Spring
-  - SpringBoot
   - Core
+  - Annotation
 ---
-# 필수개념
-### POJO(Plain Old Java Object)??
-POJO란 직역하자면 순수한 오래도니 자바 객체입니다.
-Java로 생성하는 순수한 객체를 의미합니다.
-객체지향 원리에 충실하면서 환경 및 기술에 종속되지 않고, 필요에 따라 재활용할 수 있다는 것이 가장 큰 특징입니다.
-
-# Annotation
-
-### @Configuration, @Bean
-@Configuration을 선언하면 해당 Class는 구성 Class임을 알리게 된느데요.
-Spring은 @Configuration이 달린 구성 Class에서 @Bean을 붙인 자바 메서드를 찾게 되는데, 해당 메서드와 동일한 이름의 Bean이 생성되 됩니다.
-이름을 따로 명시하려면 @Bean(name="${name})을 붙이는 방법도 존재하니 특정 이름으로 생성하고 싶을 때에는 이 방법을 사용하면 됩니다.
-
-```java title:"@Configuration 예시"
-@Configuration
-public class SequenceGeneratorConfiguration {
-	@Bean
-	public SequenceGenerator sequenceGenerator() {
-		SequenceGenerator seqgen = new SequenceGenerator();
-		
-		...
-
-		return seqgen;
-	}
-
-	@Bean(name="seqGen")
-	public SequenceGenerator sequenceGenerator() {
-		SequenceGenerator seqgen2 = new SequenceGenerator();
-		
-		...
-
-		return seqgen2;
-	}
-}
-```
-
-ApplicationContext 객체를 통해서 생성한 Bean을 가져올 수 있는데요.
-ApplicationContext는 `@Bean`이 붙어있는 메서드의 Class정보를 담고 있다고 생각하면 쉽습니다. 다음 예시로 한번 알아가 보겠습니다.
-
-```java
-ApplicationContext context = new AnnotationConfigApplicationContext(SequenceGeneratorConfiguration.class);
-```
-
-위의 예시는 `ApplicationContext`객체인 `context`에 `SequenceGeneratorConfiguration`Class 정보를 가져온 것입니다. 이제 우리는 `SequenceGeneratorConfiguration` Class에서 `@Bean`으로 명시된 녀석들을 가져오는 방법을 알아 보겠습니다.
-* getBean()의 반환형은 Object입니다. 따라서 캐스팅을 해주어 사용하는 방법입니다.
-```java
-SequenceGeneratorConfiguration generator = (SequenceGenerator) context.getBean("sequenceGenerator");
-```
-* 두번째 parameter에 Class명을 지정해주는 방법입니다.
-```java
-SequenceGeneratorConfiguration generator = context.getBean("sequenceGenerator", SequenceGenerator.class);
-```
-
-### @Component
-`@Bean` Annotation을 사용하지 않고, 각 Class에 선언하여 Bean을 생성하는 방법입니다.
-즉, 이 방법은 `@Configuration`을 선언하여 구성 Class가 아닌 녀석들의 Bean을 생성하는 방법입니다. `@Repository`, `@Service`, `@Controller`  등 POJO의 쓰임새가 명확하지 않을 때  사용하는 방법입니다.
-`@Component("sequenceDao")`에서 "sequenceDao"는 인스턴스 ID로 설정되며, 값이 없으면 소문자로 시작하는 비규격 Class명을 빈 이름으로 기본할당합니다. 예를 들어보겠습니다.
-* `@Component("sequenceDao")`의 경우 Bean 이름 : sequenceDao
-* `@Component`의 경우 Bean 이름 : sequenceDaoImpl
-
-```java title:"@Component 예시"
-@Component("sequenceDao")
-public class SequenceDaoImpl implements SequenceDao {
-	...
-}
-```
-
-Spring은 `@Configuration`, `@Bean`, `@Repository`, `@Service`, `@Controller`가 달린 클래스를 모두 감지하게 됩니다. 이때 우리는 하나 이상의 포함/제외 필터를 적용해 스캐닝 과정을 커스터마이징 할 수 있습니다. 종류는 다음과 같습니다.
-* Annotation : 애너테이션
-* Assignable : Class / Interface
-* Regex : 정규식
-* AspectJ : 포인트컷 표현식
-* Custom : 직접 필터식을 구현하여 사용 할 경우
-* 
-```java title:"@ComponentScan 예시"
-@ComponentScan(
-	inCludeFilters = {
-		@ComponentScan.Filter(
-			type = FilterType.REGEX,
-			pattern = {"com.apress.springrecipes.sequence.*Dao",
-					   "com.apress.springrecipes.sequence.*Service"})
-	},
-	exCludeFilters = {
-		@ComponentScan.Filter(
-			type = FilterType.ANNOTATION,
-			pattern = {"org.springframework.stereotype.Controller.class"})
-	}
-)
-```
-
 ### @Autowired
 `@Autowired`는 Bean Factory에 저장되어 있는 인스턴스를 전부 검색한 후에 자동으로 연결시켜주는 기능을 합니다. 위에 `@Component`를 설명하면서 작성한 Class를 우리는 `@Component`를 선언해 줌으로써 Bean 생성을 하였습니다. 그렇게 생성된 인스턴스를 연결시켜준다고 생각하면 됩니다. 맞는 비유일지는 모르겠으나, 바인딩이 된다고 생각하면 좀 더 이해가 쉬울 것입니다.
 위에서 우리가 선언한 `SequenceDaoImpl`Class를 예로 들어 보겠습니다.
@@ -149,19 +59,6 @@ public class SequenceService {
 		this.sequenceDao = sequenceDao
 	}
 	
-}
-```
-
-### @Primary
-Spring에서 `@Primary`를 붙여 자동연결시 우선순위를 부여해줄 수 있습니다.
-만약 PrefixGenerator 인터페이스 구현체인 DataPrefixGenerator 클래스에 `@Primary`를 붙여놓았으면 PrefixGenerator 형의 인스턴스가 다수 존재하더라도 `@Primary`를 붙인 Class의 Bean이 우선적으로 연결됩니다.
-
-```java title:"@Primary 예시"
-@Componet
-@Primary
-public class DataPrefixGenerator implements PrefixGenerator {
-
-	...
 }
 ```
 
@@ -284,7 +181,8 @@ public class SequenceConfiguration {
 @Target({ElementType.Type, ElementType.FIELD, ElementType.PARAMETER})
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-public @interface DatePreFixAnnotation {
+public @interface DatePrefixAnnotation {
+	String value() default "Custom Annotation!!";
 }
 
 // 주입
@@ -292,4 +190,11 @@ public @interface DatePreFixAnnotation {
 public class DataPrefixGenerator implements PrefixGenerator {
 	...
 }
+
+// Annotation 변수 사용
+DatePrefixAnnotation annotation = DataPrefixGenerator.class.getAnnotation(datePreFixAnnotation.class);
+
+System.out.print(annotation.value()); // Custom Annotation!!
 ```
+
+`@Autowired`, `@Resource`, `@Inject`는 타입을 기준으로하면 아무거나 사용해도 무관하고, 이름을 기준으로 하면 아무래도 `@Resource`가 구문이 가장 단순합니다.
