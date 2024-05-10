@@ -2,8 +2,8 @@
   "calendar",
   "file-explorer-note-count",
   "obsidian-vimrc-support",
-  "execute-code",
   "dataview",
   "table-editor-obsidian",
-  "code-styler"
+  "code-styler",
+  "execute-code"
 ]
