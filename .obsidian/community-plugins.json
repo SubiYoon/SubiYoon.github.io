@@ -5,5 +5,7 @@
   "dataview",
   "table-editor-obsidian",
   "code-styler",
-  "execute-code"
+  "execute-code",
+  "obsidian-minimal-settings",
+  "obsidian-style-settings"
 ]

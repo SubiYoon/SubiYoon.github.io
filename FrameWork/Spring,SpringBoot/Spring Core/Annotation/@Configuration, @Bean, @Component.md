@@ -3,11 +3,12 @@ tags:
   - Spring
   - Core
   - Annotation
+Reference link: "[[@PostConstrcut, @PreDestory]]"
 ---
 ### @Configuration, @Bean
 @Configuration을 선언하면 해당 Class는 구성 Class임을 알리게 된느데요.
-Spring은 @Configuration이 달린 구성 Class에서 @Bean을 붙인 자바 메서드를 찾게 되는데, 해당 메서드와 동일한 이름의 Bean이 생성되 됩니다.
-이름을 따로 명시하려면 @Bean(name="${name})을 붙이는 방법도 존재하니 특정 이름으로 생성하고 싶을 때에는 이 방법을 사용하면 됩니다.
+Spring은 @Configuration이 달린 구성 Class에서 @Bean을 붙인 자바 메서드를 찾게 되는데, 해당 메서드와 동일한 이름의 Bean이 생성됩니다.
+이름을 따로 명시하려면 `@Bean(name="${name}")`을 붙이는 방법도 존재하니 특정 이름으로 생성하고 싶을 때에는 이 방법을 사용하면 됩니다.
 
 ```java title:"@Configuration 예시"
 @Configuration
@@ -28,6 +29,68 @@ public class SequenceGeneratorConfiguration {
 		...
 
 		return seqgen2;
+	}
+}
+```
+
+또한 `@Bean(initMethod="${methodName}" destoryMethod="${methodName}"`을 통해 인스턴스를 생성하기 전에 실행할 함수와 빈을 폐기할 때 실행할 메서드를 설정할 수 있습니다.
+
+```java title:"Cashier.java"
+public Class Cashier {
+
+	private String fileName;
+	private String path;
+	private BufferedWriter writer;
+
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
+	}
+
+	public void setPath(String path) {
+		this.path = path;
+	}
+
+	public void openFile() throws IOException {
+		File targetDir = new File(path);
+
+		if(!targetDir.exists()) {
+			targetDir.mkdir();
+		}
+
+		File checkoutFile = new File(path, fileName + ".txt");
+
+		if(!checkoutFile.exists()) {
+			checkoutFile.createNewFile();
+		}
+
+		writer = new BufferedWriter(new OutputStreamWiter(new FileOutputStream(checkoutFile, true)));
+	}
+
+	public void checkout(ShoppingCart cart) throws IOEception {
+		writer.write(new Date() + "\t" + cart.getItems() + "\r\n");
+		writer.flush();
+	}
+
+	public void closeFile() throws IOEception {
+		writer.close();
+	}
+}
+```
+
+위에 `Cashier.java`파일을 예시로 아래를 살펴보겠습니다.
+`@Bean`으로 인해 Cashier인스턴스가 생성되기 이전에 `initMethod`로 인해 openFile() 메서드를 실행시키면서 대상 디렉터리와 파일이 있는지 확인한 후 해당 경로에 있는 파일을 열어 writer 필드에 할당합니다. 이 후 checkout() 메서드를 호출할 때마다 이 텍스트 파일에 내용을 덧붙입니다. 기록을 마치면 `destoryMethod`로 인해 closeFile() 메서드를 실행해 파일을 닫고 시스템 리소스를 반납하게 됩니다.
+
+```java title:"ShopConfiguration.java"
+@Configuration
+public class ShopConfiguration {
+
+	@Bean(initMethod = "openFile", dstroyMethod = "closeFile")
+	public Cashier cashier() {
+		String path = System.getProperty("java.io.tmpdir") + "/cashier";
+		Cashier c1 = new Cashier();
+		c1.setFileName("checkout");
+		c1.setPath(path);
+		return c1;
 	}
 }
 ```

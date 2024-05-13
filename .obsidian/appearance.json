@@ -1,5 +1,7 @@
 {
   "accentColor": "",
-  "cssTheme": "Things",
-  "translucency": false
+  "cssTheme": "Minimal",
+  "translucency": false,
+  "enabledCssSnippets": [],
+  "nativeMenus": false
 }

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8de5894456dc7d4d",
+        "id": "a9da7f10de8df7b3",
         "type": "tabs",
         "children": [
           {
-            "id": "67422a03fc483b61",
+            "id": "ce6525c5b8562d7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
-                "mode": "preview",
+                "file": "FrameWork/Spring,SpringBoot/Spring Core/Object/BeanPostProcessor.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -31,6 +31,22 @@
       {
         "id": "80de736134531bd3",
         "type": "tabs",
+        "dimension": 25.320056899004268,
+        "children": [
+          {
+            "id": "bfc9bdd7a2f62155",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "348987b600e22615",
+        "type": "tabs",
+        "dimension": 74.67994310099573,
         "children": [
           {
             "id": "c36da723bd2a67aa",
@@ -40,37 +56,6 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "04ab4991bd36c242",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "b42c50056b6a2c3d",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "d4b6f40786936aaf",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
             }
           }
         ]
@@ -88,31 +73,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ce6c2a0408b58be",
+            "id": "04ab4991bd36c242",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "search",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "c8fa40f99033d861",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -128,37 +99,7 @@
             }
           },
           {
-            "id": "06412d1ce62fd380",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md"
-              }
-            }
-          },
-          {
-            "id": "bfc9bdd7a2f62155",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "36aee0400ad37bd0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          },
-          {
-            "id": "8f894a2589c23ad5",
+            "id": "74aaea8e7cea2816",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -166,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -183,49 +124,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "67422a03fc483b61",
+  "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "FrameWork/Spring,SpringBoot/Spring Core/Object/BeanPostProcessor.md",
+    "Untitled.md",
+    "2024-05-13.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Required.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@DependsOn.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Lazy.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Object/MessageSource.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Object/Resource.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Primary.md",
+    "2024-05-15.md",
+    "FrameWork/Spring,SpringBoot/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/README.md",
+    "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Object",
     "FrameWork/Spring,SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
     "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md",
     "FrameWork/Spring,SpringBoot/00. Spring Core.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Primary.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation",
-    "FrameWork/Spring,SpringBoot/Spring Core/README.md",
     "FrameWork/Spring,SpringBoot/Spring Core",
     "FrameWork/MyBatis/MyBatis의 foreach를 이용한 동적쿼리 처리.md",
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "FrameWork/MyBatis/MyBatis의 <foreach>를 이용한 동적쿼리 처리.md",
     "FrameWork/MyBatis",
     "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
-    "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
-    "OS/Linux/Ubuntu/Ubuntu CloudFlare를 이용한 HTTPS 와일드카드 발급하기.md",
-    "OS/Linux/Ubuntu/Ubuntu 가장 기본이되는 설치 및 환경 셋팅.md",
-    "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
-    "FrameWork/Spring,SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
-    "Network/HTTP/08. TCP&IP.md",
-    "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
-    "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
-    "Network/HTTP/20. 보안 HTTP.md",
     "Attached File/SSL핸드 셰이크.png",
     "Attached File/SSL핸드 셰이크.png.crdownload",
     "Attached File/보안 전송 셋업.png",
     "보안 정송 셋업.png",
-    "Network/HTTP/04. HTTP1.1.md",
-    "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
-    "Network/HTTP/11. 웹 서버.md",
-    "Network/HTTP/07. StartRow&StatusCode.md",
     "FrameWork/kubernetes/Kubernetes 환경 구성하기",
     "Attached File/Pasted image 20240411124436.png",
     "DataBase/PostgreSQL",
     "FrameWork/Kubernetes",
     "OS/Linux",
     "Attached File/IMG_9991.heic",
-    "Tool/무제 폴더",
-    "Untitled.canvas",
     "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
     "Attached File/스크린샷 2024-02-04 오후 10.23.48.png",
