@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring,SpringBoot/Spring Core/Object/BeanPostProcessor.md",
+                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +38,14 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8418d5ab6e7be670",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -105,6 +113,57 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "f2625e4e4f7f1fa1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb0c37cbbcba9db4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7d420eceaf5a62ff",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "13effeb64db94a1d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md"
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -126,11 +185,12 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Primary.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Object/BeanPostProcessor.md",
+    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Required.md",
+    "Untitled.canvas",
     "Untitled.md",
     "2024-05-13.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Required.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@DependsOn.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Lazy.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md",
@@ -139,7 +199,6 @@
     "FrameWork/Spring,SpringBoot/Spring Core/Object/MessageSource.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Object/Resource.md",
     "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Primary.md",
     "2024-05-15.md",
     "FrameWork/Spring,SpringBoot/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
     "FrameWork/Spring,SpringBoot/Spring Core/README.md",
