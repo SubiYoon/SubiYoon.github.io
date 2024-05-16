@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md"
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md"
               }
             }
           }
@@ -183,33 +183,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce6525c5b8562d7d",
+  "active": "c36da723bd2a67aa",
   "lastOpenFiles": [
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Primary.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Object/BeanPostProcessor.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Required.md",
+    "Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Primary.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
     "Untitled.canvas",
     "Untitled.md",
     "2024-05-13.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@DependsOn.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Lazy.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Scope.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Object/MessageSource.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Object/Resource.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@DependsOn.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Lazy.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Scope.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/Resource.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
     "2024-05-15.md",
-    "FrameWork/Spring,SpringBoot/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/README.md",
+    "FrameWork/Spring, SpringBoot/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/README.md",
     "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Object",
-    "FrameWork/Spring,SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object",
+    "FrameWork/Spring, SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
     "DataBase/Oracle/DUAL을 사용한 Multi row, Column Table.md",
     "FrameWork/Spring,SpringBoot/00. Spring Core.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
-    "FrameWork/Spring,SpringBoot/Spring Core/Annotation",
-    "FrameWork/Spring,SpringBoot/Spring Core",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation",
+    "FrameWork/Spring, SpringBoot/Spring Core",
     "FrameWork/MyBatis/MyBatis의 foreach를 이용한 동적쿼리 처리.md",
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "FrameWork/MyBatis/MyBatis의 <foreach>를 이용한 동적쿼리 처리.md",
