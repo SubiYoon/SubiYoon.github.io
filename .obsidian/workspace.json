@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md"
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md"
               }
             }
           }
@@ -183,23 +183,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c36da723bd2a67aa",
+  "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
     "Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Primary.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
     "Untitled.canvas",
     "Untitled.md",
     "2024-05-13.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@DependsOn.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Lazy.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Scope.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/Resource.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
     "2024-05-15.md",
     "FrameWork/Spring, SpringBoot/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
     "FrameWork/Spring, SpringBoot/Spring Core/README.md",

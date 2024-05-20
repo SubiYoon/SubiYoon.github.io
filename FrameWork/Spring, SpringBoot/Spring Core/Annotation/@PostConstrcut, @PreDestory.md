@@ -6,10 +6,10 @@ tags:
 Reference link: "[[@Configuration, @Bean, @Component]]"
 ---
 ### @PostConstruct
-자바 구성(`@Configuration`) Class 외부에 POJO Class를 정의(`@Component`)할 할 경우 사용합니다. `@Bean(initMethod="${methodName}"`와 같은 동작을 하게 됩니다.
+자바 구성(`@Configuration`) Class 외부에 POJO Class를 정의(`@Component`) 할 경우 사용합니다. `@Bean(initMethod="${methodName}"`와 같은 동작을 하게 됩니다.
 
 ### @PreDestory
-자바 구성(`@Configuration`) Class 외부에 POJO Class를 정의(`@Component`)할 할 경우 사용합니다. `@Bean(destoryMethod="${methodName}"`와 같은 동작을 하게 됩니다.
+자바 구성(`@Configuration`) Class 외부에 POJO Class를 정의(`@Component`) 할 경우 사용합니다. `@Bean(destoryMethod="${methodName}"`와 같은 동작을 하게 됩니다.
 
 ```java title:"Cashier.java"
 public Class Cashier {
