@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "setprice",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,12 +161,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md"
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,8 +184,12 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Scope.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/README.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Factory로 POJO 생성하기.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@DependsOn.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
@@ -197,12 +200,10 @@
     "Untitled.md",
     "2024-05-13.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Lazy.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Scope.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/Resource.md",
     "2024-05-15.md",
     "FrameWork/Spring, SpringBoot/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/README.md",
     "Network/HTTP/17. 클라이언트 식별과 쿠키.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object",
     "FrameWork/Spring, SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
@@ -213,9 +214,7 @@
     "FrameWork/Spring, SpringBoot/Spring Core",
     "FrameWork/MyBatis/MyBatis의 foreach를 이용한 동적쿼리 처리.md",
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
-    "FrameWork/MyBatis/MyBatis의 <foreach>를 이용한 동적쿼리 처리.md",
     "FrameWork/MyBatis",
-    "OS/Linux/Ubuntu/Ubuntu 사용자 이름 변경하기.md",
     "Attached File/SSL핸드 셰이크.png",
     "Attached File/SSL핸드 셰이크.png.crdownload",
     "Attached File/보안 전송 셋업.png",
