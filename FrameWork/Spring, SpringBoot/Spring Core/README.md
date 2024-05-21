@@ -10,6 +10,17 @@ Java로 생성하는 순수한 객체를 의미합니다.
 이는 낮은 결합도와 높은 캡슐화를 지향하는 객체지향 프로그래밍의 핵심과는 반대의 방식이다.
 따라서, **객체간의 의존성을 낮추어 결합도는 낮추고, 높은 캡슐화를 위해 사용**한다.
 
+### IoC Container
+Spring에서 객체를 생성하고 관리하고 책임지고 의존성을 관리해주는 Container로 `BeanFactory`와 `ApplicationContext`가 있다.
+* 장점
+	* 객체의 생성을 책임지고 의존성을 관리
+	* POJO의 생성, 초기화, 서비스, 소멸에 대한 권한을 가짐
+	* 개발자가 직접 POJO를 생성할 수 있지만, Container에게 맡김
+	* 개발자는 비지니스 로직에 집중할 수 있도록 도와줌
+	* TDD가 용이함
+
+![[Pasted image 20240521141058.png]]
+
 ### BeanFactory
 Spring Container의 최상위 Interface이다.
 Bean의 등록, 생성, 조회 등의 Bean을 관리하는 역할을 한다.
