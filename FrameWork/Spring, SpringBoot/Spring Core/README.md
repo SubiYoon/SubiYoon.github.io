@@ -19,7 +19,7 @@ Spring에서 객체를 생성하고 관리하고 책임지고 의존성을 관�
 	* 개발자는 비지니스 로직에 집중할 수 있도록 도와줌
 	* TDD가 용이함
 
-![[Pasted image 20240521141058.png]]
+![image](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/Pasted%20image%2020240521141058.png?raw=true)
 
 ### BeanFactory
 Spring Container의 최상위 Interface이다.
