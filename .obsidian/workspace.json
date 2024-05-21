@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/HTTP/19. 보안 HTTP.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/HTTP/19. 보안 HTTP.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/HTTP/19. 보안 HTTP.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/HTTP/19. 보안 HTTP.md"
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/README.md"
               }
             }
           }
@@ -184,9 +184,14 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/README.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Scope.md",
+    "Network/HTTP/16. 클라이언트 식별과 쿠키.md",
+    "Network/HTTP/19. 보안 HTTP.md",
     "Network/HTTP/18. 다이제스트 인증.md",
     "Network/HTTP/17. 기본 인증.md",
-    "Network/HTTP/16. 클라이언트 식별과 쿠키.md",
     "Network/HTTP/15. Web Robot.md",
     "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
     "Network/HTTP/13. Cache.md",
@@ -194,14 +199,10 @@
     "Network/HTTP/10. Connection close ← mystry.md",
     "Network/HTTP/09 HTTP Connection Management.md",
     "DataBase/Oracle/Password expired시 해결방법.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Scope.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Profile.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/Resource.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/README.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Factory로 POJO 생성하기.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
@@ -209,7 +210,6 @@
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
     "Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Primary.md",
     "Untitled.canvas",
     "FrameWork/Spring, SpringBoot/Spring Core/Object",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation",
