@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/README.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/README.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/README.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/README.md"
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md"
               }
             }
           }
@@ -184,9 +184,12 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "Attached File/Pasted image 20240521141058.png",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
     "FrameWork/Spring, SpringBoot/Spring Core/README.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
+    "Attached File/Pasted image 20240521141058.png",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Scope.md",
     "Network/HTTP/16. 클라이언트 식별과 쿠키.md",
@@ -201,12 +204,10 @@
     "Network/HTTP/09 HTTP Connection Management.md",
     "DataBase/Oracle/Password expired시 해결방법.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Profile.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/Resource.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Factory로 POJO 생성하기.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Required.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@DependsOn.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
@@ -229,7 +230,6 @@
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
     "Attached File/스크린샷 2024-02-04 오후 10.23.48.png",
     "Attached File/스크린샷 2024-01-13 오후 2.24.18.png",
-    "Attached File/스크린샷 2024-01-02 오후 7.57.36.png",
-    "Attached File/스크린샷 2024-01-02 오후 8.04.05.png"
+    "Attached File/스크린샷 2024-01-02 오후 7.57.36.png"
   ]
 }
