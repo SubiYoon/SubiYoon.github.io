@@ -19,7 +19,9 @@ Advice Annotation의 종류는 다음과 같습니다.
 * `@AfterReturning`
 * `@AfterThrowing`
 * `@Around`
+
 각 Annotation별로 어떻게 작용하는지 잠깐 참고해 보세요.
-![[Pasted image 20240522171850.png]]
+
+![image](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/Pasted%20image%2020240522171850.png?raw=true)
 
 IoC Container에서 Aspect Annoation 기능을 활성화하려면 구성 Class 중 하나`@EnableAspectJAutoProxy`를 붙입니다.
