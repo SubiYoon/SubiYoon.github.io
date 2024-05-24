@@ -20,8 +20,12 @@ Advice Annotation의 종류는 다음과 같습니다.
 * `@AfterThrowing`
 * `@Around`
 
+Spring에서 사용하는 `@Aspect`는 AspectJ와 동일한 AOP를 구현합니다.
+차이점 이라면 AOP의 런타임 자체는 순수 Spring의 AOP이기 때문에 AspectJ 컴파일러와 위버(Weaver)는 무관합니다.
+
 각 Annotation별로 어떻게 작용하는지 잠깐 참고해 보세요.
 
 ![image](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/Pasted%20image%2020240522171850.png?raw=true)
 
 IoC Container에서 Aspect Annoation 기능을 활성화하려면 구성 Class 중 하나`@EnableAspectJAutoProxy`를 붙입니다.
+만약 Interface를 사용할 수 없거나 애플리케이션 설계상 사용하지 않을 경우엔 proxyTargetClass 속성을 ture로 설정하면 동적 Proxy 대신 CGLIB를 사용하게 합니다.
