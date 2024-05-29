@@ -488,3 +488,166 @@ public class CalculatorLoggingAspect {
 	...
 }
 ```
+
+### @Pointcut
+Pointcut 표현식을 여러번 사용해야 할 경우가 있을 수 있습니다.
+그럴경우 `@Pointcut`을 이용하면 포인트컷만 따로 정의해 여러 어드바이스에서 재사용 할 수 있습니다.
+해당 Annotation을 사용하면 가시성에 있어서 코드의 반복이 발생하지 않아 좋습니다.
+
+```java title:"CaculatorLoggingAspect.java"
+@Aspect
+@Component
+public class CalculatorLoggingAspect {
+
+	private Logger log = LoggerFactory.getLogger(this.getClass());
+
+	@Pointcut("execution(* com.example..*(..))")
+	private void loggingOperation() {}
+
+	@Before("loggingOperation()")
+	public void logBefore(JoinPoint joinPoint) {
+		...
+	}
+
+	@AfterReturning(
+		pointcut = "loggingOperation()"
+		returning = "result")
+	public void logAfterReturning(JoinPoint joinPoint, Object result) {
+		...
+	}
+
+	@AfterThroing(
+		pointcut = "loggingOperation()"
+		throwing = "e")
+	public void logAfterThrowing(JoinPoint joinPoint, IllegalArgumentException e) {
+		...
+	}
+
+	@Around("loggingOperation()")
+	public Object logAround(ProceedingJoinPoint joinPoint) throws Throwable {
+		...
+	}
+}
+```
+
+만약, 여러 `Aspect`가 포인트컷을 공유하는 경우라면 공통 클래스 한 곳에 포인트컷을 모아두는 편이 사용기 좋습니다. 물론!! 당연히 포인트컷 메서드는 public으로 선언해야겠죠??
+
+```java title:"PointcutFactory.java"
+@Aspect
+public class PointcutFactory {
+
+	@Pointcut("execution(*. LogGenerator.*(..))")
+	public void loggingOperation() {}
+}
+```
+**
+```java title:"CalculatorLoggingAspect.java"
+@Aspect
+public class CalculatorLoggingAspect {
+	...
+
+	@Before("PointcutFactory.loggingOperation()")
+	public void logBefore(JointPoint joinPoint) {
+		...
+	}
+
+	@AfterReturning(
+		pointcut = "PointcutFactory.loggingOperation()"
+		returning = "result")
+	public void logAfterReturning(JoinPoint joinPoint, Obejct result) {
+		...
+	}
+
+	@AfterThrowing(
+		pointcut = "PointcutFactory.loggingOperation()"
+		throwing = "e")
+	public void logAfterThrowing(JoinPoint joinPoing, IllegalArgumentException e) {
+		...
+	}
+
+	@Around("PointcutFactory.loggingOperation()")
+	public Object logAround(ProceedingJoinPoint joinPoint) throws Throwable {
+		...
+	}
+}
+```
+
+### AspectJ Pointcut 표현식
+Spring AOP가 지원하는 조인포인트 대상은 IoC Contatiner안에 선언된 Bean에 국한됩니다.
+하지만 Spring AOP에서도 AspectJ Pointcut언어를 활용하여 pointcut을 정의하며 Runtime에 AspectJ 라이브러리를 이용하여 Pointcut 표현식을 해석하게 됩니다.
+
+우리가 가장 기억해야 할 것은 Spring AOP에서는 IoC Container안에 선언된 Bean에만 조인 포인트를 지원한다는 것입니다.
+
+다음 내용은 와드카드 수정자(public, protected, private)와 반환형, 인수 개수에 상관없이 매치하겠다는 뜻입니다.
+
+```java
+excution(* com.example.demo.calculator.ArithmeticCaculator.*(..))
+```
+
+만약 대상 Class나 Interface가 Aspect와 같은 패키지에 있다면 패키지명은 안써도 됩니다.
+
+```java
+execution(* ArithmeticCaculator.*(..))
+```
+
+Interface에 선언된 public 메서드만 매치하는 방법입니다.
+
+```java
+execution(public * ArithmeticCaculator.*(..))
+```
+
+이제 반환형도 한번 선택해봅시다.
+public으로 선언된 메서드 중 반환형이 double인 메서드만 매치하는 방법입니다.
+
+```java
+execution(public double ArithmeticCaculator.*(..))
+```
+
+인수형과 개수를 정확히 매치시킬 수도 있습니다.
+
+```java
+execution(public double ArithmeticCaculator.*(double, double))
+```
+
+메서드 명도 선택할 수 있죠.
+
+```java
+execution(public double ArithmeticCaculator.add(double, double))
+```
+
+### AspectJ 표현식으로 매칭이 안될경우
+위에 말씀드린 방법 외에 매치하고 싶은 메서드 사이에 공통된 특성이 없는 경우가 있을 수 있습니다. 예외 상황인거죠....
+우리는 개발자로써 항상 예외상황을 고려해야 하잖아요??
+이 부분을 고려 안하지 않았을 거란 말이죠??
+이럴 때에는 메서드/타입 레벨에 다음과 같은 Custom Annotation을 만들 수 있습니다.
+
+자! 그럼 한번 살펴봅시다.
+
+우선 Custom Annotation을 생성합니다.
+
+```java
+@Target({ElementType.METHOD, EelementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+public @interface LoggingRequired {
+}
+```
+
+이제 로깅이 필요한 메서드에 Custom Annotation을 붙이는 겁니다.
+단, Annotation은 상속되지 않으므로 Interface가 아닌 구현 Class에 선언해야 합니다.
+
+```java
+@LoggingRequired
+public class ArithmeticCalculatorImpl implements ArithmeticCalculator {
+
+	public double add(double a, double b) {
+		...
+	}
+
+	public double sub(double a, double b) {
+		...
+	}
+
+	...
+}
+```
