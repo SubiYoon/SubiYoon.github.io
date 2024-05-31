@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/AspectJ의 표현식.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/AspectJ의 표현식.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/AspectJ의 표현식.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/AspectJ의 표현식.md"
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md"
               }
             }
           }
@@ -183,10 +183,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce6525c5b8562d7d",
+  "active": "c36da723bd2a67aa",
   "lastOpenFiles": [
+    "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Aspect, @Before, @After, @AfterReturning, @AfterThrowing, @Around, @Pointcut.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/AspectJ의 표현식.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
     "FrameWork/Spring, SpringBoot/Spring Core/README.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Before.md",
@@ -213,7 +214,6 @@
     "Network/HTTP/09 HTTP Connection Management.md",
     "DataBase/Oracle/Password expired시 해결방법.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Profile.md",
     "Untitled.canvas",
     "FrameWork/Spring, SpringBoot/Spring Core/Object",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation",
