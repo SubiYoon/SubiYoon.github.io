@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md"
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md"
               }
             }
           }
@@ -183,11 +183,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c36da723bd2a67aa",
+  "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
+    "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/Introduction(끌어들임).md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@EventListener.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Aspect, @Before, @After, @AfterReturning, @AfterThrowing, @Around, @Pointcut.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
     "FrameWork/Spring, SpringBoot/Spring Core/README.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Before.md",
@@ -197,8 +201,6 @@
     "Attached File/Pasted image 20240522171850.png",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Primary.md",
     "Attached File/Pasted image 20240522162101.png",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
     "Attached File/Pasted image 20240521141058.png",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Scope.md",
@@ -213,7 +215,6 @@
     "Network/HTTP/10. Connection close ← mystry.md",
     "Network/HTTP/09 HTTP Connection Management.md",
     "DataBase/Oracle/Password expired시 해결방법.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Configuration, @Bean, @Component.md",
     "Untitled.canvas",
     "FrameWork/Spring, SpringBoot/Spring Core/Object",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation",
@@ -228,7 +229,6 @@
     "DataBase/PostgreSQL",
     "FrameWork/Kubernetes",
     "OS/Linux",
-    "Attached File/IMG_9991.heic",
     "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
     "Attached File/스크린샷 2024-02-04 오후 10.23.48.png"
