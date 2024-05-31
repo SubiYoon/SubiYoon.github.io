@@ -198,7 +198,7 @@ public class CalculatorPointcuts {
 }
 ```
 
-위에 매개벼수화환 포인컷을 참조하게 만들면 됩니다.
+위에 매개변수화환 포인컷을 참조하게 만들면 됩니다.
 
 ```java title:"CalculatorLoggingAspect.java"
 @Aspect
