@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/TaskExecutor.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/TaskExecutor.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/TaskExecutor.md",
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Object/TaskExecutor.md"
+                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md"
               }
             }
           }
@@ -185,19 +185,22 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/ApplicationEvent.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Profile.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Lazy.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/README.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/TaskExecutor.md",
+    "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/Introduction(끌어들임).md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@EventListener.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Aspect, @Before, @After, @AfterReturning, @AfterThrowing, @Around, @Pointcut.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
-    "FrameWork/Spring, SpringBoot/Spring Core/README.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Before.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Lazy.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
     "Attached File/Pasted image 20240522171850.png",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Primary.md",
@@ -212,9 +215,6 @@
     "Network/HTTP/15. Web Robot.md",
     "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
     "Network/HTTP/13. Cache.md",
-    "Network/HTTP/12. Proxy.md",
-    "Network/HTTP/10. Connection close ← mystry.md",
-    "Network/HTTP/09 HTTP Connection Management.md",
     "Untitled.canvas",
     "FrameWork/Spring, SpringBoot/Spring Core/Object",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation",
