@@ -176,7 +176,6 @@ public class SequenceConfiguration {
 
 
 ```java title:"@Inject를 사용하기 위한 Custom Annotation 예시"
-
 @Qualifier
 @Target({ElementType.Type, ElementType.FIELD, ElementType.PARAMETER})
 @Documented
