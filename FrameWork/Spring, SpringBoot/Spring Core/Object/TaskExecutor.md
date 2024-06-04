@@ -135,7 +135,7 @@ Thread 실제로 많이 사용해보지 않으면 이해하기 어렵다고들 �
 이번에는 `Callable\<T\>`에 관한 설명입니다.
 `Callable\<T\>`자체 보다는 `ExecutorService`에 있는`submit(Callable\<T\> call)`이라는 메서드를 설명하려고 합니다.
 
-`Callable`을 인자로 받은 `submit()`함수를 실행하게 되면 `Callable`의 `call()` 메서드가 반환한 값을 그대로 다시 반환하게 됩니다.
+`Runnable`이 아닌 `Callable`을 인자로 받은 `submit()`함수를 실행하게 되면 `Callable`의 `call()` 메서드가 반환한 값을 그대로 다시 반환하게 이는 실행한 작업의 결과를 반환하는데 중점을 두고 있습니다.
 
 ```java title:"Callable.java"
 package java.util.concurrent;
@@ -143,7 +143,129 @@ package java.util.concurrent;
 public intrerface Callable<V> {
 	V call() throws Exception;
 }
+
+// Callable을 구현하게 되면 다음과 같이 구현하게 됩니다.
+Callable<String> str = new Callable<String>() {  
+    @Override  
+    public String call() throws Exception {  
+        return null;  
+    }  
+}
 ```
+
+### TaskExecutor
+`TaskExecutor`는 `Excutor`를 베이스로 한 Interface입니다.
+기존 Java SE의 `Executor`나 `ExecutorService`를 `TaskExecutor`에서 사용할 수 있게 지원하는 경우도 있지만, 어차피 스프링 관점에서는 베이스 클래스가 `Executor`이므로 별로 중요하치 않습니다.
+
+```java title:"TaskExecutor.java"
+package org.springframwork.task;
+...
+
+public interface TaskExecutor extends Executor {
+	void execute(Runnable task);
+}
+```
+
+앞서 사용했던 `DemonstrationRunnable`를 `TaskExecutor`에 넣어 한번 살표보도록 하죠.
+
+```java title:"SpringExecutorsDemo.java"
+@Component
+public class SpringExecutorsDemo {
+	@Autowired  
+	private SimpleAsyncTaskExecutor asyncTaskExecutor;  
+	  
+	@Autowired  
+	private SyncTaskExecutor syncTaskExecutor;  
+	  
+	@Autowired  
+	private TaskExecutorAdapter taskExecutorAdapter;  
+	  
+	@Autowired  
+	private ThreadPoolTaskExecutor threadPoolTaskExecutor;  
+	  
+	@Autowired  
+	private DemonstrationRunnable task;  
+	  
+	@PostConstruct  
+	public void submitJobs() {  
+	    syncTaskExecutor.execute(task);  
+	    taskExecutorAdapter.submit(task);  
+	    asyncTaskExecutor.submit(task);  
+	  
+	    for (int i = 0; i < 500; i++) {  
+	        threadPoolTaskExecutor.submit(task);  
+	    }  
+	}  
+	  
+	public static void main(String[] args) {  
+	    new AnnotationConfigApplicationContext(ExecutorsConfiguration.class).registerShutdownHook();  
+	}
+}
+```
+
+```java title:"ExecutorsConfiguration.java"
+@Configuration  
+@ComponentScan  
+public class ExecutorsConfiguration {  
+  
+    @Bean  
+    public TaskExecutorAdapter taskExecutorAdapter() {  
+        return new TaskExecutorAdapter(Executors.newCachedThreadPool());  
+    }  
+  
+    @Bean  
+    public SimpleAsyncTaskExecutor simpleAsyncTaskExecutor() {  
+        return new SimpleAsyncTaskExecutor();  
+    }  
+  
+    @Bean  
+    public SyncTaskExecutor syncTaskExecutor() {  
+        return new SyncTaskExecutor();  
+    }  
+  
+    @Bean  
+    public ScheduledExecutorFactoryBean scheduledExecutorFactoryBean(ScheduledExecutorTask scheduledExecutorTask) {  
+        ScheduledExecutorFactoryBean scheduledExecutorFactoryBean = new ScheduledExecutorFactoryBean();  
+        scheduledExecutorFactoryBean.setScheduledExecutorTasks(scheduledExecutorTask);  
+        return scheduledExecutorFactoryBean;  
+    }  
+  
+    @Bean  
+    public ScheduledExecutorTask scheduledExecutorTask(Runnable runnable) {  
+        ScheduledExecutorTask scheduledExecutorTask = new ScheduledExecutorTask();  
+        scheduledExecutorTask.setPeriod(1000);  
+        scheduledExecutorTask.setRunnable(runnable);  
+        return scheduledExecutorTask;  
+    }  
+  
+    @Bean  
+    public ThreadPoolTaskExecutor threadPoolTaskExecutor() {  
+        ThreadPoolTaskExecutor taskExecutor = new ThreadPoolTaskExecutor();  
+        taskExecutor.setCorePoolSize(50);  
+        taskExecutor.setMaxPoolSize(100);  
+        taskExecutor.setAllowCoreThreadTimeOut(true);  
+        taskExecutor.setWaitForTasksToCompleteOnShutdown(true);  
+        return taskExecutor;  
+    }
+```
+
+위에 `SpringExecutorsDemo.java`에서 사용한 객체들이 보이시나요??
+`TaskExecutor` Interface의 다양한 구현체들이죠.
+* `TaskExcutorAdapter`
+	* java.util.concurrence.Executors 인스턴스를 감싼 단순 래퍼라서 Spring을 이용해 TaskExecutor Interface와 같은 방식으로 다룰 수 있습니다.
+	* Executor 인스턴스를 구성하고 생성자에 인수로 전달하고 있습니다.
+* `SimpleAsyncTaskExecutor`
+	* 전송한 Job마다 새로 Thread를 제공합니다.
+	* Thread를 풀링하거나 재사용하지 않습니다.
+	* 전송한 각각의 Job은 Thread에서 비동기로 실행됩니다.
+* `SyncTaskExecutor`
+	* 가장 단순한 `TaskExecutor`구현체로써 동기적으로 Thread를 띄워 Job을 실행하고 `join()` 메서드로 연결합니다.
+	* 사실상 Threading은 완전히 건너띄고 호출 Thread에서 `run()`메서드를 수동 실행한 것이나 다를바 없습니다.
+* `ScheduledExecutorFactoryBean`
+	* `ScheduledExecutorTask` 빈으로 정의된 Job을 자동 트리거합니다.
+	* `ScheduledExecutorTask` 인스턴스 목록을 지정해서 여러 Job을 동시에 실행할 수도 있고, 작업 실행 간 공백 시간을 인수로 넣을 수도 있습니다.
+* `ThreadPoolTaskExecutor`
+	* java.util.concurrent.ThreadPoolExecutor를 기반으로 모든 기능이 완비된 Thread Pool 구현체입니다.
 
 ---
 # 참고사항
@@ -166,7 +288,6 @@ public class ThreadFactorySample implements ThreadFactory {
         this.threadCounter = 0;  
         this.builder = new StringBuilder();  
     }  
-  
   
     @Override  
     public Thread newThread(Runnable r) {  
