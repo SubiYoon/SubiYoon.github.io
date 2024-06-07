@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/Vue.js/09. Object binding.md",
+                "file": "FrameWork/Vue/VueCore/09. Object binding.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/Vue.js/09. Object binding.md",
+                "file": "FrameWork/Vue/VueCore/09. Object binding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/Vue.js/09. Object binding.md",
+                "file": "FrameWork/Vue/VueCore/09. Object binding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/Vue.js/09. Object binding.md"
+                "file": "FrameWork/Vue/VueCore/09. Object binding.md"
               }
             }
           }
@@ -183,11 +183,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c36da723bd2a67aa",
+  "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
+    "FrameWork/Vue/VueCore/08. Slot.md",
+    "FrameWork/Vue/VueCore/07. Props.md",
+    "FrameWork/Vue/VueCore/00. Vue 3 0 Tutorial.md",
+    "FrameWork/Vue/VueCore/06. watchEffect vs watch.md",
+    "FrameWork/Vue/VueCore/05. modelValue.md",
+    "FrameWork/Vue/VueCore/04. nextTick( ).md",
+    "FrameWork/Vue/VueCore/03. BaseHandlers.md",
+    "FrameWork/Vue/VueCore/02. ref( ).md",
+    "FrameWork/Vue/VueCore/01. reactive( ).md",
+    "FrameWork/Vue/VueRouter/00. VueRouter.md",
+    "FrameWork/Vue/VueCore/09. Object binding.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
     "FrameWork/Vue/VueRouter",
-    "FrameWork/Vue/Vue.js",
+    "FrameWork/Vue/VueCore",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/ApplicationEvent.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Profile.md",
@@ -203,19 +214,9 @@
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Before.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
     "Attached File/Pasted image 20240522171850.png",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Primary.md",
     "Attached File/Pasted image 20240522162101.png",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
     "Attached File/Pasted image 20240521141058.png",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Scope.md",
-    "Network/HTTP/16. 클라이언트 식별과 쿠키.md",
-    "Network/HTTP/19. 보안 HTTP.md",
-    "Network/HTTP/18. 다이제스트 인증.md",
-    "Network/HTTP/17. 기본 인증.md",
-    "Network/HTTP/15. Web Robot.md",
-    "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
     "Untitled.canvas",
     "FrameWork/Spring, SpringBoot/Spring Core/Object",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation",
