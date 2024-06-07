@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
+                "file": "FrameWork/Vue/Vue.js/09. Object binding.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
+                "file": "FrameWork/Vue/Vue.js/09. Object binding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
+                "file": "FrameWork/Vue/Vue.js/09. Object binding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md"
+                "file": "FrameWork/Vue/Vue.js/09. Object binding.md"
               }
             }
           }
@@ -183,8 +183,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce6525c5b8562d7d",
+  "active": "c36da723bd2a67aa",
   "lastOpenFiles": [
+    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
+    "FrameWork/Vue/VueRouter",
+    "FrameWork/Vue/Vue.js",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/ApplicationEvent.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/AbstractFactoryBean.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Profile.md",
@@ -198,7 +201,6 @@
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Aspect, @Before, @After, @AfterReturning, @AfterThrowing, @Around, @Pointcut.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Before.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PostConstrcut, @PreDestory.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/Aware.md",
@@ -214,7 +216,6 @@
     "Network/HTTP/17. 기본 인증.md",
     "Network/HTTP/15. Web Robot.md",
     "Network/HTTP/14. 통합점 게이트웨이, 터널, 릴레이.md",
-    "Network/HTTP/13. Cache.md",
     "Untitled.canvas",
     "FrameWork/Spring, SpringBoot/Spring Core/Object",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation",
@@ -227,8 +228,6 @@
     "FrameWork/kubernetes/Kubernetes 환경 구성하기",
     "Attached File/Pasted image 20240411124436.png",
     "DataBase/PostgreSQL",
-    "FrameWork/Kubernetes",
-    "OS/Linux",
     "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
     "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
     "Attached File/스크린샷 2024-02-04 오후 10.23.48.png"
