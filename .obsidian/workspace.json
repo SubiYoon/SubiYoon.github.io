@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
+                "file": "FrameWork/Vue/VueRouter/09. Route Component Props.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
+                "file": "FrameWork/Vue/VueRouter/09. Route Component Props.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
+                "file": "FrameWork/Vue/VueRouter/09. Route Component Props.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/08. Redirection & Alias.md"
+                "file": "FrameWork/Vue/VueRouter/09. Route Component Props.md"
               }
             }
           }
@@ -185,8 +185,10 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "FrameWork/Vue/VueRouter/07. Named View.md",
+    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+    "FrameWork/Vue/VueRouter/09. Route Component Props.md",
     "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
+    "FrameWork/Vue/VueRouter/07. Named View.md",
     "FrameWork/Vue/VueRouter/05. Nested Route.md",
     "FrameWork/Vue/VueRouter/04. Named Route.md",
     "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
@@ -211,8 +213,6 @@
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Profile.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@PropertySrouce.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Lazy.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/README.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/TaskExecutor.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
     "Attached File/Pasted image 20240522171850.png",
     "Attached File/Pasted image 20240522162101.png",
