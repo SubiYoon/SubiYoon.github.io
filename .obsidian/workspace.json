@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/05. Nested Route.md",
+                "file": "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/05. Nested Route.md",
+                "file": "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/05. Nested Route.md",
+                "file": "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/05. Nested Route.md"
+                "file": "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md"
               }
             }
           }
@@ -186,6 +186,7 @@
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
     "FrameWork/Vue/VueRouter/05. Nested Route.md",
+    "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
     "FrameWork/Vue/VueRouter/04. Naming Route.md",
     "FrameWork/Vue/VueRouter/03. Route Matching Grammar.md",
     "FrameWork/Vue/VueRouter/02. Dynamic Route Matching with Params.md",
@@ -212,7 +213,6 @@
     "FrameWork/Spring, SpringBoot/Spring Core/Object/TaskExecutor.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/Introduction(끌어들임).md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@EventListener.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
     "Attached File/Pasted image 20240522171850.png",
     "Attached File/Pasted image 20240522162101.png",
