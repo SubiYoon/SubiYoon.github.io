@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
+                "file": "FrameWork/Vue/VueRouter/04. Named Route.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
+                "file": "FrameWork/Vue/VueRouter/04. Named Route.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
+                "file": "FrameWork/Vue/VueRouter/04. Named Route.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md"
+                "file": "FrameWork/Vue/VueRouter/04. Named Route.md"
               }
             }
           }
@@ -185,9 +185,9 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "FrameWork/Vue/VueRouter/05. Nested Route.md",
     "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
-    "FrameWork/Vue/VueRouter/04. Naming Route.md",
+    "FrameWork/Vue/VueRouter/05. Nested Route.md",
+    "FrameWork/Vue/VueRouter/04. Named Route.md",
     "FrameWork/Vue/VueRouter/03. Route Matching Grammar.md",
     "FrameWork/Vue/VueRouter/02. Dynamic Route Matching with Params.md",
     "FrameWork/Vue/VueRouter/01. VueRouter.md",
