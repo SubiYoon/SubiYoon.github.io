@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "FrameWork/Kubernetes/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "FrameWork/Kubernetes/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "FrameWork/Kubernetes/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md"
+                "file": "FrameWork/Kubernetes/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md"
               }
             }
           }
@@ -185,6 +185,8 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
+    "FrameWork/Kubernetes/README.md",
+    "FrameWork/Kubernetes/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
     "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Vue/VueCore/09. Object binding.md",
@@ -211,8 +213,6 @@
     "FrameWork/Vue/VueRouter",
     "FrameWork/Vue/VueCore/01. reactive( ).md",
     "FrameWork/Vue/VueCore",
-    "Network/HTTP/18. 다이제스트 인증.md",
-    "Network/HTTP/17. 기본 인증.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
     "Attached File/Pasted image 20240522171850.png",
     "Attached File/Pasted image 20240522162101.png",
