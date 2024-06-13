@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/VueCore/09. Object binding.md",
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueCore/09. Object binding.md",
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueCore/09. Object binding.md",
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueCore/09. Object binding.md"
+                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md"
               }
             }
           }
@@ -185,6 +185,9 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
+    "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
+    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+    "FrameWork/Vue/VueCore/09. Object binding.md",
     "FrameWork/Vue/VueCore/08. Slot.md",
     "FrameWork/Vue/VueCore/07. Props.md",
     "FrameWork/Vue/VueCore/06. watchEffect vs watch.md",
@@ -194,7 +197,6 @@
     "FrameWork/Vue/VueCore/02. ref( ).md",
     "FrameWork/Vue/VueCore/00. Vue 3 0 Tutorial.md",
     "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
-    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "Network/HTTP/19. 보안 HTTP.md",
     "FrameWork/Vue/VueRouter/10. Active links.md",
     "FrameWork/Vue/VueRouter/09. Route Component Props.md",
@@ -207,12 +209,10 @@
     "FrameWork/Vue/VueRouter/02. Dynamic Route Matching with Params.md",
     "FrameWork/Vue/VueRouter/01. VueRouter.md",
     "FrameWork/Vue/VueRouter",
-    "FrameWork/Vue/VueCore/09. Object binding.md",
     "FrameWork/Vue/VueCore/01. reactive( ).md",
     "FrameWork/Vue/VueCore",
     "Network/HTTP/18. 다이제스트 인증.md",
     "Network/HTTP/17. 기본 인증.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Autowired, @Qualifier, @Import, @Resource, @Inject.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
     "Attached File/Pasted image 20240522171850.png",
     "Attached File/Pasted image 20240522162101.png",
