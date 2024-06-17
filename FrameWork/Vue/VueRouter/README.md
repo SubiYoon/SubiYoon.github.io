@@ -6,7 +6,7 @@ tags:
 ---
 # LifeCycle
 
-![[Vue Router LifeCycle Hook.jpg]]
+![Vue Router LifeCycle Hook](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/Vue%20Router%20LifeCycle%20Hook.jpg?raw=true)
 
 ### beforeRouteLeave
 기존에 존재하던 컴포넌트가 제거되기 전에 이 훅을 호출
