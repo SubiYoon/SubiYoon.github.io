@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
+                "file": "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
+                "file": "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
+                "file": "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/12. Navigation Guard.md"
+                "file": "FrameWork/Vue/VueRouter/13. Route Meta Field.md"
               }
             }
           }
@@ -185,8 +185,9 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "FrameWork/Vue/VueRouter/README.md",
     "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
+    "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
+    "FrameWork/Vue/VueRouter/README.md",
     "FrameWork/Vue/VueCore/README.md",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
