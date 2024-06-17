@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
+                "file": "FrameWork/Vue/VueRouter/14. Data Fetching.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
+                "file": "FrameWork/Vue/VueRouter/14. Data Fetching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
+                "file": "FrameWork/Vue/VueRouter/14. Data Fetching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/13. Route Meta Field.md"
+                "file": "FrameWork/Vue/VueRouter/14. Data Fetching.md"
               }
             }
           }
@@ -186,18 +186,19 @@
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
     "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
-    "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
+    "FrameWork/Vue/VueRouter/14. Data Fetching.md",
+    "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
     "FrameWork/Vue/VueRouter/README.md",
+    "FrameWork/Vue/VueRouter/07. Named View.md",
+    "FrameWork/Vue/VueRouter/05. Nested Route.md",
+    "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
     "FrameWork/Vue/VueCore/README.md",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
-    "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
     "FrameWork/Vue/VueRouter/10. Active links.md",
     "FrameWork/Vue/VueRouter/09. Route Component Props.md",
     "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
     "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
-    "FrameWork/Vue/VueRouter/07. Named View.md",
-    "FrameWork/Vue/VueRouter/05. Nested Route.md",
     "FrameWork/Vue/VueRouter/04. Named Route.md",
     "FrameWork/Vue/VueRouter/03. Route Matching Grammar.md",
     "FrameWork/Vue/VueRouter/02. Dynamic Route Matching with Params.md",
@@ -212,7 +213,6 @@
     "FrameWork/Vue/VueCore/06. watchEffect vs watch.md",
     "FrameWork/Vue/VueCore/05. modelValue.md",
     "FrameWork/Vue/VueCore/04. nextTick( ).md",
-    "FrameWork/Vue/VueCore/03. BaseHandlers.md",
     "FrameWork/Vue/VueRouter",
     "FrameWork/Vue/VueCore",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
