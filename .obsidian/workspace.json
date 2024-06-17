@@ -185,6 +185,11 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
+    "FrameWork/Vue/VueRouter/README.md",
+    "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
+    "FrameWork/Vue/VueCore/README.md",
+    "Attached File/Vue Router LifeCycle Hook.jpg",
+    "Attached File/Vue LisfeCycle.png",
     "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
     "FrameWork/Vue/VueRouter/10. Active links.md",
     "FrameWork/Vue/VueRouter/09. Route Component Props.md",
@@ -196,7 +201,6 @@
     "FrameWork/Vue/VueRouter/03. Route Matching Grammar.md",
     "FrameWork/Vue/VueRouter/02. Dynamic Route Matching with Params.md",
     "FrameWork/Vue/VueRouter/01. VueRouter.md",
-    "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
     "FrameWork/Kubernetes/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
     "FrameWork/Kubernetes/README.md",
     "FrameWork/Kubernetes/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
@@ -208,9 +212,6 @@
     "FrameWork/Vue/VueCore/05. modelValue.md",
     "FrameWork/Vue/VueCore/04. nextTick( ).md",
     "FrameWork/Vue/VueCore/03. BaseHandlers.md",
-    "FrameWork/Vue/VueCore/02. ref( ).md",
-    "FrameWork/Vue/VueCore/00. Vue 3 0 Tutorial.md",
-    "Network/HTTP/19. 보안 HTTP.md",
     "FrameWork/Vue/VueRouter",
     "FrameWork/Vue/VueCore",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
@@ -229,8 +230,6 @@
     "FrameWork/kubernetes/Kubernetes 환경 구성하기",
     "Attached File/Pasted image 20240411124436.png",
     "DataBase/PostgreSQL",
-    "Attached File/스크린샷 2024-02-04 오후 10.42.55.png",
-    "Attached File/스크린샷 2024-02-04 오후 10.41.51.png",
-    "Attached File/스크린샷 2024-02-04 오후 10.23.48.png"
+    "Attached File/스크린샷 2024-02-04 오후 10.42.55.png"
   ]
 }
