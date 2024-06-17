@@ -5,7 +5,7 @@ tags:
 ---
 # LifeCycle
 
-![[Vue LisfeCycle.png]]
+![Vue LisfeCycle](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/Vue%20LisfeCycle.png?raw=true)
 
 ### beforeCreate() 
 앱이 완전 초기화되기 이전에 호출
