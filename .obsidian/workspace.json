@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/14. Data Fetching.md",
+                "file": "FrameWork/Vue/VueRouter/15. Composition API.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/14. Data Fetching.md",
+                "file": "FrameWork/Vue/VueRouter/15. Composition API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/14. Data Fetching.md",
+                "file": "FrameWork/Vue/VueRouter/15. Composition API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/14. Data Fetching.md"
+                "file": "FrameWork/Vue/VueRouter/15. Composition API.md"
               }
             }
           }
@@ -185,8 +185,9 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
     "FrameWork/Vue/VueRouter/14. Data Fetching.md",
+    "FrameWork/Vue/VueRouter/15. Composition API.md",
+    "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
     "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
     "FrameWork/Vue/VueRouter/README.md",
     "FrameWork/Vue/VueRouter/07. Named View.md",
@@ -212,7 +213,6 @@
     "FrameWork/Vue/VueCore/07. Props.md",
     "FrameWork/Vue/VueCore/06. watchEffect vs watch.md",
     "FrameWork/Vue/VueCore/05. modelValue.md",
-    "FrameWork/Vue/VueCore/04. nextTick( ).md",
     "FrameWork/Vue/VueRouter",
     "FrameWork/Vue/VueCore",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
