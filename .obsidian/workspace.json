@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5da2199f19812d93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
+                "file": "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
+                "file": "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/18. Scroll Behavior.md"
+                "file": "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md"
               }
             }
           }
@@ -183,10 +196,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce6525c5b8562d7d",
+  "active": "5da2199f19812d93",
   "lastOpenFiles": [
-    "FrameWork/Vue/VueRouter/17. Transitions.md",
     "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
+    "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
+    "FrameWork/Vue/VueRouter/README.md",
+    "FrameWork/Vue/VueRouter/17. Transitions.md",
     "FrameWork/Vue/VueRouter/16. RouterView slot.md",
     "Attached File/KeepAlive.gif",
     "FrameWork/Vue/VueRouter/10. Active links.md",
@@ -204,7 +219,6 @@
     "FrameWork/Vue/VueRouter/14. Data Fetching.md",
     "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
     "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
-    "FrameWork/Vue/VueRouter/README.md",
     "FrameWork/Vue/VueRouter/07. Named View.md",
     "FrameWork/Vue/VueRouter/05. Nested Route.md",
     "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
@@ -214,7 +228,6 @@
     "FrameWork/Vue/VueRouter/09. Route Component Props.md",
     "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
     "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
-    "FrameWork/Vue/VueRouter/04. Named Route.md",
     "FrameWork/Vue/VueRouter",
     "FrameWork/Vue/VueCore",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
