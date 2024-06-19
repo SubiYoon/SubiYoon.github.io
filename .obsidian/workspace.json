@@ -185,8 +185,10 @@
   },
   "active": "ce6525c5b8562d7d",
   "lastOpenFiles": [
-    "FrameWork/Vue/VueCore/08. Slot.md",
+    "Attached File/KeepAlive.gif",
     "FrameWork/Vue/VueRouter/16. RouterView slot.md",
+    "FrameWork/Vue/VueRouter/10. Active links.md",
+    "FrameWork/Vue/VueCore/08. Slot.md",
     "OS/Linux/Linux에서 특정 포트 죽이기.md",
     "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
     "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
@@ -207,13 +209,11 @@
     "FrameWork/Vue/VueCore/README.md",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
-    "FrameWork/Vue/VueRouter/10. Active links.md",
     "FrameWork/Vue/VueRouter/09. Route Component Props.md",
     "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
     "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
     "FrameWork/Vue/VueRouter/04. Named Route.md",
     "FrameWork/Vue/VueRouter/03. Route Matching Grammar.md",
-    "FrameWork/Vue/VueRouter/02. Dynamic Route Matching with Params.md",
     "FrameWork/Vue/VueRouter",
     "FrameWork/Vue/VueCore",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
@@ -230,7 +230,6 @@
     "Attached File/보안 전송 셋업.png",
     "보안 정송 셋업.png",
     "FrameWork/kubernetes/Kubernetes 환경 구성하기",
-    "Attached File/Pasted image 20240411124436.png",
-    "Attached File/스크린샷 2024-02-04 오후 10.42.55.png"
+    "Attached File/Pasted image 20240411124436.png"
   ]
 }
