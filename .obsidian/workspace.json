@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
+                "file": "FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
+                "file": "FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
+                "file": "FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md"
+                "file": "FrameWork/Vue/VueRouter/20. Dynamic Routing.md"
               }
             }
           }
@@ -198,8 +198,12 @@
   },
   "active": "5da2199f19812d93",
   "lastOpenFiles": [
-    "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
+    "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
+    "FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
+    "FrameWork/Kubernetes/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
+    "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
     "FrameWork/Vue/VueRouter/README.md",
     "FrameWork/Vue/VueRouter/17. Transitions.md",
     "FrameWork/Vue/VueRouter/16. RouterView slot.md",
@@ -211,13 +215,10 @@
     "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
     "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
     "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
-    "FrameWork/Kubernetes/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
-    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Kubernetes/Issue/coredns pod들의 상태가 containerCreating으로 지속되는 문제.md",
     "FrameWork/Kubernetes/Issue",
     "FrameWork/Vue/VueRouter/15. Composition API.md",
     "FrameWork/Vue/VueRouter/14. Data Fetching.md",
-    "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
     "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
     "FrameWork/Vue/VueRouter/07. Named View.md",
     "FrameWork/Vue/VueRouter/05. Nested Route.md",
@@ -227,7 +228,6 @@
     "Attached File/Vue LisfeCycle.png",
     "FrameWork/Vue/VueRouter/09. Route Component Props.md",
     "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
-    "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
     "FrameWork/Vue/VueRouter",
     "FrameWork/Vue/VueCore",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
