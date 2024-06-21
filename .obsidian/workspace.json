@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md",
+                "file": "FrameWork/Kubernetes/rook/00. Rook Install.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md",
+                "file": "FrameWork/Kubernetes/rook/00. Rook Install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md",
+                "file": "FrameWork/Kubernetes/rook/00. Rook Install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md"
+                "file": "FrameWork/Kubernetes/rook/00. Rook Install.md"
               }
             }
           }
@@ -198,12 +198,12 @@
   },
   "active": "5da2199f19812d93",
   "lastOpenFiles": [
+    "FrameWork/Kubernetes/README.md",
     "FrameWork/Kubernetes/rook/00. Rook Install.md",
     "FrameWork/Kubernetes/Issue/coredns pod들의 상태가 containerCreating으로 지속되는 문제.md",
     "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
     "FrameWork/Kubernetes/k8s-init/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
-    "FrameWork/Kubernetes/README.md",
     "FrameWork/Kubernetes/rook",
     "FrameWork/Kubernetes/k8s-init",
     "FrameWork/Kubernetes/Untitled.md",
