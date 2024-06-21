@@ -1,7 +1,7 @@
 ---
 tags:
   - FrameWork
-  - Kuberntes
+  - Kubernetes
   - Issue
 ---
 ### 환경

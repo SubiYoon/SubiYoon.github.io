@@ -1,7 +1,7 @@
 ---
 tags:
   - FrameWork
-  - Kuberntes
+  - Kubernetes
   - Command
 ---
 ### 모든 Node 보기

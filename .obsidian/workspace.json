@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "FrameWork/Kubernetes/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Kuberntes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "FrameWork/Kubernetes/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
+                "file": "FrameWork/Kubernetes/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md"
+                "file": "FrameWork/Kubernetes/README.md"
               }
             }
           }
@@ -198,9 +198,15 @@
   },
   "active": "5da2199f19812d93",
   "lastOpenFiles": [
+    "FrameWork/Kubernetes/rook/00. Rook Install.md",
     "FrameWork/Kubernetes/Issue/coredns pod들의 상태가 containerCreating으로 지속되는 문제.md",
-    "FrameWork/Kubernetes/01. Kubernetes 환경 구성하기.md",
-    "FrameWork/Kubernetes/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+    "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
+    "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+    "FrameWork/Kubernetes/k8s-init/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
+    "FrameWork/Kubernetes/README.md",
+    "FrameWork/Kubernetes/rook",
+    "FrameWork/Kubernetes/k8s-init",
+    "FrameWork/Kubernetes/Untitled.md",
     "FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
     "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
     "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
@@ -222,12 +228,8 @@
     "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
     "FrameWork/Vue/VueRouter/07. Named View.md",
     "FrameWork/Vue/VueRouter/05. Nested Route.md",
-    "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
-    "FrameWork/Vue/VueCore/README.md",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
-    "FrameWork/Vue/VueRouter/09. Route Component Props.md",
-    "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
     "FrameWork/Vue/VueRouter",
     "FrameWork/Vue/VueCore",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)",
@@ -240,10 +242,8 @@
     "FrameWork/Spring, SpringBoot/Spring Core",
     "FrameWork/MyBatis",
     "Attached File/SSL핸드 셰이크.png",
-    "Attached File/SSL핸드 셰이크.png.crdownload",
     "Attached File/보안 전송 셋업.png",
     "보안 정송 셋업.png",
-    "FrameWork/kubernetes/Kubernetes 환경 구성하기",
     "Attached File/Pasted image 20240411124436.png"
   ]
 }
