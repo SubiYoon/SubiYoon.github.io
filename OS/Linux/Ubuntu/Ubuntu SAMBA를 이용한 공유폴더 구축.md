@@ -120,7 +120,7 @@ sudo systemctl restart smbd
 * 만약 방화벽을 설정 중이라면 방화벅의 포트를 뚫어주어야 한다.
 * samba의 포트는 139, 445를 사용하니 해당 포트는 다른 용도로 사용하지 말아야한다.
 ```bash
-sudo ufw allow 193
+sudo ufw allow 139
 sudo ufw allow 445
 ```
 
