@@ -26,7 +26,7 @@ tags:
 
 저의 경우 로컬 환경에 `local`, 운영 환경에 `prod`명칭을 붙여 사용할 겁니다.
 그렇다면 폴더구조는 다음과 같습니다.
-![[스크린샷 2024-06-23 오후 10.11.36.png]]
+![빌드 환경 분리하기](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-06-23%20%EC%98%A4%ED%9B%84%2010.11.36.png?raw=true)
 
 Spring Boot에서는 `build`시 입력하는 프로파일 변수값에 따라 해당 폴더를 자동으로 찾아줍니다.
 `resource-**`에서 `**`부분의 값을 찾는 것이죠.
