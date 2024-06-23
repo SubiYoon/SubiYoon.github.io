@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tool/Maven/Maven 빌드 환경 분리하기.md",
+                "file": "Tool/Maven/Maven.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tool/Maven/Maven 빌드 환경 분리하기.md",
+                "file": "Tool/Maven/Maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tool/Maven/Maven 빌드 환경 분리하기.md",
+                "file": "Tool/Maven/Maven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tool/Maven/Maven 빌드 환경 분리하기.md"
+                "file": "Tool/Maven/Maven.md"
               }
             }
           }
@@ -185,9 +185,9 @@
   },
   "active": "3ecada5b271830f2",
   "lastOpenFiles": [
+    "Tool/Maven/Maven 빌드 환경 분리하기.md",
     "Attached File/스크린샷 2024-06-23 오후 10.11.36.png",
     "Tool/Maven/Maven.md",
-    "Tool/Maven/Maven 빌드 환경 분리하기.md",
     "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
     "FrameWork/Vue/VueRouter/09. Route Component Props.md",
     "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
@@ -230,7 +230,6 @@
     "FrameWork/MyBatis",
     "Attached File/SSL핸드 셰이크.png",
     "Attached File/보안 전송 셋업.png",
-    "보안 정송 셋업.png",
-    "Attached File/Pasted image 20240411124436.png"
+    "보안 정송 셋업.png"
   ]
 }
