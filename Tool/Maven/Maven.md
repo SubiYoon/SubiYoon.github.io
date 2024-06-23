@@ -125,10 +125,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0http://maven.apache.org/mav
     1. Local Repository에서 의존성 확인
     2. Remote Repository에서 의존성 확인
     3. 위 두 과정 실패시 의존성 에러 보고
-- 의존성 <dependency> 필수 선언 항목
-    - <groupid> → 부분적인 프로젝트나 조직에서의 라이브러리 집합을 식별하기 위해 제공
-    - <artifactid> → 프로젝트의 실제 이름으로 groupid와 합쳐져 프로젝트 식별에 사용
-    - <version> → 선언한 의존성 artifact의 버전
+- 의존성
+    - `<dependency>` → 필수 선언 항목
+    - `<groupid>` → 부분적인 프로젝트나 조직에서의 라이브러리 집합을 식별하기 위해 제공
+    - `<artifactid>` → 프로젝트의 실제 이름으로 groupid와 합쳐져 프로젝트 식별에 사용
+    - `<version>` → 선언한 의존성 artifact의 버전
 
 ---
 
