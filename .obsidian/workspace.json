@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md",
+                "file": "FrameWork/Vue/VueRouter/09. Route Component Props.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md",
+                "file": "FrameWork/Vue/VueRouter/09. Route Component Props.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md",
+                "file": "FrameWork/Vue/VueRouter/09. Route Component Props.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md"
+                "file": "FrameWork/Vue/VueRouter/09. Route Component Props.md"
               }
             }
           }
@@ -198,8 +198,13 @@
   },
   "active": "5da2199f19812d93",
   "lastOpenFiles": [
-    "FrameWork/Kubernetes/rook/00. Rook Install.md",
+    "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
+    "FrameWork/Vue/VueRouter/07. Named View.md",
+    "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
+    "FrameWork/Vue/VueRouter/05. Nested Route.md",
+    "FrameWork/Vue/VueRouter/04. Named Route.md",
     "FrameWork/Kubernetes/README.md",
+    "FrameWork/Kubernetes/rook/00. Rook Install.md",
     "FrameWork/Kubernetes/Issue/coredns pod들의 상태가 containerCreating으로 지속되는 문제.md",
     "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
@@ -223,11 +228,6 @@
     "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
     "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
     "FrameWork/Kubernetes/Issue",
-    "FrameWork/Vue/VueRouter/15. Composition API.md",
-    "FrameWork/Vue/VueRouter/14. Data Fetching.md",
-    "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
-    "FrameWork/Vue/VueRouter/07. Named View.md",
-    "FrameWork/Vue/VueRouter/05. Nested Route.md",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
     "FrameWork/Vue/VueRouter",
