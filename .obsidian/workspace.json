@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e6ee71194868292e",
+        "id": "00cdcc4df5d6b402",
         "type": "tabs",
         "children": [
           {
-            "id": "3ecada5b271830f2",
+            "id": "096eb928316fd715",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tool/Maven/Maven.md",
+                "file": "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tool/Maven/Maven.md",
+                "file": "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tool/Maven/Maven.md",
+                "file": "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tool/Maven/Maven.md"
+                "file": "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md"
               }
             }
           }
@@ -183,23 +183,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ecada5b271830f2",
+  "active": "096eb928316fd715",
   "lastOpenFiles": [
     "Tool/Maven/Maven 빌드 환경 분리하기.md",
-    "Attached File/스크린샷 2024-06-23 오후 10.11.36.png",
-    "Tool/Maven/Maven.md",
     "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
-    "FrameWork/Vue/VueRouter/09. Route Component Props.md",
-    "FrameWork/Vue/VueRouter/08. Redirection & Alias.md",
-    "FrameWork/Vue/VueRouter/07. Named View.md",
-    "FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
-    "FrameWork/Vue/VueRouter/05. Nested Route.md",
-    "FrameWork/Vue/VueRouter/04. Named Route.md",
-    "FrameWork/Kubernetes/README.md",
-    "FrameWork/Kubernetes/rook/00. Rook Install.md",
+    "Tool/Maven/Maven.md",
     "FrameWork/Kubernetes/Issue/coredns pod들의 상태가 containerCreating으로 지속되는 문제.md",
+    "Attached File/스크린샷 2024-06-23 오후 10.11.36.png",
+    "FrameWork/Kubernetes/rook/00. Rook Install.md",
+    "FrameWork/Kubernetes/README.md",
     "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
-    "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+    "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
     "FrameWork/Kubernetes/k8s-init/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "FrameWork/Kubernetes/rook",
     "FrameWork/Kubernetes/k8s-init",
@@ -214,7 +208,14 @@
     "FrameWork/Vue/VueRouter/10. Active links.md",
     "FrameWork/Vue/VueCore/08. Slot.md",
     "OS/Linux/Linux에서 특정 포트 죽이기.md",
+    "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
+    "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
+    "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
+    "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
     "FrameWork/Kubernetes/Issue",
+    "FrameWork/Vue/VueRouter/15. Composition API.md",
+    "FrameWork/Vue/VueRouter/14. Data Fetching.md",
+    "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
     "FrameWork/Vue/VueRouter",
