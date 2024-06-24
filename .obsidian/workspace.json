@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+                "file": "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+                "file": "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+                "file": "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md"
+                "file": "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md"
               }
             }
           }
@@ -185,6 +185,8 @@
   },
   "active": "096eb928316fd715",
   "lastOpenFiles": [
+    "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+    "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
     "Tool/Maven/Maven 빌드 환경 분리하기.md",
     "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
     "Tool/Maven/Maven.md",
@@ -193,7 +195,6 @@
     "FrameWork/Kubernetes/rook/00. Rook Install.md",
     "FrameWork/Kubernetes/README.md",
     "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
-    "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
     "FrameWork/Kubernetes/k8s-init/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "FrameWork/Kubernetes/rook",
     "FrameWork/Kubernetes/k8s-init",
@@ -215,7 +216,6 @@
     "FrameWork/Kubernetes/Issue",
     "FrameWork/Vue/VueRouter/15. Composition API.md",
     "FrameWork/Vue/VueRouter/14. Data Fetching.md",
-    "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
     "FrameWork/Vue/VueRouter",
