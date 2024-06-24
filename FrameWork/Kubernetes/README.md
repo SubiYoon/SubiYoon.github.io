@@ -4,6 +4,11 @@ tags:
   - Kubernetes
   - Command
 ---
+### Kubernetes Join token 재생성
+```bash
+kubeadm token create --print-join-command
+```
+
 ### 모든 Node 보기
 ```bash
 kubectl get nodes -A
