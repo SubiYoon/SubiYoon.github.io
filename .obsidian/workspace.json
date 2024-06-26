@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md",
-                "mode": "source",
+                "file": "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md",
+                "file": "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md",
+                "file": "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/README.md"
+                "file": "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md"
               }
             }
           }
@@ -185,17 +185,18 @@
   },
   "active": "096eb928316fd715",
   "lastOpenFiles": [
-    "FrameWork/Kubernetes/rook/00. Rook Install.md",
     "FrameWork/Kubernetes/README.md",
+    "FrameWork/Kubernetes/rook/00. Rook Install.md",
+    "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
     "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
+    "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+    "FrameWork/Kubernetes/k8s-init/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
+    "FrameWork/Kubernetes/Issue/coredns pod들의 상태가 containerCreating으로 지속되는 문제.md",
     "Tool/Maven/Maven 빌드 환경 분리하기.md",
     "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
     "Tool/Maven/Maven.md",
-    "FrameWork/Kubernetes/Issue/coredns pod들의 상태가 containerCreating으로 지속되는 문제.md",
     "Attached File/스크린샷 2024-06-23 오후 10.11.36.png",
-    "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
-    "FrameWork/Kubernetes/k8s-init/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "FrameWork/Kubernetes/rook",
     "FrameWork/Kubernetes/k8s-init",
     "FrameWork/Kubernetes/Untitled.md",
@@ -215,7 +216,6 @@
     "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
     "FrameWork/Kubernetes/Issue",
     "FrameWork/Vue/VueRouter/15. Composition API.md",
-    "FrameWork/Vue/VueRouter/14. Data Fetching.md",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
     "FrameWork/Vue/VueRouter",
