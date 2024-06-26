@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
+                "file": "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
+                "file": "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
+                "file": "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md"
+                "file": "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md"
               }
             }
           }
@@ -186,11 +186,13 @@
   "active": "096eb928316fd715",
   "lastOpenFiles": [
     "FrameWork/Kubernetes/README.md",
-    "FrameWork/Kubernetes/rook/00. Rook Install.md",
+    "FrameWork/Kubernetes/k8s-init/04. Kubernetes 모니터링을 위한 DashBoard 설치.md",
+    "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
     "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
-    "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
+    "FrameWork/Kubernetes/rook/00. Rook Install.md",
     "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
+    "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
     "FrameWork/Kubernetes/k8s-init/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "FrameWork/Kubernetes/Issue/coredns pod들의 상태가 containerCreating으로 지속되는 문제.md",
     "Tool/Maven/Maven 빌드 환경 분리하기.md",
@@ -213,9 +215,7 @@
     "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
     "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
     "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
-    "OS/Linux/Ubuntu/Ubuntu Nginx 설치.md",
     "FrameWork/Kubernetes/Issue",
-    "FrameWork/Vue/VueRouter/15. Composition API.md",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
     "FrameWork/Vue/VueRouter",
