@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
+                "file": "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
+                "file": "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
+                "file": "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md"
+                "file": "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md"
               }
             }
           }
@@ -185,9 +185,9 @@
   },
   "active": "096eb928316fd715",
   "lastOpenFiles": [
+    "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
     "FrameWork/Kubernetes/README.md",
     "FrameWork/Kubernetes/k8s-init/04. Kubernetes 모니터링을 위한 DashBoard 설치.md",
-    "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
     "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
     "FrameWork/Kubernetes/rook/00. Rook Install.md",
     "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
