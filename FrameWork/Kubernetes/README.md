@@ -9,6 +9,11 @@ tags:
 kubeadm token create --print-join-command
 ```
 
+### kubenetes에서 사용가능한 오브젝트 리스트
+```bash
+kubectl api-resources
+```
+
 ### 모든 Node 보기
 ```bash
 kubectl get nodes -A
@@ -27,6 +32,17 @@ kubectl get all -o wide
 ### .yaml 파일 적용시키기
 ```bash
 kubectl apply -f ${file.yaml}
+
+# example: calico 적용
+kubectl apply -f calico.yaml
+```
+
+### 리소스의 속성을 직접 변경하기
+```bash
+kubectl edit ${object_type} ${resource_name}
+
+# example: rook's cluster edit
+kubectl edit cephcluster -n rook-ceph rook-ceph
 ```
 
 ### Pod 삭제하기
@@ -45,4 +61,10 @@ kubectl get pods -A |grep -i ${search-name} | awk '{print $2}' | xargs kubectl d
 
 # 모든 항목이 안될 때는 그냥 kubelet을 재시동하자
 sudo systemctl restart kubelet.service
+
+# 설정파일로 삭제하기
+kubectl delete -f ${file.yaml}
+
+# 모든 리소스 삭제
+kubectl delete deployment,pod,rs --all
 ```
