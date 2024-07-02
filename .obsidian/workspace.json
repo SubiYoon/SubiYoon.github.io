@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/03. Rook의 Filesystem Storage Mount 시키기.md",
+                "file": "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/03. Rook의 Filesystem Storage Mount 시키기.md",
+                "file": "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/03. Rook의 Filesystem Storage Mount 시키기.md",
+                "file": "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Kubernetes/rook/03. Rook의 Filesystem Storage Mount 시키기.md"
+                "file": "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md"
               }
             }
           }
@@ -185,8 +185,14 @@
   },
   "active": "096eb928316fd715",
   "lastOpenFiles": [
-    "FrameWork/Kubernetes/rook/isuue/00. ceph HEALTH_WARN n daemons have recently creashed.md",
+    "OS/Linux/Ubuntu/Linux에서 폴더 및 파일에 권한 부여하기.md",
+    "OS/Linux/Linux에서 특정 포트 죽이기.md",
+    "OS/Linux/Linux에서 systemctl을 사용하여 서비스관리하기(feat. tomcat 부팅시 자동시작).md",
+    "OS/Linux/Linux에서 파일 및 폴더에 권한을 주는 방법.md",
+    "OS/Linux/Ubuntu/Ubuntu SAMBA를 이용한 공유폴더 구축.md",
+    "Network/VPN/WireGuard를 이용한 VPN사용.md",
     "FrameWork/Kubernetes/rook/03. Rook의 Filesystem Storage Mount 시키기.md",
+    "FrameWork/Kubernetes/rook/isuue/00. ceph HEALTH_WARN n daemons have recently creashed.md",
     "FrameWork/Kubernetes/rook/00. Rook Install.md",
     "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
     "FrameWork/Kubernetes/rook/isuue",
@@ -209,13 +215,7 @@
     "FrameWork/Kubernetes/k8s-init",
     "FrameWork/Kubernetes/Untitled.md",
     "FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
-    "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
-    "FrameWork/Vue/VueRouter/README.md",
-    "FrameWork/Vue/VueRouter/17. Transitions.md",
-    "FrameWork/Vue/VueRouter/16. RouterView slot.md",
     "Attached File/KeepAlive.gif",
-    "FrameWork/Vue/VueRouter/10. Active links.md",
-    "FrameWork/Vue/VueCore/08. Slot.md",
     "FrameWork/Kubernetes/Issue",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
