@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "00cdcc4df5d6b402",
+        "id": "98db2286bbd44b8e",
         "type": "tabs",
         "children": [
           {
-            "id": "096eb928316fd715",
+            "id": "d0dd757baa305aad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/README.md",
+                "file": "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,32 +29,8 @@
     "type": "split",
     "children": [
       {
-        "id": "80de736134531bd3",
-        "type": "tabs",
-        "dimension": 25.320056899004268,
-        "children": [
-          {
-            "id": "bfc9bdd7a2f62155",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "8418d5ab6e7be670",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "348987b600e22615",
         "type": "tabs",
-        "dimension": 74.67994310099573,
         "children": [
           {
             "id": "c36da723bd2a67aa",
@@ -86,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Kuberntes",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/README.md",
+                "file": "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/README.md",
+                "file": "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,11 +137,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FrameWork/Vue/VueRouter/README.md"
+                "file": "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md"
               }
             }
+          },
+          {
+            "id": "bfc9bdd7a2f62155",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -183,8 +168,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "096eb928316fd715",
+  "active": "d0dd757baa305aad",
   "lastOpenFiles": [
+    "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
+    "FrameWork/Vue/VueRouter/README.md",
     "FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
     "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
     "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
@@ -210,8 +197,6 @@
     "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
     "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
     "FrameWork/Kubernetes/README.md",
-    "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
-    "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
     "Attached File/스크린샷 2024-06-23 오후 10.11.36.png",
     "FrameWork/Kubernetes/rook",
     "FrameWork/Kubernetes/k8s-init",
