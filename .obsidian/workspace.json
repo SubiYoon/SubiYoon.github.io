@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
+                "file": "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
+                "file": "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
+                "file": "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md"
+                "file": "Tool/Git/git의 한글 깨짐 현상 해결하기.md"
               }
             }
           },
@@ -171,6 +171,10 @@
   "active": "d0dd757baa305aad",
   "lastOpenFiles": [
     "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
+    "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
+    "Tool/Git/gitignore를 통한 application.properties 보안강화.md",
+    "OS/Mac/Untitled.md",
+    "OS/Mac",
     "FrameWork/Vue/VueRouter/README.md",
     "FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
     "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
@@ -194,9 +198,6 @@
     "FrameWork/Kubernetes/k8s-init/04. Kubernetes 모니터링을 위한 DashBoard 설치.md",
     "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
     "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
-    "FrameWork/Vue/VueRouter/12. Navigation Guard.md",
-    "FrameWork/Vue/VueRouter/11. Diffrent History Modes.md",
-    "FrameWork/Kubernetes/README.md",
     "Attached File/스크린샷 2024-06-23 오후 10.11.36.png",
     "FrameWork/Kubernetes/rook",
     "FrameWork/Kubernetes/k8s-init",
@@ -213,7 +214,6 @@
     "Untitled.canvas",
     "FrameWork/Spring, SpringBoot/Spring Core/Object",
     "FrameWork/Spring, SpringBoot/Spring Core/Annotation",
-    "FrameWork/Spring, SpringBoot/Spring Core",
     "Attached File/SSL핸드 셰이크.png",
     "Attached File/보안 전송 셋업.png",
     "보안 정송 셋업.png"

@@ -2,6 +2,7 @@
 tags:
   - Language
   - JavaScript
+  - typeof
 ---
 # 왜??
 개발을 하던중, Object의 데이터를 for문을 통해 데이터를 검증하는 과정을 거쳐야 하는 상황이 발생했습니다.
