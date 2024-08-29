@@ -43,6 +43,7 @@ MemberService memberService = applicationContext.getBean("memberService", Member
 
 ### AOP(Aspect-Oreiented Programming)
 AOP는 관점 지향 프로그래밍으로써 Aspect를 모듈화할 수 있는 프로그래밍 기법입니다.
+
 ![image](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/Pasted%20image%2020240522162101.png?raw=true)
 
 위에 그림에서 Class A,B,C가 있습니다.
