@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "98db2286bbd44b8e",
+        "id": "e0ae92052914dbef",
         "type": "tabs",
         "children": [
           {
-            "id": "d0dd757baa305aad",
+            "id": "5094477f1cae2260",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -40,6 +36,14 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "57cd4dedc94588c5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -96,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Tool/Git/git의 한글 깨짐 현상 해결하기.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,10 +168,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d0dd757baa305aad",
+  "active": "5094477f1cae2260",
   "lastOpenFiles": [
-    "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
+    "Language/JavaScript/XMLHttpRequest를 이용한 비동기 통신.md",
     "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
+    "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
     "Tool/Git/gitignore를 통한 application.properties 보안강화.md",
     "OS/Mac/Untitled.md",
     "OS/Mac",
@@ -197,7 +198,6 @@
     "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
     "FrameWork/Kubernetes/k8s-init/04. Kubernetes 모니터링을 위한 DashBoard 설치.md",
     "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
-    "FrameWork/Vue/VueRouter/13. Route Meta Field.md",
     "Attached File/스크린샷 2024-06-23 오후 10.11.36.png",
     "FrameWork/Kubernetes/rook",
     "FrameWork/Kubernetes/k8s-init",

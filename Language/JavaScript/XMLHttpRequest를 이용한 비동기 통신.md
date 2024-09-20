@@ -1,0 +1,6 @@
+---
+tags:
+  - Language
+  - JavaScript
+  - XMLHttpRequest
+---
