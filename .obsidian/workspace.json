@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e0ae92052914dbef",
+        "id": "122353be71a029ff",
         "type": "tabs",
         "children": [
           {
-            "id": "5094477f1cae2260",
+            "id": "6639110e480718c4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Design/Pattern/CQRS Pattern.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -100,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Design/Pattern/CQRS Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Design/Pattern/CQRS Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Design/Pattern/CQRS Pattern.md"
+              }
             }
           },
           {
@@ -168,8 +176,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5094477f1cae2260",
+  "active": "6639110e480718c4",
   "lastOpenFiles": [
+    "Attached File/R1280x0-3.png",
+    "Attached File/R1280x0-2.png",
+    "Attached File/R1280x0.png",
+    "Design/Pattern/CQRS Pattern.md",
+    "Design/Pattern",
+    "Design",
+    "Network/HTTP/05. HTTP2.0.md",
+    "Network/HTTP/04. HTTP1.1.md",
     "Language/JavaScript/XMLHttpRequest를 이용한 비동기 통신.md",
     "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
     "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
@@ -193,11 +209,7 @@
     "FrameWork/Kubernetes/rook/03. Rook의 Filesystem Storage Mount 시키기.md",
     "FrameWork/Kubernetes/rook/isuue/00. ceph HEALTH_WARN n daemons have recently creashed.md",
     "FrameWork/Kubernetes/rook/00. Rook Install.md",
-    "FrameWork/Kubernetes/rook/02. Rook의 DashBoard 실행하기.md",
     "FrameWork/Kubernetes/rook/isuue",
-    "FrameWork/Kubernetes/rook/01. Rook의 OSD 생성방법.md",
-    "FrameWork/Kubernetes/k8s-init/04. Kubernetes 모니터링을 위한 DashBoard 설치.md",
-    "FrameWork/Kubernetes/k8s-init/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
     "Attached File/스크린샷 2024-06-23 오후 10.11.36.png",
     "FrameWork/Kubernetes/rook",
     "FrameWork/Kubernetes/k8s-init",
@@ -212,10 +224,6 @@
     "Attached File/Pasted image 20240522162101.png",
     "Attached File/Pasted image 20240521141058.png",
     "Untitled.canvas",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object",
-    "FrameWork/Spring, SpringBoot/Spring Core/Annotation",
-    "Attached File/SSL핸드 셰이크.png",
-    "Attached File/보안 전송 셋업.png",
-    "보안 정송 셋업.png"
+    "Attached File/SSL핸드 셰이크.png"
   ]
 }
