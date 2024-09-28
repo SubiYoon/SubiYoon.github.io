@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design/Pattern/CQRS Pattern.md",
+                "file": "Tool/NeoVim/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design/Pattern/CQRS Pattern.md",
+                "file": "Tool/NeoVim/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design/Pattern/CQRS Pattern.md",
+                "file": "Tool/NeoVim/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design/Pattern/CQRS Pattern.md"
+                "file": "Tool/NeoVim/README.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "9ef97c14b8049d7e",
   "lastOpenFiles": [
+    "Design/Pattern/CQRS Pattern.md",
     "Tool/NeoVim/README.md",
     "Tool/NeoVim/lua/utils/keyMapper.lua",
     "Tool/NeoVim/lua/utils",
@@ -191,7 +192,6 @@
     "Tool/NeoVim/lua/plugins/lualine.lua",
     "Tool/NeoVim/config/README.md",
     "Tool/NeoVim/01.Lazy.md",
-    "Design/Pattern/CQRS Pattern.md",
     "FrameWork/Spring, SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
     "FrameWork/Spring, SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
     "FrameWork/Spring, SpringBoot/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
