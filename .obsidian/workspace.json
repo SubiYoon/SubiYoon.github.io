@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tool/NeoVim/README.md",
+                "file": "Design/Pattern/CQRS Pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tool/NeoVim/README.md",
+                "file": "Design/Pattern/CQRS Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tool/NeoVim/README.md",
+                "file": "Design/Pattern/CQRS Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tool/NeoVim/README.md"
+                "file": "Design/Pattern/CQRS Pattern.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "9ef97c14b8049d7e",
   "lastOpenFiles": [
+    "Tool/NeoVim/README.md",
     "Tool/NeoVim/lua/utils/keyMapper.lua",
     "Tool/NeoVim/lua/utils",
     "Tool/NeoVim/lua/plugins/vnim-autopairs.lua",
@@ -188,9 +189,6 @@
     "Tool/NeoVim/lua/plugins/nvim-cmp.lua",
     "Tool/NeoVim/lua/plugins/neo-tree.lua",
     "Tool/NeoVim/lua/plugins/lualine.lua",
-    "Tool/NeoVim/lua/plugins/lsp.lua",
-    "Tool/NeoVim/README.md",
-    "Tool/NeoVim/README.md",
     "Tool/NeoVim/config/README.md",
     "Tool/NeoVim/01.Lazy.md",
     "Design/Pattern/CQRS Pattern.md",
