@@ -108,6 +108,7 @@ AllowedIPs = 0.0.0.0/0
 ---
 # Server에서 허용해주기
 * 서버에 클라이언트의 Peer를 추가해준다.
+* 만약, 안된다면 관리자 계정으로 이동 후 사용
 ```bash
 sudo wg set wg0 peer ${CLIENT_PUBLIC_KEY} allowed-ips 10.0.0.2
 ```
@@ -116,13 +117,17 @@ sudo wg set wg0 peer ${CLIENT_PUBLIC_KEY} allowed-ips 10.0.0.2
 
 ---
 # 참고사항
+* 현재 설정 보기
+```bash
+sudo wg show wg0
+```
 * WireGuard 올리기
 	* 예시 Interface : wg0
 ```bash
-sudo wg up wg0
+sudo wg-quick up wg0
 ```
 * WireGuard 내리기
 	* 예시 Interface : wg0
 ```bash
-sudo wg down wg0
+sudo wg-quick down wg0
 ```
