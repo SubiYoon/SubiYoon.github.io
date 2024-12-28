@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/01.비즈니스 요구사항과 설계.md",
+                "file": "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/03.새로운 할인 정책 개발.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01.비즈니스 요구사항과 설계"
+              "title": "03.새로운 할인 정책 개발"
             }
           }
         ]
@@ -199,7 +199,9 @@
   },
   "active": "a8c6291fc7ccf403",
   "lastOpenFiles": [
+    "Attached File/스크린샷 2024-12-28 오후 8.11.42.png",
     "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/02.주문과 할인 도메인 설계.md",
+    "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/03.새로운 할인 정책 개발.md",
     "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/01.비즈니스 요구사항과 설계.md",
     "Attached File/스크린샷 2024-12-28 오후 7.38.02.png",
     "Attached File/스크린샷 2024-12-28 오후 7.37.16.png",
@@ -243,7 +245,6 @@
     "Tool/Git/git의 한글 깨짐 현상 해결하기.md",
     "Language/JavaScript/JavaScript의 타입을 활용해보자 typeof.md",
     "Tool/Git/gitignore를 통한 application.properties 보안강화.md",
-    "OS/Mac/Untitled.md",
-    "FrameWork/Vue/VueRouter/README.md"
+    "OS/Mac/Untitled.md"
   ]
 }
