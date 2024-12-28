@@ -2,5 +2,6 @@
   "vimMode": true,
   "attachmentFolderPath": "Attached File",
   "showLineNumber": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "promptDelete": false
 }
