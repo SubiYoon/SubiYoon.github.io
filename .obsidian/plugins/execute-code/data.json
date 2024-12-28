@@ -5,7 +5,7 @@
   "wslMode": false,
   "shellWSLMode": false,
   "onlyCurrentBlock": false,
-  "nodePath": "/Users/ABCD/.nvm/versions/node/v18.17.1/bin/node",
+  "nodePath": "~/.nvm/versions/node/v18.17.1/bin/node",
   "nodeArgs": "",
   "jsFileExtension": "js",
   "jsInject": "",

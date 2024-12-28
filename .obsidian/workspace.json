@@ -4,15 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "69cfcfccf5c3b516",
+        "id": "7bc062ce2c31b330",
         "type": "tabs",
         "children": [
           {
-            "id": "9ef97c14b8049d7e",
+            "id": "a8c6291fc7ccf403",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/00. 스프링이란?.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00. 스프링이란?"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -43,7 +51,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -72,7 +82,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -83,7 +95,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -91,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -100,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "FrameWork/Spring, SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +124,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter"
             }
           },
           {
@@ -116,9 +135,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "FrameWork/Spring, SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter"
             }
           },
           {
@@ -130,7 +152,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -139,8 +163,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tool/NeoVim/README.md"
-              }
+                "file": "FrameWork/Spring, SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter"
             }
           },
           {
@@ -148,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -156,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.5,
-    "collapsed": true
+    "width": 443.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,6 +199,15 @@
   },
   "active": "c36da723bd2a67aa",
   "lastOpenFiles": [
+    "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/00. 스프링이란?.md",
+    "FrameWork/Spring, SpringBoot/00.Inflearn/기본편",
+    "FrameWork/Spring, SpringBoot/00.Inflearn",
+    "Untitled.canvas",
+    "2024-10-27.md",
+    "FrameWork/Spring, SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
+    "2024-10-28.md",
+    "Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md",
+    "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
     "Design/Pattern/CQRS Pattern.md",
     "Tool/NeoVim/README.md",
     "Tool/NeoVim/lua/utils/keyMapper.lua",
@@ -182,11 +218,8 @@
     "Tool/NeoVim/lua/plugins/nvim-treesitter.lua",
     "Tool/NeoVim/lua/plugins/nvim-conform.lua",
     "Tool/NeoVim/lua/plugins/nvim-cmp.lua",
-    "Tool/NeoVim/lua/plugins/neo-tree.lua",
-    "Tool/NeoVim/lua/plugins/lualine.lua",
     "Tool/NeoVim/config/README.md",
     "Tool/NeoVim/01.Lazy.md",
-    "FrameWork/Spring, SpringBoot/URL의 특정 패턴을 파악하고 가로채는 HandlerInterceptor, HandlerInterceptorAdapter.md",
     "FrameWork/Spring, SpringBoot/SpringBoot 3.x와 SpringSecurity 6.x 로그인 구축하기.md",
     "FrameWork/Spring, SpringBoot/Spring Boot에 Mybatis + PostgreSQL 접목 시키기.md",
     "FrameWork/Spring, SpringBoot/Spring Core/README.md",
@@ -206,16 +239,12 @@
     "FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
     "FrameWork/Vue/VueRouter/19. Lazy Loading Routes.md",
     "FrameWork/Vue/VueRouter/18. Scroll Behavior.md",
-    "FrameWork/Vue/VueRouter/17. Transitions.md",
-    "FrameWork/Vue/VueRouter/16. RouterView slot.md",
-    "FrameWork/Vue/VueRouter/15. Composition API.md",
     "Attached File/스크린샷 2024-06-23 오후 10.11.36.png",
     "Attached File/KeepAlive.gif",
     "Attached File/Vue Router LifeCycle Hook.jpg",
     "Attached File/Vue LisfeCycle.png",
     "Attached File/Pasted image 20240522171850.png",
     "Attached File/Pasted image 20240522162101.png",
-    "Attached File/Pasted image 20240521141058.png",
-    "Untitled.canvas"
+    "Attached File/Pasted image 20240521141058.png"
   ]
 }
