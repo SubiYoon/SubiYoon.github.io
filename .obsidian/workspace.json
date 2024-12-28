@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/02.주문과 할인 도메인 설계.md",
+                "file": "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/01.비즈니스 요구사항과 설계.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02.주문과 할인 도메인 설계"
+              "title": "01.비즈니스 요구사항과 설계"
             }
           }
         ]
@@ -199,14 +199,14 @@
   },
   "active": "a8c6291fc7ccf403",
   "lastOpenFiles": [
+    "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/02.주문과 할인 도메인 설계.md",
+    "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/01.비즈니스 요구사항과 설계.md",
     "Attached File/스크린샷 2024-12-28 오후 7.38.02.png",
     "Attached File/스크린샷 2024-12-28 오후 7.37.16.png",
     "Attached File/스크린샷 2024-12-28 오후 7.36.59.png",
     "Attached File/스크린샷 2024-12-28 오후 7.36.17.png",
     "Attached File/스크린샷 2024-12-28 오후 7.35.46.png",
     "Attached File/스크린샷 2024-12-28 오후 7.35.34.png",
-    "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/01.비즈니스 요구사항과 설계.md",
-    "FrameWork/Spring, SpringBoot/00.Inflearn/기본편/02.주문과 할인 도메인 설계.md",
     "Attached File/스크린샷 2024-12-28 오후 6.43.39.png",
     "Attached File/스크린샷 2024-12-28 오후 6.43.28.png",
     "Attached File/스크린샷 2024-12-28 오후 6.43.17.png",
@@ -237,7 +237,6 @@
     "FrameWork/Spring, SpringBoot/Log.md",
     "FrameWork/Spring, SpringBoot/Spring Core/AOP(Aspect Oriented Programming)/AspectJ의 표현식.md",
     "Attached File/R1280x0-3.png",
-    "Attached File/R1280x0-2.png",
     "Network/HTTP/05. HTTP2.0.md",
     "Network/HTTP/04. HTTP1.1.md",
     "Language/JavaScript/XMLHttpRequest를 이용한 비동기 통신.md",
