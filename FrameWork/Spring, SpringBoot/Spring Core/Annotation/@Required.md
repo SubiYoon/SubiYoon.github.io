@@ -12,7 +12,7 @@ Reference link: "[[BeanPostProcessor]]"
 아래 코드로 예시를 들어보겠습니다.
 prefixGenerator와 suffix는 시퀀스 생성기의 필수 property입니다. 따라서 해당 property의 생성여부를 판단하기 위해 setter 메서드에 `@Required`를 붙입니다.
 
-Spring이 해당 property를 감지해서 값의 존재 여부를 조사하고 property값이 없으면 `BeanInitializationException`예외를 던집니게 될것입니다.
+Spring이 해당 property를 감지해서 값의 존재 여부를 조사하고 property값이 없으면 `BeanInitializationException`예외를 던지게 될것입니다.
 
 ```java title:"SequenceGenerator"
 public class SequenceGenerator {
