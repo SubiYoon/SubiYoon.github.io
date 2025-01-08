@@ -21,12 +21,12 @@ public class SequenceGenerator {
 	private String suffix;
 
 	@Required
-	public vodi setPrefixGenerator(PrefixGenerator prefixGenerator) {
+	public void setPrefixGenerator(PrefixGenerator prefixGenerator) {
 		this.prefixGenerator = prefixGenerator;
 	}
 
 	@Required
-	public vodi setSuffix(String suffix) {
+	public void setSuffix(String suffix) {
 		this.suffix = suffix;
 	}
 
