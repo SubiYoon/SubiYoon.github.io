@@ -100,7 +100,7 @@ ApplicationContext context = new AnnotationConfigApplicationContext(SequenceGene
 PrefixGenerator prefixgenerator = context.getBean("datePrefixGenerator", DateprefixGenerator.class);
 ```
 
-다른 방법으로는 `@Inport`를 사용하는 것입니다.
+다른 방법으로는 `@Import`를 사용하는 것입니다.
 sequenceGenerator Bean에서는 반드시 prefixGenerator Bean을 설정해야 하는데 이 Class에는 없고 대신 다른 자바 구성 Class PrefixConfiguration에 정의되어 있을 경우 해당 구성 Class의 Scope를 `@Value`를 통해 가져 올 수 있습니다.
 ```java title:"@Import 예시"
 @Configuration
