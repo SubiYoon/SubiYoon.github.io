@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7bc062ce2c31b330",
+        "id": "cb41715cdf841df9",
         "type": "tabs",
         "children": [
           {
-            "id": "c4c84cffa350da65",
+            "id": "c0150a753f97d1cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -198,11 +198,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c4c84cffa350da65",
+  "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
+    "FrameWork/Kubernetes/k8s-init(RedHat)/02. Kubernetes 모니터링 시스템 설치.md",
     "Attached File/스크린샷 2025-03-07 오전 1.56.52.png",
     "FrameWork/Kubernetes/k8s-init(RedHat)/01. Kubernetes 설치하기.md",
-    "FrameWork/Kubernetes/k8s-init(RedHat)/02. Kubernetes 모니터링 시스템 설치.md",
     "Attached File/스크린샷 2025-03-07 오전 12.49.26.png",
     "Attached File/스크린샷 2025-03-07 오전 12.47.10.png",
     "Attached File/스크린샷 2025-03-07 오전 12.42.26.png",
@@ -215,7 +215,6 @@
     "Attached File/스크린샷 2025-03-06 오전 1.09.40.png",
     "FrameWork/Kubernetes/k8s-init/01. Kubernetes 환경 구성하기.md",
     "FrameWork/Kubernetes/k8s-init/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
-    "Attached File/스크린샷 2025-03-06 오전 12.55.48.png",
     "FrameWork/Kubernetes/k8s-init/00. Kubernetes 구성중 Swap Memory를 끄는 이유!!.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)",
     "FrameWork/Kubernetes/k8s-init/04. Kubernetes 모니터링을 위한 DashBoard 설치.md",
