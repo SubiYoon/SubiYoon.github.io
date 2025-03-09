@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/k8s-init(RedHat)/04. kubernetes Application 기능 이해하기 - Pod.md",
+                "file": "FrameWork/Kubernetes/k8s-init(RedHat)/04. kubernetes Application 기능 이해하기 - Pod(Probe).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04. kubernetes Application 기능 이해하기 - Pod"
+              "title": "04. kubernetes Application 기능 이해하기 - Pod(Probe)"
             }
           }
         ]
@@ -202,7 +202,7 @@
   "lastOpenFiles": [
     "Attached File/스크린샷 2025-03-09 오후 9.04.25.png",
     "FrameWork/Kubernetes/k8s-init(RedHat)/03. Kubernetes Object 그려보며 이해하기.md",
-    "FrameWork/Kubernetes/k8s-init(RedHat)/04. kubernetes Application 기능 이해하기 - Pod.md",
+    "FrameWork/Kubernetes/k8s-init(RedHat)/04. kubernetes Application 기능 이해하기 - Pod(Probe).md",
     "이럴경우.md",
     "Attached File/스크린샷 2025-03-09 오후 8.40.21.png",
     "Attached File/스크린샷 2025-03-09 오후 8.25.56.png",
