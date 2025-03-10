@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/k8s-init(RedHat)/06. Kubernetes Application 기능을 이해하기 - PVC,PV,Deployment,HPA,Service.md",
+                "file": "FrameWork/Kubernetes/k8s-init(RedHat)/06. Kubernetes Application 기능을 이해하기 - PVC, PV, Deployment, Service, HPA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06. Kubernetes Application 기능을 이해하기 - PVC,PV,Deployment,HPA,Service"
+              "title": "06. Kubernetes Application 기능을 이해하기 - PVC, PV, Deployment, Service, HPA"
             }
           }
         ]
@@ -202,7 +202,7 @@
   "lastOpenFiles": [
     "Attached File/스크린샷 2025-03-11 오전 1.10.51.png",
     "FrameWork/Kubernetes/k8s-init(RedHat)/03. Kubernetes Object 그려보며 이해하기.md",
-    "FrameWork/Kubernetes/k8s-init(RedHat)/06. Kubernetes Application 기능을 이해하기 - PVC,PV,Deployment,HPA,Service.md",
+    "FrameWork/Kubernetes/k8s-init(RedHat)/06. Kubernetes Application 기능을 이해하기 - PVC, PV, Deployment, Service, HPA.md",
     "Attached File/스크린샷 2025-03-11 오전 12.48.15.png",
     "FrameWork/Kubernetes/k8s-init(RedHat)/05. Kubernetes Application 기능 이해하기 - Configmap, Secret.md",
     "Attached File/스크린샷 2025-03-11 오전 12.03.26.png",
