@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/k8s-init(RedHat)/12. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Rollouts를 이용한 배포.md",
+                "file": "FrameWork/Kubernetes/k8s-init(RedHat)/13. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Rollouts를 이용한 배포.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Rollouts를 이용한 배포"
+              "title": "13. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Rollouts를 이용한 배포"
             }
           }
         ]
@@ -200,6 +200,8 @@
   },
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
+    "FrameWork/Kubernetes/k8s-init(RedHat)/12. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Image Updater를 이용한 자동 배포.md",
+    "FrameWork/Kubernetes/k8s-init(RedHat)/13. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Rollouts를 이용한 배포.md",
     "Attached File/스크린샷 2025-03-16 오전 3.59.12.png",
     "Attached File/스크린샷 2025-03-16 오전 3.54.55.png",
     "Attached File/스크린샷 2025-03-16 오전 3.42.55.png",
@@ -208,12 +210,9 @@
     "Attached File/스크린샷 2025-03-16 오전 2.37.34.png",
     "Attached File/스크린샷 2025-03-16 오전 2.37.27.png",
     "FrameWork/Kubernetes/k8s-init(RedHat)/README.md",
-    "FrameWork/Kubernetes/k8s-init(RedHat)/12. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Image Updater를 이용한 자동 배포.md",
-    "FrameWork/Kubernetes/k8s-init(RedHat)/12. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Rollouts를 이용한 배포.md",
     "Attached File/스크린샷 2025-03-16 오전 1.49.50.png",
     "Attached File/스크린샷 2025-03-16 오전 1.49.15.png",
     "Attached File/스크린샷 2025-03-16 오전 1.47.04.png",
-    "Attached File/스크린샷 2025-03-16 오전 1.44.12.png",
     "FrameWork/Kubernetes/k8s-init(RedHat)/08. Kubernetes CICD환경 구축하기.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)/09. Kubernetes Jenkins Pipeline - 기초부터 Blue, Green 까지.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)/11. Kubernetes ArgoCD 사용해보기 (1) - ArgoCD 설치 및 기본 배포.md",
