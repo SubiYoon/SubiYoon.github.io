@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrameWork/Kubernetes/k8s-init(RedHat)/11. Kubernetes ArgoCD 사용해보기 (1) - ArgoCD 설치 및 기본 배포.md",
+                "file": "FrameWork/Kubernetes/k8s-init(RedHat)/12. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Image Updater를 이용한 자동 배포.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11. Kubernetes ArgoCD 사용해보기 (1) - ArgoCD 설치 및 기본 배포"
+              "title": "12. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Image Updater를 이용한 자동 배포"
             }
           }
         ]
@@ -200,25 +200,26 @@
   },
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
+    "Attached File/스크린샷 2025-03-16 오전 1.49.50.png",
+    "Attached File/스크린샷 2025-03-16 오전 1.49.15.png",
+    "Attached File/스크린샷 2025-03-16 오전 1.47.04.png",
+    "Attached File/스크린샷 2025-03-16 오전 1.44.12.png",
+    "Attached File/스크린샷 2025-03-16 오전 1.43.33.png",
+    "FrameWork/Kubernetes/k8s-init(RedHat)/12. Kubernetes ArgoCD 사용해보기 (2) - ArgoCD Image Updater를 이용한 자동 배포.md",
+    "Attached File/스크린샷 2025-03-16 오전 1.32.04.png",
+    "Attached File/스크린샷 2025-03-16 오전 1.28.56.png",
+    "FrameWork/Kubernetes/k8s-init(RedHat)/08. Kubernetes CICD환경 구축하기.md",
+    "FrameWork/Kubernetes/k8s-init(RedHat)/09. Kubernetes Jenkins Pipeline - 기초부터 Blue, Green 까지.md",
+    "Attached File/스크린샷 2025-03-15 오후 11.47.09.png",
+    "FrameWork/Kubernetes/k8s-init(RedHat)/11. Kubernetes ArgoCD 사용해보기 (1) - ArgoCD 설치 및 기본 배포.md",
     "Attached File/스크린샷 2025-03-15 오후 7.03.48.png",
     "Attached File/스크린샷 2025-03-15 오후 7.01.27.png",
     "Attached File/스크린샷 2025-03-15 오후 7.00.14.png",
-    "Attached File/스크린샷 2025-03-15 오후 6.54.29.png",
-    "Attached File/스크린샷 2025-03-15 오후 6.52.26.png",
-    "Attached File/스크린샷 2025-03-15 오후 6.51.25.png",
-    "Attached File/스크린샷 2025-03-15 오후 6.49.59.png",
-    "Attached File/스크린샷 2025-03-15 오후 6.29.18.png",
-    "Attached File/스크린샷 2025-03-15 오후 6.04.32.png",
-    "Attached File/스크린샷 2025-03-15 오후 6.01.26.png",
-    "Attached File/스크린샷 2025-03-15 오후 5.53.56.png",
     "FrameWork/Kubernetes/k8s-init(RedHat)/01. Kubernetes 설치하기.md",
-    "FrameWork/Kubernetes/k8s-init(RedHat)/11. Kubernetes ArgoCD 사용해보기 (1) - ArgoCD 설치 및 기본 배포.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)/06. Kubernetes Application 기능을 이해하기 - PVC, PV, Deployment, Service, HPA.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)/07. Kubernetes Component 동작으로 이해하기.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)/05. Kubernetes Application 기능 이해하기 - Configmap, Secret.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)/04. Kubernetes Application 기능 이해하기 - Pod(Probe).md",
-    "FrameWork/Kubernetes/k8s-init(RedHat)/09. Kubernetes Jenkins Pipeline - 기초부터 Blue, Green 까지.md",
-    "FrameWork/Kubernetes/k8s-init(RedHat)/08. Kubernetes CICD환경 구축하기.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)/10. Kubernetes Helm과 Kustomize 비교하며 사용하기.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)/03. Kubernetes Object 그려보며 이해하기.md",
     "FrameWork/Kubernetes/k8s-init(RedHat)/02. Kubernetes 모니터링 시스템 설치.md",
@@ -236,7 +237,6 @@
     "FrameWork/Spring, SpringBoot/Spring Core/Object/MessageSource.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/Resource.md",
     "FrameWork/Spring, SpringBoot/Spring Core/Object/BeanPostProcessor.md",
-    "FrameWork/Spring, SpringBoot/Spring Core/Object/ApplicationEvent.md",
     "3. 스프링 핵심 원리 이해2 - 객체 지향 원리 적용",
     "FrameWork/Spring, SpringBoot/00.Inflearn/기본편",
     "FrameWork/Spring, SpringBoot/00.Inflearn",
