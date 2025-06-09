@@ -1,4 +1,5 @@
-# 필수개념
+# Spring Core
+## 필수개념
 ### POJO(Plain Old Java Object)??
 POJO란 직역하자면 순수한 오래된 자바 객체입니다.
 Java로 생성하는 순수한 객체를 의미합니다.

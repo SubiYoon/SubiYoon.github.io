@@ -23,7 +23,7 @@ USING emp AS b ('테이블 || 뷰 || 서브쿼리')
       VALUES (b.empno, b,job, b.deptno);
 ```
 
-### 단일 테이블 사용법(dual)
+## 단일 테이블 사용법(dual)
 
 - 단일 테이블 사용시 가상테이블인 dual을 사용하여 처리한다.
 - 일치할 경우 Update를 실행하고 불일치할 경우 Insert를 실행하는 Query문
@@ -41,7 +41,7 @@ USING dual
       VALUES (7788, 'SCOTT', 20);
 ```
 
-### 조인을 사용하는 방법
+## 조인을 사용하는 방법
 
 - USING절에 join할 Table을 입력하여 사용한다.
 
@@ -59,7 +59,7 @@ USING emp AS b
       VALUES (b.empno, b.job, b.deptno);
 ```
 
-### 인라인뷰(서브쿼리)를 사용하는 방법
+## 인라인뷰(서브쿼리)를 사용하는 방법
 
 ```sql
 MERGE 
@@ -81,7 +81,7 @@ USING (SELECT aa.empno,
       VALUES (b.empno, b.job, b.deptno);
 ```
 
-### WHERE절 사용(10g 이상부터 가능)
+## WHERE절 사용(10g 이상부터 가능)
 
 - 10g 이상부터는 Update와 DELETE절에 WHERE절을 사용 할 수 있다.
 
@@ -96,7 +96,7 @@ USING dual
        WHERE a.job = 'ANALYST';
 ```
 
-### DELETE절 사용(10g 이상부터 가능)
+## DELETE절 사용(10g 이상부터 가능)
 
 - 10g 이상부터는 DELETE절을 사용 할 수 있다.
 - 조건절인 WHERE절을 사용하지 않으면 MATCH된 모든 데이터가 삭제된다.
@@ -116,7 +116,7 @@ USING dual
 
 ---
 
-# 주의사항
+## 주의사항
 
 - 조건절 ON에 사용한 컬럼을 Update하면 오류가 발생한다.
 

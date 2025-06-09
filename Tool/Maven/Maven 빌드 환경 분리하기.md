@@ -4,7 +4,7 @@ tags:
   - Maven
   - Configuration
 ---
-# Preview
+## Preview
 우리는 개발을 하면서 항상 지긋지긋하게 OS별 폴더구조의 불편함에 대해  느끼게 됩니다.
 특히나 `window`의 사용자가 `linux`환경에 배포하여 사용한다면 말이죠.
 

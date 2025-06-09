@@ -4,7 +4,7 @@ tags:
   - Core
   - Annotation
 ---
-### @Autowired
+## @Autowired
 `@Autowired`는 Bean Factory에 저장되어 있는 인스턴스를 전부 검색한 후에 자동으로 연결시켜주는 기능을 합니다. 위에 `@Component`를 설명하면서 작성한 Class를 우리는 `@Component`를 선언해 줌으로써 Bean 생성을 하였습니다. 그렇게 생성된 인스턴스를 연결시켜준다고 생각하면 됩니다. 맞는 비유일지는 모르겠으나, 바인딩이 된다고 생각하면 좀 더 이해가 쉬울 것입니다.
 위에서 우리가 선언한 `SequenceDaoImpl`Class를 예로 들어 보겠습니다.
 
@@ -62,7 +62,7 @@ public class SequenceService {
 }
 ```
 
-### @Qualifier
+## @Qualifier
 Spring에서 Bean에 등록된 id(name)으로 직접적으로 명시해 `@Autowired`를 시킬 수 있습니다. 해당 Annotation을 사용하면, 작성한 id의 Bean을 검색해 해당 Bean 인스턴스를 연결시킵니다.
 
 ```java title:"@Qualifier 예시"
@@ -90,7 +90,7 @@ public class SequenceGenerator {
 }
 ```
 
-### @Import
+## @Import
 Application의 규모가 커질수록 POJO 설정을 하나의 자바 구성 Class에 담기 어려워집니다.
 이를 해결하기 위해서 자바 구성 클래스가 위치한 경로마다 컨텍스트를 초기화하여 사용하는 방법이 있습니다.
 
@@ -121,7 +121,7 @@ public class SequenceConfiguration {
 }
 ```
 
-### @Resource, @Inject
+## @Resource, @Inject
 Spring전용 `@Autowired`가 아닌 Java 표준 Annotation인 `@Resource`와 `@Inject`를 통해 자동 연결을 시킬 수 있습니다.
 * `@Autowired` : org.springframework.benas.factory.annotation 스프링에서만 사용가능
 * `@Resource` : `@Autowired` + `@Qualifier`를 합친 기능

@@ -5,7 +5,7 @@ tags:
   - Annotation
 Reference link: "[[Resource]]"
 ---
-### @PropertySource
+## @PropertySource
 Sping에서 제공하는 Annotaion으로 .properties 파일의 데이터를 `key=value`쌍을 읽어 올 수 있습니다.
 
 ```properties title:"discounts.propeties"

@@ -4,7 +4,8 @@ tags:
   - Vue
   - Router
 ---
-# LifeCycle
+# VueRouter
+## LifeCycle
 
 ![Vue Router LifeCycle Hook](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/Vue%20Router%20LifeCycle%20Hook.jpg?raw=true)
 

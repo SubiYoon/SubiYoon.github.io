@@ -4,7 +4,7 @@ tags:
   - Core
   - Annotation
 ---
-### @DependsOn
+## @DependsOn
 POJO가 늘어나면 Bean생성 과정 중 다른 Bean의 생성이 우선시 되어야 하는 경우가 발생할 수 있습니다.
 예를 들어 A, B라는 Bean의 로직은 C라는 Bean에서 필요하게 될 때 발생합니다.
 아직 Spring이 A, B를 초기화하지 않아 C라는 Bean이 먼저 초기화되면서 에러가 발생하게 될 것입니다.

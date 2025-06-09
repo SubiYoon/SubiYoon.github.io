@@ -5,7 +5,7 @@ tags:
   - Object
   - Thread
 ---
-### TaskExecutor
+## TaskExecutor
  `TaskExecutor`는 단순히 비동기 작업을 시행하기 위한 Interface입니다.
  Spring에서는 Executor 인터페이스를 구현하는 것으로 단일화 했는데요.
  
@@ -19,7 +19,7 @@ public interface Executor {
 }
 ```
 
-### ExecutorService
+## ExecutorService
 `ExecutorService`는 Thread의 관리 기능이 강화된 인터페이스로 `shutdown()`처럼 Thread에 이벤트를 일으키는 메서드를 제공합니다.
 
 `ExecutorService`에는 `Future\<T\>`형 객체를 반환하는 `submit()` 메서드가 있습니다.
@@ -153,7 +153,7 @@ Callable<String> str = new Callable<String>() {
 }
 ```
 
-### TaskExecutor
+## TaskExecutor
 `TaskExecutor`는 `Excutor`를 베이스로 한 Interface입니다.
 기존 Java SE의 `Executor`나 `ExecutorService`를 `TaskExecutor`에서 사용할 수 있게 지원하는 경우도 있지만, 어차피 스프링 관점에서는 베이스 클래스가 `Executor`이므로 별로 중요하치 않습니다.
 
@@ -270,7 +270,7 @@ public class ExecutorsConfiguration {
 ---
 # 참고사항
 
-### TreadFactory
+## TreadFactory
 Tread를 할당하고 실행할 때 지정한 동작을 할 수 있도록 만들어 주는 Interface입니다.
 현재 제가 이해한 바로는 Log를 작성할 때 찾기 쉽게 넘버링을 해준다던가, 네이밍을 해주는 용도로 사용하는 것으로 파악 됩니다.
 물론 사전에 필요한 동작들을 설정해 줄 수 있겠지만, 특별한 사례가 생각 나지는 않습니다.

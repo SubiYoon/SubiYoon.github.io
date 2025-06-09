@@ -5,7 +5,7 @@ tags:
   - AOP
 Reference link: "[[@Aspect, @Before, @After, @AfterReturning, @AfterThrowing, @Around, @Pointcut]]"
 ---
-### AspectJ Pointcut 표현식
+## AspectJ Pointcut 표현식
 Spring AOP가 지원하는 조인포인트 대상은 IoC Contatiner안에 선언된 Bean에 국한됩니다.
 하지만 Spring AOP에서도 AspectJ Pointcut언어를 활용하여 pointcut을 정의하며 Runtime에 AspectJ 라이브러리를 이용하여 Pointcut 표현식을 해석하게 됩니다.
 
@@ -48,7 +48,7 @@ execution(public double ArithmeticCaculator.*(double, double))
 execution(public double ArithmeticCaculator.add(double, double))
 ```
 
-### AspectJ 표현식으로 매칭이 안될경우
+## AspectJ 표현식으로 매칭이 안될경우
 위에 말씀드린 방법 외에 매치하고 싶은 메서드 사이에 공통된 특성이 없는 경우가 있을 수 있습니다. 예외 상황인거죠....
 우리는 개발자로써 항상 예외상황을 고려해야 하잖아요??
 이 부분을 고려 안하지 않았을 거란 말이죠??
@@ -105,7 +105,7 @@ public class ClaculatorPointcuts {
 }
 ```
 
-### 타입 시그니처 패턴
+## 타입 시그니처 패턴
 특정 타입 내부의 모든 조인포인트를 매치하는 Pointcut 표현식도 존재합니다.
 Spring AOP에 적용하면 그 타입 안에 구현된 메서드를 실행할 때에만 어드바이스가 적용되도록 Pointcut 적용 번위를 줄일 수 있습.
 
@@ -147,7 +147,7 @@ public cass ArithmeticCalculatorImpl implements ArithmeticCalculator {
 @Pointcut("within(com.apress.springrecipes.calculator.LoggingRequired)")
 ```
 
-### 포인트컷 표현식 조합하기
+## 포인트컷 표현식 조합하기
 AspectJ Pointcut 표현식은 `연산자(&&, ||, !, ...)`를 활용할 수 있습니다.
 
 ```java
@@ -169,7 +169,7 @@ public class CalculatorPointcuts {
 }
 ```
 
-### 포인트컷 매개변수 선언하기
+## 포인트컷 매개변수 선언하기
 위에서 언급한 바와같이 우리는 JointPoint 객체를 통해 조인트포인트 정보를 가져 올 수 있습니다.
 JointPoint를 선언하지 않고 표현식을 통해 어드바이스에 매개변수로 사용할 수 있습니다.
 

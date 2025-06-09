@@ -3,7 +3,7 @@ tags:
   - Network
   - DNS
 ---
-# CloudFalre란??
+## CloudFalre란??
 DNS를 제공해주는 사이트로써 유료로 사용하면 디테일한 모니터링과 다양한 설정을 할 수 있지만, 간단한 웹 사이트 운영시에는 무료버전만으로도 충분히 사용이 가능한 사이트이다.
 Domain의 경우 가격이 천차만별인데 가격은... 음... 찾아보기 바란다. 어느정도의 모니터링과 설정을 할 수 있다는 점에서 비용이 과하다고는 생각하지 않는다.
 
@@ -55,8 +55,6 @@ sudo apt install python3-certbot-dns-cloudflare
 # 재발급 봇 작동하는지 확인
 sudo systemctl status certbot.timer
 ```
-
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/bc54e308-b555-4004-9ba3-ac0d3c344f76/1dae5d68-e93e-4b0a-b4cc-d2058a4d6188/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T140906Z&X-Amz-Expires=3600&X-Amz-Signature=4caebe128459b89446dd6e7543c90afac994bf1a4b309197e90ab4e771ad2481&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 그래도 재발급 테스트를 해보려면 `--dry-run` 을 붙여서 해주면 된다.
 

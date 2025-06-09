@@ -8,8 +8,7 @@ tags:
 
 - 템플릿을 생성하여 생성한 템플릿을 insert하거나 replace하여 사용하는 방식
 
-**header.html**
-
+## **header.html**
 - th:fragment=”템플릿 이름”
 
 ```html
@@ -29,12 +28,11 @@ tags:
 </html>
 ```
 
-**main.html**
-
+## **main.html**
 - insert와 replace의 사용 방법은 동일하다.
-    - th:insert=”~{해당 파일 경로 :: fragment이름}”
+    - th:insert=”~\{해당 파일 경로 :: fragment이름\}”
         - 해당 태그 안에 fragment를 삽입하는 방법
-    - th:replace=”~{해당 파일 경로 :: fragment이름}”
+    - th:replace=”~\{해당 파일 경로 :: fragment이름\}”
         - 해당 태그를 fragment로 대체하는 방법
 
 ```html
@@ -61,7 +59,7 @@ tags:
 
 - **데이터를 넘겨받아 템플릿에서 사용 할 수도 있다.**
 
-**User.java**
+## **User.java**
 
 ```java
 public class User {
@@ -83,7 +81,7 @@ public class User {
 }
 ```
 
-**MainController.java**
+## **MainController.java**
 
 ```java
 @Controller
@@ -99,7 +97,7 @@ public class MainController {
 }
 ```
 
-**header.html**
+## **header.html**
 
 ```html
 <!DOCTYPE html>
@@ -119,7 +117,7 @@ public class MainController {
 </html>
 ```
 
-**main.html**
+## **main.html**
 
 ```html
 <!DOCTYPE html>

@@ -4,14 +4,13 @@ tags:
   - Linux
   - SAMBA
 ---
-
-# 구성 요소
+## 구성 요소
 * Ubuntu 22.04
 * sudo 권한이 있는 계정
 * VIM(선택사항 cat을 사용해도 무관)
 
 ---
-# SSH 설치
+## SSH 설치
 * Ubuntu에는 기본적으로 ssh client는 설치되어 있지만 server는 없기에 설치하기로 하자.
 ```bash
 sudo apt install openssh-server
@@ -48,7 +47,7 @@ sudo systemctl restart ssh.service
 ```
 
 ---
-# samba 설치
+## samba 설치
 ```bash
 sudo apt install samba
 ```
@@ -116,7 +115,7 @@ sudo systemctl restart smbd
 ```
 
 ---
-# 참고사항
+## 참고사항
 * 만약 방화벽을 설정 중이라면 방화벅의 포트를 뚫어주어야 한다.
 * samba의 포트는 139, 445를 사용하니 해당 포트는 다른 용도로 사용하지 말아야한다.
 ```bash

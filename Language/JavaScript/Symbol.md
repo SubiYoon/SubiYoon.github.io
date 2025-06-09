@@ -3,11 +3,7 @@ tags:
   - Language
   - JavaScript
 ---
-
-# Symbol
-
-# Symbol( )
-
+## Symbol( )
 - 심볼은 생성자가 없으므로 new를 사용하여 객체를 생성하지 않는다.
 - Symbol( ) 함수를 호출하면 매번 새로운(고유한) 심볼이 생성된다.
 - 심볼은 전역 심볼 레지스트리(Global Symbol Resgistry)란 심볼들이 저장되는 전역공간에 저장된다.
@@ -69,7 +65,6 @@ console.log(obj[sym3]);  // propertyValue3
 ```
 
 ### 내장 심볼(Built-in Symbol)
-
 - JavaScript 엔진 내에 미리 생성되어 상수로 존재하고 있는 내장 심볼(Bulit-inSymbol)
 - 대표적인 예시가 Symbol.iterator이다.
 - **예시**
@@ -91,7 +86,6 @@ HTMLCollection.prototype[Symbol.iterator];
 ```
 
 ### Symbol.for( ) 메서드
-
 - 인자로 전달받은 문자열 값을 키로 갖는 Symbol을 전역 심볼 레지스트리에서 찾아 반환
 - But!! 탐색에 실패하면 해당 인자를 갖는 새로운 Symbol을 생성하고 이를 반환한다.
 
@@ -103,14 +97,11 @@ console.log(sym1 === sym2);  // true
 ```
 
 ### Symbol.keyFor( ) 메서드
-
 - 인자로 전달받은 Symbol을 전역 심볼 레지스트리에서 찾고, 그 심볼의 key를 반환
 - But!! 탐색에 실패하면 undefined를 번환한다.
 
-# 주의사항
-
+## 주의사항
 ### for … in 문법과 JSON.stringify( ) 메서드에서의 심볼
-
 - for .. in 문법에서 키가 심볼인 프로퍼티들은 열거되지 않는다.
 
 ```jsx

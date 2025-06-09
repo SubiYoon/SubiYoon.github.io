@@ -5,7 +5,7 @@ tags:
   - Object
   - Event
 ---
-### ApplicationEvent
+## ApplicationEvent
 이벤트 기반의 통신을 하려면 제일 먼저 무엇이 이루져 있어야 할까요??
 당연히 이벤트 자체를 정의하는 것 부터가 순서겠죠??
 이렇게 이벤트를 정의할 때 `ApplicationEvent` Class를 사용하게 됩니다.
@@ -103,7 +103,7 @@ public class CheckoutListener {
 }
 ```
 
-### 마치며
+## 마치며
 발행하고자 하는 event를 다음 두가지 방법으로 발행합니다.
 `ApplicationEventPublisherAware` Interface를 구현하는 방법이 있고, `ApplicationEventPublisher` Class를 통해 발행하는 방법이 있습니다.
 

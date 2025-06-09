@@ -4,7 +4,7 @@ tags:
   - Core
   - Object
 ---
-### MessageSource
+## MessageSource
 `ResourceBundleMessageSource`는 가장 많이 쓰이는 `MeessageSource` 구현체로 다국어를 사용 할 때 사용합니다.
 
 ```properties title:"message_en_US.properties"

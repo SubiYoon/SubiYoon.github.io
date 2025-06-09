@@ -4,32 +4,33 @@ tags:
   - Kubernetes
   - Command
 ---
-### Kubernetes Join token 재생성
+# Kubernetes
+## Kubernetes Join token 재생성
 ```bash
 kubeadm token create --print-join-command
 ```
 
-### kubenetes에서 사용가능한 오브젝트 리스트
+## kubenetes에서 사용가능한 오브젝트 리스트
 ```bash
 kubectl api-resources
 ```
 
-### 모든 Node 보기
+## 모든 Node 보기
 ```bash
 kubectl get nodes -A
 ```
 
-### 모든 Pod 보기
+## 모든 Pod 보기
 ```bash
 kubectl get Pods -A
 ```
 
-### 모든 Pod에 대한 간략한 정보 보기
+## 모든 Pod에 대한 간략한 정보 보기
 ```bash
 kubectl get all -o wide
 ```
 
-### .yaml 파일 적용시키기
+## .yaml 파일 적용시키기
 ```bash
 kubectl apply -f ${file.yaml}
 
@@ -37,7 +38,7 @@ kubectl apply -f ${file.yaml}
 kubectl apply -f calico.yaml
 ```
 
-### 리소스의 속성을 직접 변경하기
+## 리소스의 속성을 직접 변경하기
 ```bash
 kubectl edit ${object_type} ${resource_name}
 
@@ -45,7 +46,7 @@ kubectl edit ${object_type} ${resource_name}
 kubectl edit cephcluster -n rook-ceph rook-ceph
 ```
 
-### Pod 삭제하기
+## Pod 삭제하기
 ```bash
 # 일반 삭제
 kubectl delete pod ${pod-name}

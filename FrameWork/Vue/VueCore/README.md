@@ -3,7 +3,8 @@ tags:
   - FrameWork
   - Vue
 ---
-# LifeCycle
+# VueCore
+## LifeCycle
 
 ![Vue LisfeCycle](https://github.com/SubiYoon/SubiYoon.github.io/blob/main/Attached%20File/Vue%20LisfeCycle.png?raw=true)
 

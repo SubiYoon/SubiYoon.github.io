@@ -5,6 +5,7 @@ tags:
   - Annotation
 Reference link: "[[BeanPostProcessor]]"
 ---
+## @Required
 `@Required`는 Spring에 내장된 `RequiredAnnotationBeanPostProcessor`가 지원하는 Annotation입니다.
 `RequiredAnnotationBeanPostProcessor` 후처리기는 `@Required`를 붙인 모든 Bean Property가 설정되었는지 확인합니다.
 하지만, 해당 proeprty값의 설정 여부만 체크할 뿐 그 값이 null인지 아니면 다른 값인지는 신경쓰지 않습니다. 정말 확인 용도로만 사용하는 것이죠.

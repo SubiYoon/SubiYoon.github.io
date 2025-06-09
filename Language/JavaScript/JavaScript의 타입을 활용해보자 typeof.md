@@ -4,7 +4,7 @@ tags:
   - JavaScript
   - typeof
 ---
-# 왜??
+## 왜??
 개발을 하던중, Object의 데이터를 for문을 통해 데이터를 검증하는 과정을 거쳐야 하는 상황이 발생했습니다.
 이 때, 한 가지 문제가 발생하게 되었는데요.
 하나의 텍스트문장의 데이터탐색하며 objectKeys의 key값과 동일한게 있다면 replace하는 로직이었습니다.
@@ -44,7 +44,7 @@ for (let key of objectKeys) {
 
 자! 서두가 길었습니다. 이제  typeof를 어찌 사용하는지 알아 볼까요?
 
-# typeof
+## typeof
 > typeof는 javascript에서 사용중인 변수의 데이터 타입을 string으로 반환합니다.
 
 ### 데이터 다입별 반환값

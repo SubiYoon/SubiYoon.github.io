@@ -3,8 +3,6 @@ tags:
   - Oracle
   - DataBase
 ---
-# View
-
 ## View 란?
 - 실체가 존재하지 않는 다는 의미로 **가상 테이블**이라고도 불린다.
 - 반복적인 조회를 단순하게 만들어 줄 수 있다.
@@ -31,8 +29,6 @@ DROP VIEW ${vuewName}
 ```
 
 ---
-# Materialized View
-
 ## Materialized View 란??
 - 8i 이후부터 사용이 가능하고 **구체화 뷰(MView)** 라고 불린다.
 - 기존 View와 비슷하게 동작하지만 실제데이터를 가지고 있다는 차이가 있다.

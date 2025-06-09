@@ -4,18 +4,18 @@ tags:
   - Core
   - Annotation
 ---
-### @Scope
+## @Scope
 `@Scope`는 Bean 스코프를 지정하는 Annotation입니다.
 모든 Bean의 기본 스코프는 `sigleton`으로 설정 되어 있습니다.
 이를 변경하려고 할 때 아래의 스코프중 하나를 선택해서 변경할 수 있습니다.
 
-| 스코프           | 설명                                                            |
-| ------------- | ------------------------------------------------------------- |
-| singleton     | IoC 컨테이너당 빈 인스턴스 하나를 생성                                       |
-| prototype     | 요청할 때마다 빈 인스턴스를 새로 생성                                         |
-| request       | HTTP 요청당 빈 인스턴스 한개 생성. Web Application Context에만 해당           |
-| session       | HTTP 세션당 빈 인스턴스 한개 생성. Web Application Context에만 해당           |
-| globalSession | 전역 HTTP 세션당 빈 인스턴스 한개 생성. <br>Potal Application Context에만 해당. |
+| 스코프           | 설명                                                        |
+| ------------- | --------------------------------------------------------- |
+| singleton     | IoC 컨테이너당 빈 인스턴스 하나를 생성                                   |
+| prototype     | 요청할 때마다 빈 인스턴스를 새로 생성                                     |
+| request       | HTTP 요청당 빈 인스턴스 한개 생성. Web Application Context에만 해당       |
+| session       | HTTP 세션당 빈 인스턴스 한개 생성. Web Application Context에만 해당       |
+| globalSession | 전역 HTTP 세션당 빈 인스턴스 한개 생성. Potal Application Context에만 해당. |
 
 예시로 두 고객이 상품을 등록하는 예시를 들어보겠습니다.
 우선 장바구니 Class입니다.

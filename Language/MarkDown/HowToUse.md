@@ -3,14 +3,10 @@ tags:
   - MarkDown
   - Language
 ---
-
-# MarkDown
-
+## MarkDown
 > 1.  마크다운의 장/단점
-> 
 
-### #1. 장점
-
+### 장점
 - 문법이 쉽고 간결하다
 - 관리가 쉽다
 - 별도의 도구없이 작성가능하다.
@@ -18,19 +14,16 @@ tags:
 - 지원 가능한 플랫폼과 프로그램이 다양하다.
 - 텍스트(Text)로 저장되기 때문에 용량이 적어 보관이 용이하다.
 
-### **#2. 단점**
-
+### **단점**
 - 표준이 없다.
 - 표준이 없기 때문에 표현하는 도구에 따라서 동작하지 않거나, 다르게 표현 될 수 있다.
 - 모든 HTML 마크업을 대신하지 못하지 못하는 한계점.
 
 > 2.  마크다운 문법(syntax)
-> 
 
-### # 1. 제목 (Header)
-
+### 제목 (Header)
 - # 뒤에 띄어쓰기를 넣어주는게 권장하는 방법 이다.
-- <h1> ~ <h6> 까지 표현 가능하다.
+- \<h1\> ~ \<h6\> 까지 표현 가능하다.
 
 ```xml
 # 제목1
@@ -43,9 +36,8 @@ tags:
 
 ![https://blog.kakaocdn.net/dn/yC4Uv/btrsHGArLO1/4xk5yxpTnTAddepz1XZagk/img.png](https://blog.kakaocdn.net/dn/yC4Uv/btrsHGArLO1/4xk5yxpTnTAddepz1XZagk/img.png)
 
-### #2. 줄바꿈 (Line Breaks)
-
-- 띄어쓰기 2번 또는 <br/>로 표현 가능 하다.
+### 줄바꿈 (Line Breaks)
+- 띄어쓰기 2번 또는 \<br/>로 표현 가능 하다.
 
 ```xml
 # 줄바꿈(Line Breaks)
@@ -55,8 +47,7 @@ tags:
 
 ![https://blog.kakaocdn.net/dn/vnaaH/btrsLxXjR01/BiFOE6Ug9s0hoOy5Icrsek/img.png](https://blog.kakaocdn.net/dn/vnaaH/btrsLxXjR01/BiFOE6Ug9s0hoOy5Icrsek/img.png)
 
-### #3. 수평선 (Horizontal Rule) <hr/>
-
+### 수평선 (Horizontal Rule) \<hr/\>
 - 하기 코드들은 모두 수평선을 나타낸다. 가시적으로 페이지를 나누는 용도로 많이 사용된다.
 
 ```xml
@@ -68,7 +59,7 @@ ___
 
 ![https://blog.kakaocdn.net/dn/bozDQY/btrsMzG6NYR/W91spik7ioxObaOjBFQWO1/img.png](https://blog.kakaocdn.net/dn/bozDQY/btrsMzG6NYR/W91spik7ioxObaOjBFQWO1/img.png)
 
-### #4. 글자 강조 (Emphasis)
+### 글자 강조 (Emphasis)
 
 ```xml
 **굵은 글씨**
@@ -82,9 +73,9 @@ This is the **bold** text and this is the *italic* text and <u>let's</u> do ~~st
 
 ![https://blog.kakaocdn.net/dn/CfLQD/btrsMzUEaPP/Tf0peN8z2fx2uiACdM2QxK/img.png](https://blog.kakaocdn.net/dn/CfLQD/btrsMzUEaPP/Tf0peN8z2fx2uiACdM2QxK/img.png)
 
-### #5. 인용문 (BlockQuote)
+### 인용문 (BlockQuote)
 
-- ">"  블럭 인용 문자를 사용하면 인용문 표현이 가능하다.
+- "\>"  블럭 인용 문자를 사용하면 인용문 표현이 가능하다.
 
 ```xml
 > 인용문장
@@ -94,9 +85,8 @@ This is the **bold** text and this is the *italic* text and <u>let's</u> do ~~st
 
 ![https://blog.kakaocdn.net/dn/qCQJx/btrsLxJLd9X/h9vRJidq0FK8k6IeSPYy01/img.png](https://blog.kakaocdn.net/dn/qCQJx/btrsLxJLd9X/h9vRJidq0FK8k6IeSPYy01/img.png)
 
-### **#6. 목록(List)**
-
-**1) 순서가 없는 목록 ( *, +, - 지원)**
+### **목록(List)**
+**1) 순서가 없는 목록 ( \*, +, - 지원)**
 
 ```xml
 - 순서가 필요하지 않은 목록
@@ -146,11 +136,10 @@ This is the **bold** text and this is the *italic* text and <u>let's</u> do ~~st
 
 ![https://blog.kakaocdn.net/dn/czDTia/btrsxiAAjIo/8E6arwq7pok0hLq9izO0j1/img.png](https://blog.kakaocdn.net/dn/czDTia/btrsxiAAjIo/8E6arwq7pok0hLq9izO0j1/img.png)
 
-### **#7. 링크 (Links)**
+### **링크 (Links)**
 
 **1) 기본방법**
-
-- [**Title**](**link**)
+- \[**Title**\](**link**)
 
 ```xml
 Click [here](http://goddaehee.tistory.com/)
@@ -160,9 +149,8 @@ Click [here](http://goddaehee.tistory.com/)
 ![https://blog.kakaocdn.net/dn/Git4T/btrsH8KbCZf/Cpr052cCBjICMYeAUke0OK/img.png](https://blog.kakaocdn.net/dn/Git4T/btrsH8KbCZf/Cpr052cCBjICMYeAUke0OK/img.png)
 
 **2) 참조 링크 사용 방법**
-
-- [**link keyword**][**id**]
-- [**id**]: **URL** "**Optional Title**"
+- \[**link keyword**\]\[**id**\]
+- \[**id**\]: **URL** "**Optional Title**"
 
 **ex) title 옵션 없이 사용**
 
@@ -183,7 +171,6 @@ Click [here](http://goddaehee.tistory.com/)
 ![https://blog.kakaocdn.net/dn/dQ2Tpl/btrsLwqCyLZ/Ymv0zQJfAT6tWRunAPGry0/img.png](https://blog.kakaocdn.net/dn/dQ2Tpl/btrsLwqCyLZ/Ymv0zQJfAT6tWRunAPGry0/img.png)
 
 **3) 자동 링크 사용 방법**
-
 - 인터넷 URL 혹은 이메일 주소를 적합한 형식으로 링크를 생성해준다.
 
 ```xml
@@ -195,12 +182,10 @@ goddaehee@kakao.com
 
 goddaehee@kakao.com
 
-### **#8. 이미지 (Images)**
-
+### **이미지 (Images)**
 - Link와 문법이 유사하다. 앞에 !만 추가하면 된다.
 
 **1) 기본문법**
-
 
 ```xml
  ![**대체텍스트**](**이미지주소**)
@@ -211,9 +196,8 @@ goddaehee@kakao.com
 ![https://blog.kakaocdn.net/dn/ntsvo/btrsDQXnTqk/ononkXceqyDoKqKhTlv0vk/img.png](https://blog.kakaocdn.net/dn/ntsvo/btrsDQXnTqk/ononkXceqyDoKqKhTlv0vk/img.png)
 
 **2) 참조 링크 사용 방법**
-
-- [**대체텍스트**][**id**]
-- [**id**]: **이미지주소** "**Optional Title**"
+- \[**대체텍스트**\]\[**id**\]
+- \[**id**\]: **이미지주소** "**Optional Title**"
 
 ```xml
 ![Image Description](gdh)
@@ -224,7 +208,6 @@ goddaehee@kakao.com
 
 **3) 이미지 노출과 동시에 링크처리**
 
-
 ```xml
 [![**대체텍스트**](**이미지주소**)](**링크주소**)
 
@@ -233,8 +216,7 @@ goddaehee@kakao.com
 
 ![https://blog.kakaocdn.net/dn/durRGO/btrsFutBAwq/aA9ndAqrCy6Ij9ymZxDojk/img.png](https://blog.kakaocdn.net/dn/durRGO/btrsFutBAwq/aA9ndAqrCy6Ij9ymZxDojk/img.png)
 
-### **#9. 표 (Table)**
-
+### **표 (Table)**
 - |(vertical bar) 기호를 통해 테이블을 표현 가능. (가장 좌측, 우측 생략 가능)
 - 헤더와 셀을 구분할 때 3개 이상의 -(하이픈, 대시)가 필요 하다.
 - : (콜론) 기호를 통해 정렬할 수 있다.
@@ -249,11 +231,9 @@ goddaehee@kakao.com
 
 ![https://blog.kakaocdn.net/dn/cREbqv/btrszlRIAC4/2F6XQtlqPH7SXEaUwPJIRk/img.png](https://blog.kakaocdn.net/dn/cREbqv/btrszlRIAC4/2F6XQtlqPH7SXEaUwPJIRk/img.png)
 
-### **#10. 코드 (Code)**
-
+### ** 코드 (Code)**
 **1) 인라인 코드(Inline Code)**
-
-- 백틱(` : 숫자 1번 키 왼쪽에 위치)으로 강조할 내용을 감싸면 된다.
+- 백틱(\` : 숫자 1번 키 왼쪽에 위치)으로 강조할 내용을 감싸면 된다.)
 
 ```xml
 `해당 코드`는 강조할 부분 이다.
@@ -262,7 +242,6 @@ goddaehee@kakao.com
 ![https://blog.kakaocdn.net/dn/biWwIX/btrsA7r9ynD/qxOJ7IEstkVyjsDnWhanYk/img.png](https://blog.kakaocdn.net/dn/biWwIX/btrsA7r9ynD/qxOJ7IEstkVyjsDnWhanYk/img.png)
 
 **2) 블럭 코드(Block Code)**
-
 - ``` html, css, javascript, bash, plaintext 등등
 - 코드의 종류를 명시 하지 않은 경우
 
@@ -288,8 +267,7 @@ goddaehee@kakao.com
 
 ![https://blog.kakaocdn.net/dn/wyh7y/btrsFsP6OnG/bfPTXwWjQuT8mDi7MNMpo1/img.png](https://blog.kakaocdn.net/dn/wyh7y/btrsFsP6OnG/bfPTXwWjQuT8mDi7MNMpo1/img.png)
 
-### **#11. 원시 HTML (Raw HTML)**
-
+### ** 원시 HTML (Raw HTML)**
 - MarkDown 환경에서는 결국 표현의 한계가 있고, 이런 경우 순수 html문법을 사용할 수 있다.
 
 **ex) image를 표현할 때 MarkDown으로는 width 지정이 불가능 하다.**

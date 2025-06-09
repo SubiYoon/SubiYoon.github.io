@@ -14,7 +14,7 @@ tags:
 아래의 경우에는 `@Profile("global")`인 경우 해당 Class를 컴파일하는 방법입니다.
 이 경우 다양한 방법으로 컴파일 시킬 수 있습니다.
 
-### SpringBoot 환경 변수
+## SpringBoot 환경 변수
 Spring Boot를 사용하는 경우 
 
 1. `application-local.properties`
@@ -23,14 +23,14 @@ Spring Boot를 사용하는 경우
 
 위 같은 파일명으로 .properties파일을 생성하면 `-`뒤의 문자를 자동으로 탐색합니다.
 
-### Spring의 applicationContext.xml으로 class 지정
+## Spring의 applicationContext.xml으로 class 지정
 Spring (applicationContext.xml)을 사용한느 경우 아래와 같이 해당 Bean의 이름과 class위치를 통해 특정해 줄 수 있습니다.
 
 ```xml
 <beans profile="global"> <bean id="datasourceConfig" class="oing.daddy.DatasourceConfig" /> </beans>
 ```
 
-### @Profile(${name})을 지정
+## @Profile(${name})을 지정
 ```java title:"ShopConfigurationGlobal.java"
 @Configuration
 @Profile("global")
@@ -51,7 +51,7 @@ public calss ShopConfigurationGlobal {
 }
 ```
 
-### @Profile(${name}) 사용시 2가지 환경 이상의 경우 지정
+## @Profile(${name}) 사용시 2가지 환경 이상의 경우 지정
 ```java title:"ShopConfigurationSumWin.java"
 @Configuration
 @Profile({"summer", "winter"})
@@ -88,7 +88,7 @@ public calss ShopConfigurationSumWin {
 }
 ```
 
-# Profile을 환경에 load
+## Profile을 환경에 load
 Profile 여러 개를 한 번에 오드하는 것도 가능하지만, Runtime flag나 WAR 파일 초기화 매개변수를 지정해 프로그램 방식으로 Profile을 로드할 수 있습니다.
 
 ### java 프로그램으로 컨트롤하는 방법

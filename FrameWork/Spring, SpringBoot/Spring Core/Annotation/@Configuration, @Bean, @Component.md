@@ -5,7 +5,7 @@ tags:
   - Annotation
 Reference link: "[[@PostConstrcut, @PreDestory]]"
 ---
-### @Configuration, @Bean
+## @Configuration, @Bean
 @Configuration을 선언하면 해당 Class는 구성 Class임을 알리게 된느데요.
 Spring은 @Configuration이 달린 구성 Class에서 @Bean을 붙인 자바 메서드를 찾게 되는데, 해당 메서드와 동일한 이름의 Bean이 생성됩니다.
 이름을 따로 명시하려면 `@Bean(name="${name}")`을 붙이는 방법도 존재하니 특정 이름으로 생성하고 싶을 때에는 이 방법을 사용하면 됩니다.
@@ -112,7 +112,7 @@ SequenceGeneratorConfiguration generator = (SequenceGenerator) context.getBean("
 SequenceGeneratorConfiguration generator = context.getBean("sequenceGenerator", SequenceGenerator.class);
 ```
 
-### @Component
+## @Component
 `@Bean` Annotation을 사용하지 않고, 각 Class에 선언하여 Bean을 생성하는 방법입니다.
 즉, 이 방법은 `@Configuration`을 선언하여 구성 Class가 아닌 녀석들의 Bean을 생성하는 방법입니다. `@Repository`, `@Service`, `@Controller`  등 POJO의 쓰임새가 명확하지 않을 때  사용하는 방법입니다.
 `@Component("sequenceDao")`에서 "sequenceDao"는 인스턴스 ID로 설정되며, 값이 없으면 소문자로 시작하는 비규격 Class명을 빈 이름으로 기본할당합니다. 예를 들어보겠습니다.
@@ -149,7 +149,7 @@ Spring은 `@Configuration`, `@Bean`, `@Repository`, `@Service`, `@Controller`가
 )
 ```
 
-### @Bean과 @Component의 차이
+## @Bean과 @Component의 차이
 '`@Component`는 템플릿을 정의하는 것이고, `@Bean`은 Bean 인스턴스를 정의하는 것이다.'
 라고 나와있습니다. 무슨 말인지 이해하셨나요?
 저는 전혀 이해가 되지 않았습니다. 그래서 GPT에게도 물어보았지만 이해가 되진 않더라구요. 제가 확실히 이해한건지는 모르겠으나, 사수분께 여쭤본바라는 대강 이렇게 설명 할 수 있겠습니다.

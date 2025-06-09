@@ -4,7 +4,7 @@ tags:
   - Core
   - Object
 ---
-### Resource
+## Resource
 Spring의 `Resource`객체를 활용하면 다른 정적인 파일들도 읽어 올 수 있습니다.
 
 ```java title:"BannerLoader.java"

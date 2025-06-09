@@ -4,16 +4,16 @@ tags:
   - Kubernetes
   - Issue
 ---
-### 환경
+## 환경
 * k8s version 1.30 -> k8s version 1.28로 다운그레이드한 상황
 * ubuntu 22.04
 * calico
 * cri-o
 
-### 문제
+## 문제
 설치한 쿠버네트스를 다운그레이드하는 과정에서 `kubeadm init`을 한후 다음 명령어 실행시 `coredns`의 상태가 `containerCreating`에서 `Running`으로 변경되지 않는 문제 발생
 
-### 원인 분석
+## 원인 분석
 ```bash
 # 시스템로그에서 error만 검색해서 찾기
 journalctl -b | grep error
@@ -34,7 +34,7 @@ can't find the container with id ~~~
 cri-o 이미지가 손상되어있는 걸로 확인 된다.
 다운그레이드하는 과정에서 기존의 정보를 삭제하기 위해 `kubeadm reset`과정에서 손상되었으려나?? 라는 추측을 해본다.
 
-### 해결 방법
+## 해결 방법
 이미지를 새로 삭제하고 `kubelet`과 `cri-o`를 재시작해준다.
 
 ```bash

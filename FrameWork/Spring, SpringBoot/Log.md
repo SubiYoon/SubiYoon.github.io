@@ -3,8 +3,7 @@ tags:
   - FrameWork
   - Spring
 ---
-
-# Log란??
+## Log란??
 
 - 로그(Log)는 소프트웨어의 이벤트를 기록하는 것
 - 동작상태를 파악하고 문제가 발생했을 때 이 동작 파악을 통해 문제를 찾아 해결하기 위해 디자인 되었다.
@@ -16,7 +15,7 @@ tags:
     - 모듈 별로 유연하게 메세지 출력 가능
     - 자유로운 출력 위치 및 다양한 출력 형식 지원
 
-# Log4j
+## Log4j
 
 - 가장 오래된 로깅 프레임워크이면서 2015년 기준 개발이 중단되었다.
 
@@ -43,7 +42,7 @@ tags:
 
 ---
 
-# Logback
+## Logback
 
 - log4j 이후에 출시된 보다 향상되고 가장 널리 사용되고 있는 Java 로깅 프레임워크 중 하나이다.
 - slf4j의 구현체로써 동작하며 SpringBoot 환경의 경우 spring-boot-starter-web 안에 spring-boot-starter-logging의 logback이 기본적으로 탑재되어 있어 별다른 dependency추가 없이 사용 가능하다.
@@ -58,7 +57,7 @@ tags:
 
 ---
 
-# Log4j2
+## Log4j2
 
 - 가장 최신에 나온 로깅 프레임워크로써 Apache의 log4j의 다음 버전이다.
 - logback처럼 필터링 기능과 자동 리로딩을 지원한다.
@@ -69,13 +68,13 @@ tags:
 
 ---
 
-# Slf4j(Simple Logging Facade For java)
+## Slf4j(Simple Logging Facade For java)
 
 - **lombok @Slf4j 커스텀 설정 및 적용 방법 간단 정리**
     
     # **1. pom.xml 설정**
     
-    - 버전관리를 쉽게하기 위해 <dependencies> 태그 시작 전 위에 별도의 properties를 설정
+    - 버전관리를 쉽게하기 위해 \<dependencies\> 태그 시작 전 위에 별도의 properties를 설정
     
     ```xml
     <properties>
@@ -84,7 +83,7 @@ tags:
     </properties>
     ```
     
-    - <dependencies> 안에 위 xml 내용을 삽입한다.
+    - \<dependencies\> 안에 위 xml 내용을 삽입한다.
     
     ```xml
     <!-- Logging -->
@@ -114,13 +113,13 @@ tags:
     
     ---
     
-    # **2. lombok 설치**
+    ## **2. lombok 설치**
     
     [Download](https://projectlombok.org/download)
     
     ---
     
-    # **3. logback.xml 생성**
+    ## **3. logback.xml 생성**
     
     - 경로 : **src/~/resources 폴더 안에 logback.xml 파일을 생성한다.**
     - 아래 내용을 붙여 넣는다.
@@ -155,36 +154,31 @@ tags:
     </configuration>
     ```
     
-    <appender>
-    
+1. \<appender\>
     - 어디에 어떻게 로그를 남길 것인지 방법을 작성하여 제공
         - ConsoleAppender : 콘솔에 로그를 어떻게 남길 것인지 작성
         - FileAppender : 파일에 로그를 어떻게 남길 것인지 작성
         - RollingFileAppender : 하루 단위로 로그 파일을 백업하면서 로그를 남기기 위한 방법을 작성
     
-    <Pattern>
-    
+2. \<Pattern\>
     - 로그 남기는 패턴(방법)을 정리.
         - HH:mm:ss 는 시:분:초 를 의미.
         - maxHistory 는 로그 파일의 내용 최대 개수
         - %-5level 은 trace, debug, info, warn, error 총 5가지의 레벨이 존재하는데
         이 중 로그에 기록하고싶은 레벨을 표현한 것.
     
-    <logger>
-    
+3. \<logger\>
     - name은 패키지 경로를 넣으면, 해당 패키지에 속한 클래스에서 출력하는 로그는 level 이상의 로그를 출력하라는 뜻
     
-    <appender-ref>
+4. \<appender-ref\>
+    - \<appender\> 참조
     
-    - <appender> 참조
-    
-    <root>
-    
+5. \<root\>
     - root(패키지의 루트) 하위 대상 전부 해당 레벨에 포함하는 로그 기록
     
     ---
     
-    # **4. java파일에서 로그 사용**
+    ## **4. java파일에서 로그 사용**
     
     ![https://blog.kakaocdn.net/dn/buUuEe/btq3IS7iugN/NFqSLCt4O96Em3MfcP3Qz1/img.png](https://blog.kakaocdn.net/dn/buUuEe/btq3IS7iugN/NFqSLCt4O96Em3MfcP3Qz1/img.png)
     

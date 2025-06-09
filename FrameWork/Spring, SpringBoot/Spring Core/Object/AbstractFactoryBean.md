@@ -14,7 +14,7 @@ Factory를 통해 POJO를 생성한는 방법은 여러가지가 있습니다.
 
 우선 정적 메서드를 사용하여 POJO를 생성하는 예시부터 보겠습니다.
 
-### 정적 메서드로 POJO 생성하기
+## 정적 메서드로 POJO 생성하기
 
 ```java title:"ProductCreator.java"
 public class ProductCreator {
@@ -55,7 +55,7 @@ public class ShopConfiguration {
 }
 ```
 
-### 인스턴스 메서드로 POJO 생성하기
+## 인스턴스 메서드로 POJO 생성하기
 
 ```java title:"ProductCreator.java"
 public class ProductCreator {
@@ -116,7 +116,7 @@ public class ShopConfiguration {
 }
 ```
 
-### Spring Factory Bean으로 POJO 생성하기
+## Spring Factory Bean으로 POJO 생성하기
 자!!
 이제 우리가 궁극적으로 해보려고 하는 생성 방법입니다.
 사실상 우리가 직접 Factory Bean을 구현할 일은 별로 없겠지만, 내부 작동 원리를 이해하는 건 여러모로 유익하다고하니... 한번 따라해 보겠습니다.

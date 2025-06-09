@@ -4,10 +4,10 @@ tags:
   - Ubuntu
   - Nginx
 ---
-# Nginx란??
+## Nginx란??
 트래픽이 많은 웹사이트의 서버(WAS)를 도와주는 비동기 이벤트 기반구조의 경량화 웹 서버이다. Nginx에는 다양한 기능이 있다. 기본적으로 정적 리소스에 대한 응답을 해주는 Web Server의 역할과 Reverse Proxy Server로 활용하여 WAS의 부하를 줄이는 로드밸런서 역할을 하기도 한다.
 
-# Nginx 설치
+## Nginx 설치
 ### apt update하기
 항상 명심해야 하는 apt update... 무언가를 설치하기 전에는 항상 해주기로 하자.
 ```bash
@@ -38,7 +38,7 @@ sudo systemctl restart nginx
 sudo nginx -t
 ```
 
-# 방화벽 뚫어주기
+## 방화벽 뚫어주기
 UFW 방화벽을 실행중인 경우 Nginx의 프로필을 허용해야 한다.
 뭐 대부분이 방화벽을 사용하니 우리도 한번 따라해 보도록 하자.
 ```bash
@@ -59,7 +59,7 @@ sudo ufw reload
 sudo ufw status
 ```
 
-# 참고할 파일들
+## 참고할 파일들
 * /etc/nginx/nginx.conf
 	* 기본 구성 파일
 	* 서버의 요구사항에 맞게 설정을 수정

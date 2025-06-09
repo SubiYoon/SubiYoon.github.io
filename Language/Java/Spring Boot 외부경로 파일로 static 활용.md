@@ -3,11 +3,9 @@ tags:
   - Language
   - Java
 ---
+## Spring Boot 외부경로 파일로 static 활용
 
-# Spring Boot 외부경로 파일로 static 활용
-
-**외부 이미지 경로 사용**
-
+### **외부 이미지 경로 사용**
 - java 파일을 생성해 경로값을 설정해준다.
 - **반드시 ‘ / ‘ 닫아줘야 함**
     
