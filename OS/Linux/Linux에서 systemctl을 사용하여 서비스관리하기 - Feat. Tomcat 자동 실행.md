@@ -36,8 +36,8 @@ cd /etc/systemd/system
 
 사용하고자하는 서비스의 이름을 작성한다. 나의 경우에는 tomcat으로 작성하고 실행해 보려고한다.
 그런 다음 파일을 생성 후 아래 내용을 삽입하자.
-* ${JAVA-HOME-PATH} : java가 설치되어 있는 경로를 작성하자
-* ${TOMCAT-PATH} : tomcat이 설치괴어 있는 경로를 작성하자
+* \$\{JAVA-HOME-PATH\} : java가 설치되어 있는 경로를 작성하자
+* \$\{TOMCAT-PATH\} : tomcat이 설치괴어 있는 경로를 작성하자
 ```bash
 # sudo vi tomcat.service
 

@@ -11,7 +11,7 @@ SpringBoot에서 중요한 설정 정보를 가지고 있는데, 이 정보가 �
 
 ---
 ## .gitignore와 Resource Bundle을 이용한 보안..?
-### 1. application-${random}.properties 파일 만들기
+### 1. application-$\{random\}.properties 파일 만들기
 **resources** 폴더에 **application-security.properties** 파일을 생성한다.
 마우스 우클릭 후 **resource -> New -> Resource Bundle** 을 클릭한다.
 
