@@ -4,7 +4,7 @@ tags:
   - Core
   - Annotation
   - AOP
-Reference link: "[[FrameWork/Spring, SpringBoot/Spring Core/README|README]]"
+Reference link: "[[01. FrameWork/Spring, SpringBoot/Spring Core/README|README]]"
 cf: "[[AspectJ의 표현식]]"
 ---
 ## Spring 2.x의 AOP Proxy

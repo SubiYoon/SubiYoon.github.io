@@ -3,5 +3,6 @@
   "attachmentFolderPath": "Attached File",
   "showLineNumber": true,
   "strictLineBreaks": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

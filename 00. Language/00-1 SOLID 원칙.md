@@ -3,7 +3,6 @@ tags:
   - Language
   - SOLID원칙
 ---
-
 ## SOLID원칙이란?
 - 로버트 마틴이 정리한 객체 지향 설게의 5가지 원칙을 의미
 
@@ -23,39 +22,39 @@ tags:
 - 확장에 대해서는 개방적, 변경에 대한것은 폐쇄적이어야 한다는 원칙
 - 변경되어야하는 것과 변경되면 안되는 것들을 확실히 구분지어 개발해야한다
 
-~~~java
-public class Trainer {
-	public Trainer(Animal animal){
-		if (animal == null){
-			throw new AnimalException("where is animal?");
-		}
+```java
+public class Trainer { 
+    public Trainer(Animal animal){
+        if (animal == null){
+            throw new AnimalException("where is animal?");
+        }
 
-		if(animal instanceof Cat cat){
-			cat.cry();
-		} else if (animal instanceof Dog dog){
-			dog.cry();
-		}
-		//만약 동물이 한마리 더 추가 된다면... 조건무을 더 증가시켜야 한다.
-		else if (animal instanceof Bird bird){
-			bird.cry();
-		}
-	}
+        if(animal instanceof Cat cat){
+            cat.cry();
+        } else if (animal instanceof Dog dog){
+            dog.cry();
+        }
+        //만약 동물이 한마리 더 추가 된다면... 조건무을 더 증가시켜야 한다.
+        else if (animal instanceof Bird bird){
+            bird.cry();
+        }
+    }
 }
-~~~
+```
+
 - 위와 같은 코드보단....
 - 어차피 각 동물에  **cry()** 함수를 재정의 했으면 다음과 같이 사용하는게 더 개발 폐쇄원칙 적절하다.
-~~~java
+```java
 public class Trainer {
-	public Trainer(Animal animal){
-		if (animal == null){
-			throw new AnimalException("where is animal?");
-		}
+    public Trainer(Animal animal){
+        if (animal == null){
+            throw new AnimalException("where is animal?");
+        }
 
-		animal.cry();
-	}
+        animal.cry();
+    }
 }
-~~~
-
+```
 
 ## L(LSP; Liscov Substitution Principle)
 - 리스코프 치환 원칙
@@ -66,46 +65,46 @@ public class Trainer {
 - 공통된 연산이 없다면 완전 별개인 2개의 클래스를 만든다.
 - 만약 두 객체가 하는 일에 추가적으로 무언가를 더 한다면 구현 상속을 사용한다.
 
-~~~java
+```java
 void code(){
-	LinkedList list = new LinkedList();
+    LinkedList list = new LinkedList();
 
-	update(list);
+    update(list);
 }
 
 void update(LinkedList list){
-	list.add(new Object());
+    list.add(new Object());
 }
 
 void newCode(){
-	HashMap map = new HashMap();
+    HashMap map = new HashMap();
 
-	newUpdate(map);
+    newUpdate(map);
 }
 
 void newUpdate(HashMap map){
-	map.add(new Object());
+    map.add(new Object());
 }
-~~~
+```
 - 위와 같은 코드보다는
-~~~java
+```java
 void code(){
-	Collection list = new LinkedList();
+    Collection list = new LinkedList();
 
-	update(list);
+    update(list);
 }
 
 void update(Collection list){
-	list.add(new Object());
+    list.add(new Object());
 }
 
-//만약 LinkedList가 아닌 HashMap으로 사용하고 싶을 경우에는 뒤에 new ~~~ 부분만 수정해준면 된다.
+//만약 LinkedList가 아닌 HashMap으로 사용하고 싶을 경우에는 뒤에 new ``` 부분만 수정해준면 된다.
 void newcode(){
-	Collection list = new HashMap();
+    Collection list = new HashMap();
 
-	update(list);
+    update(list);
 }
-~~~
+```
 
 ## I(ISP; Inerface Segregation Principle)
 - 인터페이스 분리 원칙
@@ -118,19 +117,19 @@ void newcode(){
 - 의존 역전 원칙
 - 일반적으로 인터페이스를 활용하여 이 원칙을 지킨다.(레이어링, Layering)
 - ex) 많은 동물들이 있겠지만, 최상위 녀석하나를 사용해 의존이 역전되지 않도록 만든다.
-~~~java
+```java
 public class Trainer {
 
-	private Animal animal;
+    private Animal animal;
 	
-	public Trainer(Animal animal){
-		if (animal == null){
-			throw new AnimalException("where is animal?");
-		}
-		this.animal = animal;
-	}
+    public Trainer(Animal animal){
+        if (animal == null){
+            throw new AnimalException("where is animal?");
+        }
+        this.animal = animal;
+    }
 
-	public void training(){
-		animal.cry();
-	}
-~~~
+    public void training(){
+        animal.cry();
+    }
+```
