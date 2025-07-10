@@ -198,8 +198,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c0150a753f97d1cf",
+  "active": "c36da723bd2a67aa",
   "lastOpenFiles": [
+    "test 1/과자맛.md",
+    "test 1/test.md",
+    "test 1/sdfsdfsdf.md",
+    "test 1",
     "lkj/lkjlksdf.md",
     "lkj/lkjlkjmkl/vmjsldkfjlkjlkxcjv.md",
     "lkj/lkjlkjmkl",
@@ -238,13 +242,10 @@
     "velog/99. ETC/Browser/Cross Origin Resource Sharing.md",
     "velog/99. ETC/Design Pattern",
     "velog/99. ETC/Browser",
-    "velog/99. ETC",
     "velog/08. OpenStack/03. OpenStack의 DashBoard 구성.md",
     "velog/08. OpenStack/02. What is OpenStack.md",
     "velog/08. OpenStack/01. What is cloud computing.md",
     "velog/08. OpenStack/00. Error.md",
-    "velog/07. Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md",
-    "velog/06. Kubernetes/rook/isuue/00. ceph HEALTH_WARN n daemons have recently creashed.md",
     "Untitled.canvas"
   ]
 }
