@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test/과자맛.md",
+                "file": "test/과자맛 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "과자맛"
+              "title": "과자맛 1"
             }
           }
         ]
@@ -200,18 +200,17 @@
   },
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
-    "Attached File/스크린샷 2025-07-10 오후 5.15.30.png",
-    "testtest/과자맛.md",
+    "test/과자맛.md",
+    "test/과자맛 1.md",
     "testtest/test.md",
+    "testtest/과자맛.md",
     "testtest/sdfsdfsdf.md",
+    "Attached File/스크린샷 2025-07-10 오후 5.15.30.png",
     "testtest",
     "testtest 1/과자맛.md",
     "testtest 1/test.md",
     "testtest 1/sdfsdfsdf.md",
     "testtest 1",
-    "testtest/과자맛.md",
-    "testtest/test.md",
-    "testtest/sdfsdfsdf.md",
     "testtest",
     "lkj/lkjlksdf.md",
     "lkj/lkjlkjmkl/vmjsldkfjlkjlkxcjv.md",
@@ -227,9 +226,7 @@
     "Attached File/스크린샷 2025-03-16 오전 2.37.34.png",
     "Attached File/스크린샷 2025-03-16 오전 2.37.27.png",
     "Attached File/스크린샷 2025-03-16 오전 1.49.50.png",
-    "Attached File/스크린샷 2025-03-16 오전 1.49.15.png",
     "Attached File",
-    "test/과자맛.md",
     "velog/09. AI/README.md",
     "velog/09. AI/00. Fine Tuning/01. Type of Fine Tuning.md",
     "velog/09. AI/00. Fine Tuning/00. What is Fine Tuning.md",
