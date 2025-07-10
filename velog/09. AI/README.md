@@ -3,7 +3,7 @@ tags:
   - AI
   - 용어
 ---
-# AI관련 용어 정리
+# AI
 ## Label (라벨)
 - 모델이 학습을 할 때, 정답으로 삼는 값
 
@@ -12,8 +12,8 @@ tags:
 | ------------------------------- | --------- |
 | "나는 배가 고파요"                     | "감정: 배고픔" |
 | "The capital of France is"      | "Paris"   |
-| {"question": "2 + 2"}           | "4"       |
-| {"prompt": "Hello, my name is"} | "John."   |
+| \{"question": "2 + 2"\}           | "4"       |
+| \{"prompt": "Hello, my name is"\} | "John."   |
 
 ## Hyper Parameters
 - 기계 학습 모델을 학습시키기 전에 사용자가 직접 설정하는 값
