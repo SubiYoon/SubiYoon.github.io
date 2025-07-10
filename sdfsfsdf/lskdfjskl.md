@@ -2,8 +2,5 @@
 ---
 tags:
   - FrameWork
-  - Flutter
+  - test
 ---
-
-
-![[스크린샷 2025-07-10 오후 1.11.22.png]]
