@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test/sdfsdfsdf.md",
+                "file": "test/과자맛.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sdfsdfsdf"
+              "title": "과자맛"
             }
           }
         ]
@@ -201,6 +201,8 @@
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
     "Attached File/스크린샷 2025-07-10 오후 1.11.22.png",
+    "test/과자맛.md",
+    "test/sdfsdfsdf.md",
     "velog/09. AI/README.md",
     "Attached File/스크린샷 2025-07-10 오후 1.10.33.png",
     "velog/09. AI/00. Fine Tuning/01. Type of Fine Tuning.md",
@@ -211,7 +213,6 @@
     "lkj/lkjlkjmkl",
     "lkj",
     "test/test.md",
-    "test/sdfsdfsdf.md",
     "test",
     "velog/09. AI/00. Fine Tuning",
     "velog/09. AI",
@@ -229,7 +230,6 @@
     "Attached File/스크린샷 2025-03-16 오전 3.31.04.png",
     "Attached File/스크린샷 2025-03-16 오전 2.37.34.png",
     "Attached File/스크린샷 2025-03-16 오전 2.37.27.png",
-    "Attached File/스크린샷 2025-03-16 오전 1.49.50.png",
     "Attached File",
     "00. Language/00. SOLID 원칙.md",
     "velog/Attached File",
@@ -245,7 +245,6 @@
     "velog/08. OpenStack/00. Error.md",
     "velog/07. Jenkins/실행중인 도커, Jenkins Container TimeZone 변경하기.md",
     "velog/06. Kubernetes/rook/isuue/00. ceph HEALTH_WARN n daemons have recently creashed.md",
-    "velog/06. Kubernetes/rook/03. Rook의 Filesystem Storage Mount 시키기.md",
     "Untitled.canvas"
   ]
 }
