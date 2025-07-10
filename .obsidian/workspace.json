@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test/과자맛 1.md",
+                "file": "test/sdfsdfsdf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "과자맛 1"
+              "title": "sdfsdfsdf"
             }
           }
         ]
@@ -200,10 +200,10 @@
   },
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
+    "test/과자맛 1.md",
     "test/sdfsdfsdf.md",
     "test/test.md",
     "test/과자맛.md",
-    "test/과자맛 1.md",
     "testtest/test.md",
     "testtest/과자맛.md",
     "testtest/sdfsdfsdf.md",
