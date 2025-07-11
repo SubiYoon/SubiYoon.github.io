@@ -11,14 +11,10 @@
             "id": "c0150a753f97d1cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test 1 1/test 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "test 1"
+              "title": "New tab"
             }
           }
         ]
@@ -200,9 +196,18 @@
   },
   "active": "c36da723bd2a67aa",
   "lastOpenFiles": [
+    "test 3/과자맛.md",
+    "test 3/test.md",
+    "test 3/sdfsdfsdf.md",
+    "test 3/sdfsdfsdf 1.md",
+    "test 3",
+    "test 2/과자맛.md",
+    "test 2/test.md",
+    "test 2/sdfsdfsdf.md",
+    "test 2/sdfsdfsdf 1.md",
+    "test 2",
     "test 1 1/test.md",
     "test 1 1/test 1.md",
-    "test 2/sdfsdfsdf 1.md",
     "test 1 1/과자맛.md",
     "test 1 1/sdfsdfsdf.md",
     "test 1 1/sdfsdfsdf 1.md",
@@ -214,7 +219,6 @@
     "test 1",
     "test 2/sdfsdfsdf 1 1.md",
     "test 2/sdfsdfsdf 1 1 1.md",
-    "test 2/sdfsdfsdf.md",
     "test 1 1/sdfsdfsdf 1 1 1.md",
     "test 1 1/sdfsdfsdf 1 1.md",
     "test 4/과자맛.md",
@@ -222,17 +226,8 @@
     "test 4/sdfsdfsdf.md",
     "test 4/sdfsdfsdf 1.md",
     "test 4",
-    "test 3/과자맛.md",
-    "test 3/test.md",
-    "test 3/sdfsdfsdf.md",
-    "test 3/sdfsdfsdf 1.md",
-    "test 3",
     "Attached File/스크린샷 2025-07-11 오전 11.34.38.png",
     "Attached File/스크린샷 2025-07-11 오전 11.30.48.png",
-    "test/sdfsdfsdf.md",
-    "test 2/과자맛.md",
-    "test 2/test.md",
-    "test 2",
     "Attached File/스크린샷 2025-07-11 오전 11.27.18.png",
     "Attached File/스크린샷 2025-07-10 오후 11.22.39.png",
     "Attached File/스크린샷 2025-07-10 오후 11.19.45.png",
