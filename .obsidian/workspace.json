@@ -11,10 +11,14 @@
             "id": "c0150a753f97d1cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "test/sdfsdfsdf.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "sdfsdfsdf"
             }
           }
         ]
@@ -194,8 +198,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c36da723bd2a67aa",
+  "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
+    "Attached File/스크린샷 2025-07-11 오후 2.09.29.png",
+    "test 1 1/test 1.md",
+    "test/sdfsdfsdf.md",
+    "test",
     "test 3/과자맛.md",
     "test 3/test.md",
     "test 3/sdfsdfsdf.md",
@@ -207,7 +215,6 @@
     "test 2/sdfsdfsdf 1.md",
     "test 2",
     "test 1 1/test.md",
-    "test 1 1/test 1.md",
     "test 1 1/과자맛.md",
     "test 1 1/sdfsdfsdf.md",
     "test 1 1/sdfsdfsdf 1.md",
@@ -224,7 +231,6 @@
     "test 4/과자맛.md",
     "test 4/test.md",
     "test 4/sdfsdfsdf.md",
-    "test 4/sdfsdfsdf 1.md",
     "test 4",
     "Attached File/스크린샷 2025-07-11 오전 11.34.38.png",
     "Attached File/스크린샷 2025-07-11 오전 11.30.48.png",
@@ -239,7 +245,6 @@
     "Attached File/스크린샷 2025-07-10 오후 5.15.30.png",
     "testtest",
     "testtest 1",
-    "testtest",
     "Attached File/스크린샷 2025-07-10 오후 1.11.22.png",
     "Untitled.canvas"
   ]
