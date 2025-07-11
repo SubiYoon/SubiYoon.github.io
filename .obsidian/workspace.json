@@ -11,14 +11,10 @@
             "id": "c0150a753f97d1cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test/sdfsdfsdf.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "sdfsdfsdf"
+              "title": "New tab"
             }
           }
         ]
@@ -198,7 +194,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c0150a753f97d1cf",
+  "active": "c36da723bd2a67aa",
   "lastOpenFiles": [
     "Attached File/스크린샷 2025-07-11 오후 2.09.29.png",
     "test 1 1/test 1.md",
