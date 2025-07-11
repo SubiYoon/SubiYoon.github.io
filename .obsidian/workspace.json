@@ -11,10 +11,14 @@
             "id": "c0150a753f97d1cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "test 2/sdfsdfsdf 1 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "sdfsdfsdf 1 1"
             }
           }
         ]
@@ -196,8 +200,11 @@
   },
   "active": "c36da723bd2a67aa",
   "lastOpenFiles": [
-    "test 1 1/sdfsdfsdf 1 1.md",
+    "test 2/sdfsdfsdf 1.md",
+    "test 2/sdfsdfsdf 1 1.md",
+    "test 2/sdfsdfsdf.md",
     "test 1 1/sdfsdfsdf 1 1 1.md",
+    "test 1 1/sdfsdfsdf 1 1.md",
     "test 4/과자맛.md",
     "test 4/test.md",
     "test 4/sdfsdfsdf.md",
@@ -217,8 +224,6 @@
     "test/sdfsdfsdf.md",
     "test 2/과자맛.md",
     "test 2/test.md",
-    "test 2/sdfsdfsdf.md",
-    "test 2/sdfsdfsdf 1.md",
     "test 2",
     "test/sdfsdfsdf 1.md",
     "Attached File/스크린샷 2025-07-11 오전 11.27.18.png",
@@ -234,7 +239,6 @@
     "test 1 1",
     "test1111/lkjlkj.md",
     "test1111",
-    "test 1/과자맛.md",
     "test 1",
     "Attached File/스크린샷 2025-07-10 오후 10.45.51.png",
     "Attached File/스크린샷 2025-07-10 오후 5.15.30.png",
