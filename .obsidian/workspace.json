@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "velog/02. Database/MySQL/00. DB를 이용한 보안.md",
+                "file": "velog/06. Kubernetes/metrics/metrics-server/00. Install.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00. DB를 이용한 보안"
+              "title": "00. Install"
             }
           }
         ]
@@ -180,8 +180,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,6 +188,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -200,8 +200,17 @@
   },
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
-    "velog/02. Database/MySQL/01. 페이징.md",
+    "velog/06. Kubernetes/rook/00. Rook Install.md",
+    "velog/06. Kubernetes/metrics/metrics-server/00. Install.md",
+    "velog/06. Kubernetes/metrics/metrics-server",
+    "velog/06. Kubernetes/metrics",
+    "velog/06. Kubernetes/README.md",
+    "velog/06. Kubernetes/k8s-init - Feat. Ubuntu/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
+    "velog/06. Kubernetes/k8s-init - Feat. Ubuntu/04. Kubernetes 모니터링을 위한 DashBoard 설치.md",
+    "velog/06. Kubernetes/k8s-init - Feat. Ubuntu/01. Kubernetes 환경 구성하기.md",
+    "velog/02. Database/What is Index.md",
     "velog/02. Database/MySQL/00. DB를 이용한 보안.md",
+    "velog/02. Database/MySQL/01. 페이징.md",
     "velog/99. ETC/Super Claude/00. personas guide.md",
     "velog/09. AI/00. Study Book 01/01. Machine Learning Workflow.md",
     "velog/09. AI/00. Study Book 01/00. Deep Learning Essentials With Pytorch And Transformers.md",
@@ -232,20 +241,11 @@
     "velog/01. FrameWork/Vue/VueRouter/04. Named Route.md",
     "velog/01. FrameWork/Vue/VueRouter/03. Route Matching Grammar.md",
     "velog/01. FrameWork/Vue/VueRouter/02. Dynamic Route Matching with Params.md",
-    "velog/01. FrameWork/Vue/VueRouter/01. VueRouter.md",
-    "velog/01. FrameWork/Vue/VueCore/01. reactive.md",
-    "velog/01. FrameWork/Vue/VueCore/00. Vue 3 0 Tutorial.md",
-    "velog/01. FrameWork/Flutter/3. Stateful Widgets.md",
-    "velog/01. FrameWork/Flutter/1. Hello Flutter.md",
-    "velog/01. FrameWork/Flutter/2. UI Challenge.md",
-    "velog/01. FrameWork/Flutter/0. Flutter.md",
     "velog/06. Kubernetes/k8s-init - Frat. RedHat",
     "velog/Attached File/f15bae6b97ef4285de74a5c09c3bb08b_cc5747da-41b3-45ee-a940-0c63d2d24917",
     "velog/Attached File/ea4a9cccf7ef1560ba1b2624cab917a5_11d04e9f-d0ae-4260-9353-6c01add72ff4",
     "velog/Attached File/27179e0377b3a47187730c4f4e3f762c_bfe08600-a445-42b3-96ba-c7c0acb32636",
     "velog/Attached File/87e8a63d08b9a1dc35f0e85c37f4774c_0109b3da-1ea9-4c84-9854-5e59ce94c1b7",
-    "velog/Attached File/a5931ddb9de12d0c6250717eff14b8b8_74cb0667c02241939c5c13ec5dd1afb1",
-    "velog/Attached File/6827ea1d07f3979e3337d6d72d9614f7_8b7e226f-572f-4650-b2d6-de747b44f641",
     "Untitled.canvas"
   ]
 }
