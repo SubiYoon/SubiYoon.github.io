@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "velog/06. Kubernetes/metrics/metrics-server/00. Install.md",
+                "file": "velog/06. Kubernetes/rook-ceph/00. What is CEPH?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00. Install"
+              "title": "00. What is CEPH?"
             }
           }
         ]
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 507.5
+    "width": 337.5
   },
   "right": {
     "id": "ee50a27ec2931863",
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Rook-Ceph",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 334.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,8 +201,19 @@
   },
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
-    "velog/06. Kubernetes/rook/00. Rook Install.md",
+    "Attached File/스크린샷 2025-11-03 오후 5.13.24.png",
+    "velog/06. Kubernetes/rook-ceph/01. Install.md",
     "velog/06. Kubernetes/metrics/metrics-server/00. Install.md",
+    "velog/06. Kubernetes/rook-ceph/00. Install/Untitled.md",
+    "velog/06. Kubernetes/rook-ceph/00. Install/Basic/03. Rook의 Filesystem Storage Mount 시키기.md",
+    "velog/06. Kubernetes/rook-ceph/00. Install/Basic/01. Rook의 OSD 생성방법.md",
+    "velog/06. Kubernetes/rook-ceph/00. Install/Basic/00. Rook-Ceph Install.md",
+    "velog/06. Kubernetes/rook-ceph/00. Install/Basic/02. Rook의 DashBoard 실행하기.md",
+    "velog/06. Kubernetes/rook-ceph/00. What is CEPH?.md",
+    "velog/06. Kubernetes/rook-ceph/00. Install",
+    "velog/06. Kubernetes/rook-ceph/isuue/00. ceph HEALTH_WARN n daemons have recently creashed.md",
+    "velog/06. Kubernetes/rook-ceph/00. Install/Basic",
+    "velog/06. Kubernetes/rook-ceph/00. Install/Helm",
     "velog/06. Kubernetes/metrics/metrics-server",
     "velog/06. Kubernetes/metrics",
     "velog/06. Kubernetes/README.md",
@@ -231,21 +243,10 @@
     "Attached File/스크린샷 2023-10-22 오후 1.41.25.png",
     "Attached File/스크린샷 2025-07-18 오후 5.54.12.png",
     "velog/01. FrameWork/Vue/VueRouter/20. Dynamic Routing.md",
-    "velog/09. AI/01. Fine Tuning/01. Type of Fine Tuning.md",
-    "velog/09. AI/01. Fine Tuning/00. What is Fine Tuning.md",
     "velog/09. AI/01. Fine Tuning",
     "velog/09. AI/00. Study Book 01",
-    "velog/01. FrameWork/Vue/VueRouter/README.md",
-    "velog/01. FrameWork/Vue/VueRouter/06. Programmatic Navigation.md",
-    "velog/01. FrameWork/Vue/VueRouter/05. Nested Route.md",
-    "velog/01. FrameWork/Vue/VueRouter/04. Named Route.md",
-    "velog/01. FrameWork/Vue/VueRouter/03. Route Matching Grammar.md",
-    "velog/01. FrameWork/Vue/VueRouter/02. Dynamic Route Matching with Params.md",
     "velog/06. Kubernetes/k8s-init - Frat. RedHat",
     "velog/Attached File/f15bae6b97ef4285de74a5c09c3bb08b_cc5747da-41b3-45ee-a940-0c63d2d24917",
-    "velog/Attached File/ea4a9cccf7ef1560ba1b2624cab917a5_11d04e9f-d0ae-4260-9353-6c01add72ff4",
-    "velog/Attached File/27179e0377b3a47187730c4f4e3f762c_bfe08600-a445-42b3-96ba-c7c0acb32636",
-    "velog/Attached File/87e8a63d08b9a1dc35f0e85c37f4774c_0109b3da-1ea9-4c84-9854-5e59ce94c1b7",
     "Untitled.canvas"
   ]
 }
