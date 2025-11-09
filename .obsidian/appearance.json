@@ -3,5 +3,6 @@
   "cssTheme": "Minimal",
   "translucency": false,
   "enabledCssSnippets": [],
-  "nativeMenus": false
+  "nativeMenus": false,
+  "baseFontSize": 18
 }
