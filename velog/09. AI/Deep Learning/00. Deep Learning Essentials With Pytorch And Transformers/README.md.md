@@ -1,10 +1,11 @@
 ---
 tags:
   - AI
-  - Anaconda
-  - Deeplearning
   - Study
+  - Book
 ---
+![[스크린샷 2025-07-15 오후 5.25.00.png]]
+
 ## 머신 러닝 워크플로우 (Machine Learning Workflow)
 ![[스크린샷 2025-07-15 오후 5.52.51.png]]
 
