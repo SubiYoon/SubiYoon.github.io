@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics/01. 선형 회귀와 자동 미분.md",
+                "file": "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics/02. 다중 선형 회귀(Multivariable Linear regression).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. 선형 회귀와 자동 미분"
+              "title": "02. 다중 선형 회귀(Multivariable Linear regression)"
             }
           }
         ]
@@ -200,8 +200,13 @@
   },
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
+    "Attached File/스크린샷 2026-01-16 오전 11.14.55.png",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/README.md.md",
-    "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics/01. 선형 회귀와 자동 미분.md",
+    "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics/01. 선형 회귀와 자동 미분(Linear Regression and Autograd).md",
+    "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics/02. 다중 선형 회귀(Multivariable Linear regression).md",
+    "velog/09. AI/README.md",
+    "Attached File/스크린샷 2026-01-15 오후 3.53.35.png",
+    "Untitled.md",
     "Attached File/스크린샷 2026-01-14 오후 3.41.09.png",
     "Attached File/스크린샷 2026-01-14 오후 3.13.53.png",
     "Attached File/스크린샷 2026-01-14 오후 3.13.31.png",
@@ -240,11 +245,7 @@
     "velog/06. Kubernetes/rook-ceph/00. Install/Helm",
     "velog/06. Kubernetes/metrics/metrics-server",
     "velog/06. Kubernetes/metrics",
-    "velog/06. Kubernetes/README.md",
-    "velog/06. Kubernetes/k8s-init - Feat. Ubuntu/03. Kubernetes에서 NFS와 PV,PVC를 이용한 데이터 관리하기.md",
-    "velog/06. Kubernetes/k8s-init - Feat. Ubuntu/04. Kubernetes 모니터링을 위한 DashBoard 설치.md",
     "Attached File/스크린샷 2023-10-28 오전 11.34.30.png",
-    "Attached File/스크린샷 2023-10-28 오후 12.29.49.png",
     "Untitled.canvas"
   ]
 }

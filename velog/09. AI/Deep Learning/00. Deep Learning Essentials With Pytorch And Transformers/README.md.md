@@ -2,7 +2,7 @@
 tags:
   - AI
   - Study
-  - Book
+  - eBook
 ---
 ![[스크린샷 2025-07-15 오후 5.25.00.png]]
 
