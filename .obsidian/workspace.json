@@ -200,6 +200,7 @@
   },
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
+    "Attached File/스크린샷 2026-01-19 오전 10.52.08.png",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics/02. 다중 선형 회귀.md",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics/01. 선형 회귀와 자동 미분.md",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics/03. nn.Module과 클래스로 구현하기.md",
@@ -241,7 +242,6 @@
     "velog/06. Kubernetes/rook-ceph/00. Install/Basic/00. Rook-Ceph Install.md",
     "velog/06. Kubernetes/rook-ceph/00. Install/Basic/02. Rook의 DashBoard 실행하기.md",
     "velog/06. Kubernetes/rook-ceph/00. Install",
-    "velog/06. Kubernetes/rook-ceph/isuue/00. ceph HEALTH_WARN n daemons have recently creashed.md",
     "velog/06. Kubernetes/rook-ceph/00. Install/Basic",
     "velog/06. Kubernetes/rook-ceph/00. Install/Helm",
     "velog/06. Kubernetes/metrics/metrics-server",
