@@ -69,3 +69,20 @@ kubectl delete -f ${file.yaml}
 # 모든 리소스 삭제
 kubectl delete deployment,pod,rs --all
 ```
+
+## Ready,SchedulingDisabled 상태 수정
+```bash
+# 노드 상태 확인 
+$ kubectl get nodes
+NAME                       STATUS                     ROLES                  AGE    VERSION
+k8s-master-1               Ready                      control-plane,master   189d   v1.21.11
+k8s-master-2               Ready                      control-plane,master   189d   v1.21.11
+k8s-master-3               Ready                      control-plane,master   189d   v1.21.11
+k8s-worker-1               Ready                      <none>                 189d   v1.21.11
+k8s-worker-2               Ready                      <none>                 189d   v1.21.11
+k8s-worker-3               Ready,SchedulingDisabled   <none>                 189d   v1.21.11
+k8s-worker-4               Ready                      <none>                 181d   v1.21.11
+            
+$ # 노드 복원
+kubectl uncordon [노드명]
+```
