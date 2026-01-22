@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/02. Logistic Regression/02. nn.Module과 클래스로 구현하는 로지스틱 회귀.md",
+                "file": "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/03. Softmax Regression/01. 원-핫 인코딩.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02. nn.Module과 클래스로 구현하는 로지스틱 회귀"
+              "title": "01. 원-핫 인코딩"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/02. Logistic Regression/02. nn.Module과 클래스로 구현하는 로지스틱 회귀.md",
+                "file": "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/03. Softmax Regression/01. 원-핫 인코딩.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 02. nn.Module과 클래스로 구현하는 로지스틱 회귀"
+              "title": "Outline of 01. 원-핫 인코딩"
             }
           },
           {
@@ -206,8 +206,10 @@
   },
   "active": "c0150a753f97d1cf",
   "lastOpenFiles": [
-    "velog/06. Kubernetes/README.md",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/02. Logistic Regression/02. nn.Module과 클래스로 구현하는 로지스틱 회귀.md",
+    "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/03. Softmax Regression/01. 원-핫 인코딩.md",
+    "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/03. Softmax Regression",
+    "velog/06. Kubernetes/README.md",
     "Attached File/스크린샷 2026-01-21 오후 6.02.26.png",
     "velog/01. FrameWork/Spring, SpringBoot/Spring Core/Annotation/@Aspect, @Before, @After, @AfterReturning, @AfterThrowing, @Around, @Pointcut.md",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/README.md.md",
@@ -228,7 +230,6 @@
     "Attached File/스크린샷 2026-01-19 오후 5.49.31.png",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics/04. 미니 배치와 데이터 로더.md",
     "velog/09. AI/README.md",
-    "Untitled.md",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/01. Machine Learning Basics",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/Machine Learning Basics/01. 선형 회귀와 자동 미분.md",
     "velog/09. AI/Deep Learning/00. Deep Learning Essentials With Pytorch And Transformers/Machine Learning Basics",
@@ -247,11 +248,9 @@
     "velog/06. Kubernetes/k8s-init - Feat. Ubuntu/01. Kubernetes 환경 구성하기.md",
     "velog/06. Kubernetes/k8s-init - Feat. Ubuntu/02. Kubernetes에서 Master 노드에게도 Pod을 할당할 수 있게 하기.md",
     "velog/06. Kubernetes/k8s-init - Feat. Ubuntu/00. Kubernetes 구성중 Swap Memory를 끄는 이유.md",
-    "velog/06. Kubernetes/metrics/metrics-server/00. Install.md",
     "velog/06. Kubernetes/rook-ceph/00. Install",
     "velog/06. Kubernetes/rook-ceph/00. Install/Basic",
     "velog/06. Kubernetes/rook-ceph/00. Install/Helm",
-    "velog/06. Kubernetes/metrics/metrics-server",
     "Untitled.canvas"
   ]
 }
